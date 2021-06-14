@@ -1,0 +1,574 @@
+ actor angryarachnotron : arachnotron2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    BSPI AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    BSPI A 20
+    BSPI A 3 A_BabyMetal
+    BSPI ABBCC 3 A_Chase
+    BSPI D 3 A_BabyMetal
+    BSPI DEEFF 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Goto See+1
+wander:
+bspi aabbccddeeff 3
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+loop
+    }
+    }
+
+actor angrybaron : baronofhell2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    BOSS AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    BOSS AABBCCDD 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    BOSS AABBCCDD 3
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+
+actor angrycaco: cacodemon2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    HEAD A 10 A_Look
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    HEAD A 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+head a 5
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+loop
+    }
+    }
+
+
+actor angrychaingunner: chaingunguy2
+   {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+   states
+   {
+   spawn:
+   CPOS AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    CPOS AABBCCDD 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    CPOS AABBCCDD 3 
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+
+actor angrycyber : cyberdemon2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
++forceradiusdmg
+    states
+    {
+    spawn:
+    CYBR AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    CYBR A 3 A_Hoof
+    CYBR ABBCC 3 A_Chase
+    CYBR D 3 A_Metal
+    CYBR D 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+cybr aabbccdd 3
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+loop
+Pain:
+    CYBR G 10 A_Pain
+    tnt1 a 0 a_logint(health)
+    Goto See
+    }
+    }
+
+actor angrydemon : demon2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    SARG AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    SARG AABBCCDD 2 Fast A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    SARG AABBCCDD 2 
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+
+actor angryimp : doomimp2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    TROO AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    TROO AABBCCDD 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    TROO AABBCCDD 3
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+loop
+    }
+    }
+
+actor angrycommanderkeen1 : commanderkeen2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    KEEN A 1
+
+tnt1 a 0 noisealert(0,0)
+    Loop
+    }
+    }
+
+actor angryknight : hellknight2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    BOS2 AB 10 A_Look
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    BOS2 AABBCCDD 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    BOS2 AABBCCDD 3
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+
+actor angrymancubus : fatso2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    FATT AB 15 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    FATT AABBCCDDEEFF 4 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    FATT AABBCCDDEEFF 4 
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+loop
+    }
+    }
+
+actor angrypainelemental : painelemental2
+  {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+  states
+  {
+  Spawn:
+  PAIN A 10 A_Look
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    PAIN AABBCC 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    PAIN AABBCC 3 
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+   
+actor angryrevenant : revenant2
+   {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+   states
+   {
+   spawn:
+   SKEL AB 10 A_Look
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    SKEL AABBCCDDEEFF 2 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+SKEL AABBCCDDEEFF 2
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+    
+actor angryshotgunguy : shotgunguy2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    SPOS AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+    See:
+    SPOS AABBCCDD 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+    wander:
+    SPOS AABBCCDD 3
+    {
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+
+actor angrysoul : lostsoul2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    States
+    {
+    spawn:
+    SKUL AB 10 Bright A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    SKUL AB 6 Bright A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    SKUL AB 6 Bright
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+
+actor angryspectre1 : spectre2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    SARG AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+    See:
+    SARG AABBCCDD 2 Fast A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    SARG AABBCCDD 2 
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+    
+actor angryspider : spidermastermind2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    SPID AB 10 A_Look
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+    See:
+    SPID A 3 A_Metal
+    SPID ABB 3 A_Chase
+    SPID C 3 A_Metal
+    SPID CDD 3 A_Chase
+    SPID E 3 A_Metal
+    SPID EFF 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+    wander:
+    spid aabbccddeeff 3
+    {
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+pain:
+SPID I 3
+    SPID I 3 A_Pain
+    tnt1 a 0 a_logint(health)
+    Goto See
+    }
+    }
+
+actor angryvile : archvile2
+{
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+states
+{
+spawn:
+VILE AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+See:
+    VILE AABBCCDDEEFF 2 A_VileChase
+     tnt1 a 0 noisealert(0,0)
+    Loop
+wander:
+    VILE AABBCCDDEEFF 2 
+{
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+    }
+
+actor angrywolf : wolfensteinss2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+states
+{
+spawn:
+SSWV AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+    See:
+    SSWV AABBCCDD 3 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+    wander:
+    SSWV AABBCCDD 3 
+    {
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+}
+
+actor angryzombie : zombieman2
+{
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+states
+{
+spawn:
+POSS AB 10 A_Look
+
+tnt1 a 0 noisealert(0,0)
+tnt1 a 0 a_jump(45,"wander")
+    Loop
+    See:
+    POSS AABBCCDD 4 A_Chase
+    tnt1 a 0 noisealert(0,0)
+    Loop
+    wander:
+    POSS AABBCCDD 4 
+    {
+a_wander;
+a_look;
+noisealert(0,0);
+}
+    Loop
+    }
+}
