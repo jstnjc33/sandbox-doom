@@ -1,0 +1,804 @@
+addoptionmenu optionsmenu
+{
+submenu "sandbox doom","sandboxmenu"
+}
+
+optionmenu sandboxmenu
+{
+title "sandbox doom"
+submenu "open main mod menu","modmenu1"
+}
+
+optionmenu modmenu1
+{
+title"sandbox main menu"
+statictext"for this to do anything please visit enable"
+submenu "enable","en1"
+submenu "levels","levels1"
+submenu "monster modes","modes1"
+submenu "monster control","control1"
+submenu "pathing","ph1"
+submenu "traps","tr1"
+submenu "player options","ai1"
+}
+
+optionmenu ai1
+{
+title "player options"
+statictext"you will start moving and attacking"
+statictext"no user interaction need"
+option "ai mode","hunt1","onoff"
+}
+optionmenu tr1
+{
+title "ok which trap"
+statictext "traps activate automatically"
+statictext"where your standing so pick carefully"
+statictext"and populate the level"
+option "trap1 poison","traps","onoff"
+option "trap 2 explosion","traps1","onoff"
+option "trap 3 (battlebrain extermination)","traps2","onoff"
+option "trap 4 (death walk)","traps3","onoff"
+option "trap 5 (warp death) kinbrain massacre","traps4","onoff"
+command "activate trap","summon trapcheck"
+command "close menu","closemenu"
+}
+
+optionmenu en1
+{
+title"mod configuration"
+statictext"must leave on to take affect"
+option "enable","enabled","onoff"
+}
+optionmenu levels1
+{
+title" level warping"
+option "map01","level1","onoff"
+option "map02","level2","onoff"
+option "map03","level3","onoff"
+option "map04","level4","onoff"
+option "map05","level5","onoff"
+option "map06","level6","onoff"
+option "map07","level7","onoff"
+option "map08","level8","onoff"
+option "map09","level9","onoff"
+option "map10","level10","onoff"
+submenu "maps 11 to 20","levels2"
+submenu "maps 21 to 32","levels3"
+command "activate level warp","summon warp"
+command "close menu","closemenu"
+}
+
+optionmenu levels2
+{
+title" level warping"
+option "map11","level11","onoff"
+option "map12","level12","onoff"
+option "map13","level13","onoff"
+option "map14","level14","onoff"
+option "map15","level15","onoff"
+option "map16","level16","onoff"
+option "map17","level17","onoff"
+option "map18","level18","onoff"
+option "map19","level19","onoff"
+option "map20","level20","onoff"
+submenu "maps 1 to 10","levels"
+submenu "maps 21 to 32","levels3"
+command "activate level warp","summon warp"
+command "close menu","closemenu"
+}
+
+optionmenu levels3
+{
+title" level warping"
+option "map21","level21","onoff"
+option "map22","level22","onoff"
+option "map23","level23","onoff"
+option "map24","level24","onoff"
+option "map25","level25","onoff"
+option "map26","level26","onoff"
+option "map27","level27","onoff"
+option "map28","level28","onoff"
+option "map29","level29","onoff"
+option "map30","level30","onoff"
+option "map31","level31","onoff"
+option "map32","level32","onoff"
+submenu "maps 1 to 10","levels"
+submenu "maps 11 to 20","levels2"
+command "activate level warp","summon warp"
+command "close menu","closemenu"
+}
+
+optionmenu modes1
+{
+title"choose which mode you would like to play"
+statictext"first choose which mode you would like to play on" ,blue
+statictext"then click activate monster mode" ,green
+statictext "cvar based monster modes" ,orange
+option "normal mode","normalmode","onoff"
+option "battle royal mode","battleroyal","onoff"
+option "death mode","death1","onoff"
+option "poison mode 1","poisonmode1","onoff"
+option "poison mode 2","poisonmode2","onoff"
+option "angry monsters mode","angrymonster","onoff"
+option "teledeath mode","teledeath","onoff"
+option "random monster mode","random1","onoff"
+option "blind monsters mode","blind","onoff"
+option "monster stealth mode","stealth","onoff"
+option "noisealert mode","noise1","onoff"
+command "activate monster mode","summon populatecheck"
+command "close menu","closemenu"
+}
+
+optionmenu control1
+{
+title"control menu"
+submenu"hatemenu","ha1"
+submenu "suicide","sui1"
+command "close menu","closemenu"
+}
+
+
+optionmenu ha1
+{
+title"hatemenu"
+submenu "arachnotron","ah1"
+submenu "archvile","ar1"
+submenu "baronofhell","boh1"
+submenu "cacodemon","ca1"
+submenu "chaingunguy","cgg1"
+submenu "cyberdemon","cbr1"
+submenu "demon","dr1"
+submenu "mancubus","mr1"
+submenu "hellknight","hk1"
+submenu "doomimp","di1"
+submenu "lostsoul","sl1"
+submenu "painelemental","pm1"
+submenu "revenant","rv1"
+submenu "shotgunguy","sg1"
+submenu "Spectre","sp1"
+submenu "spidermastermind","sp2"
+submenu "wolfensteinss","ws1"
+submenu "zombieman","zm1"
+}
+optionmenu ah1
+{
+title "hatemenu for arachnotron"
+statictext"ok choose one creature to attack"
+option arachnotron","arach1","onoff
+option "archvile","arach2","onoff"
+option "baron","arach3","onoff"
+option "cacodemon","arach4","onoff"
+option "chaingunguy","arach5","onoff"
+option "keen","arach6","onoff"
+option "cyberdemon","arach7","onoff"
+option "demon","arach8","onoff"
+option "doomimp","arach9","onoff"
+option "explosivebarrell","arach10","onoff"
+option "fatso","arach11","onoff"
+option "hellknight","arach12","onoff"
+option "lostsoul","arach13","onoff"
+option "painelemental","arach14","onoff"
+option "revenant","arach15","onoff"
+option "shotgunguy","arach16","onoff"
+option "spectre","arach17","onoff"
+option "spidermastermind","arach18","onoff"
+option "wolfensteinss","arach19","onoff"
+option "zombieman","arach20","onoff"
+command "activate arachnotron hate","summon arachcheck"
+command "close menu","closemenu"
+}
+
+optionmenu ph1
+{
+statictext"ok choose a return spot"
+statictext"affects monsters AND player"
+option "point 1","point1","onoff"
+option "point 2","point2","onoff"
+option "point 3","point3","onoff"
+option "point 4","point4","onoff"
+option "point 5","point5","onoff"
+option "point 6","point6","onoff"
+option "point 7","point7","onoff"
+option "point 8","point8","onoff"
+option "point 9","point9","onoff"
+option "point 10","point10","onoff"
+command "activate patrolpoint","summon pointcheck"
+command "close menu","closemenu"
+}
+
+optionmenu ar1
+{
+title "hatemenu for archvile"
+statictext"ok choose one creature to attack"
+option "arachnotron","vileh1","onoff"
+option "baron","vileh3","onoff"
+option "cacodemon","vileh4","onoff"
+option "chaingunguy","vileh5","onoff"
+option "keen","vileh6","onoff"
+option "cyberdemon","vileh7","onoff"
+option "demon","vileh8","onoff"
+option "doomimp","vileh9","onoff"
+option "explosivebarrell","vileh10","onoff"
+option "fatso","vileh11","onoff"
+option "hellknight","vileh12","onoff"
+option "lostsoul","vileh13","onoff"
+option "painelemental","vileh14","onoff"
+option "revenant","vileh15","onoff"
+option "shotgunguy","vileh16","onoff"
+option "spectre","vileh17","onoff"
+option "spidermastermind","vileh18","onoff"
+option "wolfensteinss","vileh19","onoff"
+option "zombieman","vileh20","onoff"
+command "activate archvile hate","summon vilecheck"
+command "close menu","closemenu"
+}
+
+optionmenu boh1
+{
+title "hatemenu for baron of hell"
+statictext"ok choose one creature to attack"
+option "arachnotron","baronh1","onoff"
+option "archvile","baronh2","onoff"
+option "cacodemon","baronh4","onoff"
+option "chaingunguy","baronh5","onoff"
+option "keen","baronh6","onoff"
+option "cyberdemon","baronh7","onoff"
+option "demon","baronh8","onoff"
+option "doomimp","baronh9","onoff"
+option "explosivebarrell","baronh10","onoff"
+option "fatso","baronh11","onoff"
+option "hellknight","baronh12","onoff"
+option "lostsoul","baronh13","onoff"
+option "painelemental","baronh14","onoff"
+option "revenant","baronh15","onoff"
+option "shotgunguy","baronh16","onoff"
+option "spectre","baronh17","onoff"
+option "spidermastermind","baronh18","onoff"
+option "wolfensteinss","baronh19","onoff"
+option "zombieman","baronh20","onoff"
+command "activate baron hate","summon baroncheck"
+command "close menu","closemenu"
+}
+
+optionmenu ca1
+{
+title "hatemenu for cacodemon"
+statictext"ok choose one creature to attack"
+option "arachnotron","cacoh1","onoff"
+option "archvile","cacoh2","onoff"
+option "baron","cacoh3","onoff"
+option "chaingunguy","cacoh5","onoff"
+option "keen","cacoh6","onoff"
+option "cyberdemon","cacoh7","onoff"
+option "demon","cacoh8","onoff"
+option "doomimp","cacoh9","onoff"
+option "explosivebarrell","cacoh10","onoff"
+option "fatso","cacoh11","onoff"
+option "hellknight","cacoh12","onoff"
+option "lostsoul","cacoh13","onoff"
+option "painelemental","cacoh14","onoff"
+option "revenant","cacoh15","onoff"
+option "shotgunguy","cacoh16","onoff"
+option "spectre","cacoh17","onoff"
+option "spidermastermind","cacoh18","onoff"
+option "wolfensteinss","cacoh19","onoff"
+option "zombieman","cacoh20","onoff"
+command "activate cacodemon hate","summon cacocheck"
+command "close menu","closemenu"
+}
+
+optionmenu cgg1
+{
+title "hatemenu for chaingunguy"
+statictext"ok choose one creature to attack"
+option "arachnotron","chainh1","onoff"
+option "archvile","chainh2","onoff"
+option "baron","chainh3","onoff"
+option "cacodemon","chainh4","onoff"
+option "keen","chainh6","onoff"
+option "cyberdemon","chainh7","onoff"
+option "demon","chainh8","onoff"
+option "doomimp","chainh9","onoff"
+option "explosivebarrell","chainh10","onoff"
+option "fatso","chainh11","onoff"
+option "hellknight","chainh12","onoff"
+option "lostsoul","chainh13","onoff"
+option "painelemental","chainh14","onoff"
+option "revenant","chainh15","onoff"
+option "shotgunguy","chainh16","onoff"
+option "spectre","chainh17","onoff"
+option "spidermastermind","chainh18","onoff"
+option "wolfensteinss","chainh19","onoff"
+option "zombieman","chainh20","onoff"
+command "activate chaingunguy hate","summon chaincheck"
+command "close menu","closemenu"
+}
+
+optionmenu cbr1
+{
+title "hatemenu for cyberdemon"
+statictext"ok choose one creature to attack"
+option "arachnotron","cyberh1","onoff"
+option "archvile","cyberh2","onoff"
+option "baron","cyberh3","onoff"
+option "cacodemon","cyberh4","onoff"
+option "chaingunguy","cyberh5","onoff"
+option "keen","cyberh6","onoff"
+option "demon","cyberh8","onoff"
+option "doomimp","cyberh9","onoff"
+option "explosivebarrell","cyberh10","onoff"
+option "fatso","cyberh11","onoff"
+option "hellknight","cyberh12","onoff"
+option "lostsoul","cyberh13","onoff"
+option "painelemental","cyberh14","onoff"
+option "revenant","cyberh15","onoff"
+option "shotgunguy","cyberh16","onoff"
+option "spectre","cyberh17","onoff"
+option "spidermastermind","cyberh18","onoff"
+option "wolfensteinss","cyberh19","onoff"
+option "zombieman","cyberh20","onoff"
+command "activate cyberdemon hate","summon cybercheck"
+command "close menu","closemenu"
+}
+
+optionmenu dr1
+{
+title "hatemenu for demon"
+statictext"ok choose one creature to attack"
+option "arachnotron","demh1","onoff"
+option "archvile","demh2","onoff"
+option "baron","demh3","onoff"
+option "cacodemon","demh4","onoff"
+option "chaingunguy","demh5","onoff"
+option "keen","demh6","onoff"
+option "cyberdemon","demh7","onoff"
+option "doomimp","demh9","onoff"
+option "explosivebarrell","demh10","onoff"
+option "mancubus","demh11","onoff"
+option "hellknight","demh12","onoff"
+option "lostsoul","demh13","onoff"
+option "painelemental","demh14","onoff"
+option "revenant","demh15","onoff"
+option "shotgunguy","demh16","onoff"
+option "spectre","demh17","onoff"
+option "spidermastermind","demh18","onoff"
+option "wolfensteinss","demh19","onoff"
+option "zombieman","demh20","onoff"
+command "activate demon hate","summon demoncheck"
+command "close menu","closemenu"
+}
+
+optionmenu mr1
+{
+title "hatemenu for mancubus"
+statictext"ok choose one creature to attack"
+option "arachnotron","fath1","onoff"
+option "archvile","fath2","onoff"
+option "baron","fath3","onoff"
+option "cacodemon","fath4","onoff"
+option "chaingunguy","fath5","onoff"
+option "keen","fath6","onoff"
+option "cyberdemon","fath7","onoff"
+option "demon","fath8","onoff"
+option "doomimp","fath9","onoff"
+option "explosivebarrell","fath10","onoff"
+option "hellknight","fath12","onoff"
+option "lostsoul","fath13","onoff"
+option "painelemental","fath14","onoff"
+option "revenant","fath15","onoff"
+option "shotgunguy","fath16","onoff"
+option "spectre","fath17","onoff"
+option "spidermastermind","fath18","onoff"
+option "wolfensteinss","fath19","onoff"
+option "zombieman","fath20","onoff"
+command "activate mancubus hate","summon fatcheck"
+command "close menu","closemenu"
+}
+
+optionmenu hk1
+{
+title "hatemenu for hellknight"
+statictext"ok choose one creature to attack"
+option "arachnotron","hellh1","onoff"
+option "archvile","hellh2","onoff"
+option "baron","hellh3","onoff"
+option "cacodemon","hellh4","onoff"
+option "chaingunguy","hellh5","onoff"
+option "keen","hellh6","onoff"
+option "cyberdemon","hellh7","onoff"
+option "demon","hellh8","onoff"
+option "doomimp","hellh9","onoff"
+option "explosivebarrell","hellh10","onoff"
+option "mancubus","hellh11","onoff"
+option "lostsoul","hellh13","onoff"
+option "painelemental","hellh14","onoff"
+option "revenant","hellh15","onoff"
+option "shotgunguy","hellh16","onoff"
+option "spectre","hellh17","onoff"
+option "spidermastermind","hellh18","onoff"
+option "wolfensteinss","hellh19","onoff"
+option "zombieman","hellh20","onoff"
+command "activate hellknight hate","summon hellcheck"
+command "close menu","closemenu"
+}
+
+optionmenu di1
+{
+title "hatemenu for doomimp"
+statictext"ok choose one creature to attack"
+option "arachnotron","imph1","onoff"
+option "archvile","imph2","onoff"
+option "baron","imph3","onoff"
+option "cacodemon","imph4","onoff"
+option "chaingunguy","imph5","onoff"
+option "keen","imph6","onoff"
+option "cyberdemon","imph7","onoff"
+option "demon","imph8","onoff"
+option "explosivebarrell","imph10","onoff"
+option "mancubus","imph11","onoff"
+option "hellknight","imph12","onoff"
+option "lostsoul","imph13","onoff"
+option "painelemental","imph14","onoff"
+option "revenant","imph15","onoff"
+option "shotgunguy","imph16","onoff"
+option "spectre","imph17","onoff"
+option "spidermastermind","imph18","onoff"
+option "wolfensteinss","imph19","onoff"
+option "zombieman","imph20","onoff"
+command "activate doomimp hate","summon impcheck"
+command "close menu","closemenu"
+}
+
+optionmenu sl1
+{
+title "hatemenu for lostsoul"
+statictext"ok choose one creature to attack"
+option "arachnotron","losth1","onoff"
+option "archvile","losth2","onoff"
+option "baron","losth3","onoff"
+option "cacodemon","losth4","onoff"
+option "chaingunguy","losth5","onoff"
+option "keen","losth6","onoff"
+option "cyberdemon","losth7","onoff"
+option "demon","losth8","onoff"
+option "doomimp","losth9","onoff"
+option "explosivebarrell","losth10","onoff"
+option "fatso","losth11","onoff"
+option "hellknight","losth12","onoff"
+option "painelemental","losth14","onoff"
+option "revenant","losth15","onoff"
+option "shotgunguy","losth16","onoff"
+option "spectre","losth17","onoff"
+option "spidermastermind","losth18","onoff"
+option "wolfensteinss","losth19","onoff"
+option "zombieman","losth20","onoff"
+command "activate lostsoul hate","summon lostcheck"
+command "close menu","closemenu"
+}
+
+optionmenu pm1
+{
+title "hatemenu for painelemental"
+statictext"ok choose one creature to attack"
+option "arachnotron","painh1","onoff"
+option "archvile","painh2","onoff"
+option "baron","painh3","onoff"
+option "cacodemon","painh4","onoff"
+option "chaingunguy","painh5","onoff"
+option "keen","painh6","onoff"
+option "cyberdemon","painh7","onoff"
+option "demon","painh8","onoff"
+option "doomimp","painh9","onoff"
+option "explosivebarrell","painh10","onoff"
+option "fatso","painh11","onoff"
+option "hellknight","painh12","onoff"
+option "lostsoul","painh13","onoff"
+option "revenant","painh15","onoff"
+option "shotgunguy","painh16","onoff"
+option "spectre","painh17","onoff"
+option "spidermastermind","painh18","onoff"
+option "wolfensteinss","painh19","onoff"
+option "zombieman","painh20","onoff"
+command "activate painelemental hate","summon paincheck"
+command "close menu","closemenu"
+}
+
+optionmenu rv1
+{
+title "hatemenu for revenant"
+statictext"ok choose one creature to attack"
+option "arachnotron","revh1","onoff"
+option "archvile","revh2","onoff"
+option "baron","revh3","onoff"
+option "cacodemon","revh4","onoff"
+option "chaingunguy","revh5","onoff"
+option "keen","revh6","onoff"
+option "cyberdemon","revh7","onoff"
+option "demon","revh8","onoff"
+option "doomimp","revh9","onoff"
+option "explosivebarrell","revh10","onoff"
+option "fatso","revh11","onoff"
+option "hellknight","revh12","onoff"
+option "lostsoul","revh13","onoff"
+option "painelemental","revh14","onoff"
+option "revenant","revh15","onoff"
+option "shotgunguy","revh16","onoff"
+option "spectre","revh17","onoff"
+option "spidermastermind","revh18","onoff"
+option "wolfensteinss","revh19","onoff"
+option "zombieman","revh20","onoff"
+command "activate revenant hate","summon revcheck"
+command "close menu","closemenu"
+}
+
+optionmenu sg1
+{
+title "hatemenu for shotgunguy"
+statictext"ok choose one creature to attack"
+option "arachnotron","shoth1","onoff"
+option "archvile","shoth2","onoff"
+option "baron","shoth3","onoff"
+option "cacodemon","shoth4","onoff"
+option "chaingunguy","shoth5","onoff"
+option "keen","shoth6","onoff"
+option "cyberdemon","shoth7","onoff"
+option "demon","shoth8","onoff"
+option "doomimp","shoth9","onoff"
+option "explosivebarrell","shoth10","onoff"
+option "fatso","shoth11","onoff"
+option "hellknight","shoth12","onoff"
+option "lostsoul","shoth13","onoff"
+option "painelemental","shoth14","onoff"
+option "revenant","shoth15","onoff"
+option "spectre","shoth17","onoff"
+option "spidermastermind","shoth18","onoff"
+option "wolfensteinss","shoth19","onoff"
+option "zombieman","shoth20","onoff"
+command "activate shotgunguy hate","summon shotcheck"
+command "close menu","closemenu"
+}
+
+
+optionmenu sp1
+{
+title "hatemenu for spectre"
+statictext"ok choose one creature to attack"
+option "arachnotron","spech1","onoff"
+option "archvile","spech2","onoff"
+option "baron","spech3","onoff"
+option "cacodemon","spech4","onoff"
+option "chaingunguy","spech5","onoff"
+option "keen","spech6","onoff"
+option "cyberdemon","spech7","onoff"
+option "demon","spech8","onoff"
+option "doomimp","spech9","onoff"
+option "explosivebarrell","spech10","onoff"
+option "fatso","spech11","onoff"
+option "hellknight","spech12","onoff"
+option "lostsoul","spech13","onoff"
+option "painelemental","spech14","onoff"
+option "revenant","spech15","onoff"
+option "shotgunguy","spech16","onoff"
+option "spidermastermind","spech18","onoff"
+option "wolfensteinss","spech19","onoff"
+option "zombieman","spech20","onoff"
+command "activate spectre hate","summon speccheck"
+command "close menu","closemenu"
+}
+
+optionmenu sp2
+{
+title "hatemenu for spidermastermind"
+statictext"ok choose one creature to attack"
+option "arachnotron","spidh1","onoff"
+option "archvile","spidh2","onoff"
+option "baron","spidh3","onoff"
+option "cacodemon","spidh4","onoff"
+option "chaingunguy","spidh5","onoff"
+option "keen","spidh6","onoff"
+option "cyberdemon","spidh7","onoff"
+option "demon","spidh8","onoff"
+option "doomimp","spidh9","onoff"
+option "explosivebarrell","spidh10","onoff"
+option "fatso","spidh11","onoff"
+option "hellknight","spidh12","onoff"
+option "lostsoul","spidh13","onoff"
+option "painelemental","spidh14","onoff"
+option "revenant","spidh15","onoff"
+option "shotgunguy","spidh16","onoff"
+option "spectre","spidh17","onoff"
+option "wolfensteinss","spidh19","onoff"
+option "zombieman","spidh20","onoff"
+command "activate spidermastermind hate","summon spidcheck"
+command "close menu","closemenu"
+}
+
+optionmenu ws1
+{
+title "hatemenu for wolfensteinss"
+statictext"ok choose one creature to attack"
+option "arachnotron","wolfh1","onoff"
+option "archvile","wolfh2","onoff"
+option "baron","wolfh3","onoff"
+option "cacodemon","wolfh4","onoff"
+option "chaingunguy","wolfh5","onoff"
+option "keen","wolfh6","onoff"
+option "cyberdemon","wolfh7","onoff"
+option "demon","wolfh8","onoff"
+option "doomimp","wolfh9","onoff"
+option "explosivebarrell","wolfh10","onoff"
+option "fatso","wolfh11","onoff"
+option "hellknight","wolfh12","onoff"
+option "lostsoul","wolfh13","onoff"
+option "painelemental","wolfh14","onoff"
+option "revenant","wolfh15","onoff"
+option "shotgunguy","wolfh16","onoff"
+option "spectre","wolfh17","onoff"
+option "spidermastermind","wolfh18","onoff"
+option "zombieman","wolfh20","onoff"
+command "activate wolfensteinss hate","summon wolfcheck"
+command "close menu","closemenu"
+}
+
+optionmenu zm1
+{
+title "hatemenu for zombieman"
+statictext"ok choose one creature to attack"
+option "arachnotron","zombh1","onoff"
+option "archvile","zombh2","onoff"
+option "baron","zombh3","onoff"
+option "cacodemon","zombh4","onoff"
+option "chaingunguy","zombh5","onoff"
+option "keen","zombh6","onoff"
+option "cyberdemon","zombh7","onoff"
+option "demon","zombh8","onoff"
+option "doomimp","zombh9","onoff"
+option "explosivebarrell","zombh10","onoff"
+option "fatso","zombh11","onoff"
+option "hellknight","zombh12","onoff"
+option "lostsoul","zombh13","onoff"
+option "painelemental","zombh14","onoff"
+option "revenant","zombh15","onoff"
+option "shotgunguy","zombh16","onoff"
+option "spectre","zombh17","onoff"
+option "spidermastermind","zombh18","onoff"
+option "wolfensteinss","zombh19","onoff"
+command "activate zombieman hate","summon zombcheck"
+command "close menu","closemenu"
+}
+
+optionmenu sui1
+{
+title"ok whos the victim"
+statictext"this will make themselves kill themselves"
+submenu"arachnotron","sui1a"
+submenu "archvile","sui1b"
+submenu "baron","suic"
+submenu "cacodemon","suid"
+submenu "chaingunguy","suie"
+submenu "cyberdemon,","suif"
+submenu "demon","suig"
+submenu "doomimp","suih"
+submenu "mancubus","suii"
+submenu "hellknight","suij"
+submenu "lostsoul","suik"
+submenu "painelemental","suil"
+submenu "revenant","suim"
+submenu "shotgunguy","suin"
+submenu "spectre","suio"
+submenu "spidermastermind","suip"
+submenu "wolfensteinss","suiq"
+submenu "zombieman","suir"
+}
+
+
+optionmenu sui1a
+{
+statictext"turn this option on then activate hate"
+option "do it","arach1","onoff"
+
+}
+
+optionmenu sui1b
+{
+statictext"turn this option on then activate hate"
+option "do it","vileh2","onoff"
+}
+
+optionmenu suic
+{
+statictext"turn this option on then activate hate"
+option "do it","baronh3","onoff"
+}
+
+optionmenu suid
+{
+statictext"turn this option on then activate hate"
+option "do it","cacoh4","onoff"
+}
+
+optionmenu suie
+{
+statictext"turn this option on then activate hate"
+option "do it","chainh5","onoff"
+}
+
+optionmenu suif
+{
+statictext"turn this option on then activate hate"
+option "do it","cyberh7","onoff"
+}
+
+optionmenu suig
+{
+statictext"turn this option on then activate hate"
+option "do it","demh8","onoff"
+}
+
+optionmenu suih
+{
+statictext"turn this option on then activate hate"
+option "do it","imph9","onoff"
+}
+
+optionmenu suii
+{
+statictext"turn this option on then activate hate"
+option "do it","fath11","onoff"
+}
+
+optionmenu suij
+{
+statictext"turn this option on then activate hate"
+option "do it","hellh12","onoff"
+}
+
+optionmenu suik
+{
+statictext"turn this option on then activate hate"
+option "do it","losth13","onoff"
+}
+
+optionmenu suil
+{
+statictext"turn this option on then activate hate"
+option "do it","painh14","onoff"
+}
+
+optionmenu suim
+{
+statictext"turn this option on then activate hate"
+option "do it","revh15","onoff"
+}
+
+optionmenu suin
+{
+statictext"turn this option on then activate hate"
+option "do it","shoth16","onoff"
+}
+
+optionmenu suio
+{
+statictext"turn this option on then activate hate"
+option "do it","spech17","onoff"
+}
+
+optionmenu suip
+{
+statictext"turn this option on then activate hate"
+option "do it","spidh18","onoff"
+}
+
+optionmenu suiq
+{
+statictext"turn this option on then activate hate"
+option "do it","wolfh19","onoff"
+}
+
+optionmenu suir
+{
+statictext"turn this option on then activate hate"
+option "do it","zombh20","onoff"
+}
+
