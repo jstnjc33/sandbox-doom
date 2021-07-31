@@ -41,7 +41,7 @@ ACTOR telebarrel : explosivebarrel3
     BEXP C 5 Bright
     BEXP D 5 Bright A_Explode
     BEXP E 10 Bright
-    tnt1 a 0 a_spawnitem("poisongiver")
+    tnt1 a 0 teleportother(1,43,1)
     TNT1 A 1050 Bright A_BarrelDestroy
     TNT1 A 5 A_Respawn
     Wait
