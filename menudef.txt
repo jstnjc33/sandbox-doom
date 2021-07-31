@@ -146,6 +146,10 @@ optionvalue pup10
 46,"trap 1"
 47,"regeneration slow mode"
 48,"regeneration fast mode"
+50,"trap 2"
+51,"trap 3"
+52,"trap 4"
+53,"trap 5"
 }
 
 optionmenu levels1

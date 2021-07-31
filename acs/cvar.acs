@@ -7,3 +7,26 @@ script "change1" (void)
 delay(35);
 setcvar("traps",1);
 }
+script "change2" (void)
+{
+delay(35);
+setcvar("traps",2);
+}
+
+script "change3" (void)
+{
+delay(35);
+setcvar("traps",3);
+}
+
+script "change4" (void)
+{
+delay(35);
+setcvar("traps",4);
+}
+
+script "change5" (void)
+{
+delay(35);
+setcvar("traps",5);
+}

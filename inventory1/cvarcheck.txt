@@ -53,6 +53,10 @@ tnt1 a 0 a_jumpif(pup==46,"trap1")
 tnt1 a 0 a_jumpif(pup==47,"regen")
 tnt1 a 0 a_jumpif(pup==48,"regen1")
 tnt1 a 0 a_jumpif(spup==49,"flight")
+tnt1 a 0 a_jumpif(pup==50,"trap2")
+tnt1 a 0 a_jumpif(pup==51,"trap3")
+tnt1 a 0 a_jumpif(pup==52,"trap4")
+tnt1 a 0 a_jumpif(pup==54,"trap5")
 flight:
 tnt1 a 50
 tnt1 a 0 a_printbold("giving the ability to fly")
@@ -328,6 +332,38 @@ tnt1 a 50
 tnt1 a 0 a_printbold("activating trap1")
 tnt1 a 50
 tnt1 a 0 acs_namedexecute("change1",0)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trapcheck")
+stop
+trap2:
+tnt1 a 50
+tnt1 a 0 a_printbold("activating trap 2")
+tnt1 a 50
+tnt1 a 0 acs_namedexecute("change2",0)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trapcheck")
+stop
+trap3:
+tnt1 a 50
+tnt1 a 0 a_printbold("activating trap 3)
+tnt1 a 50
+tnt1 a 0 acs_namedexecute("change3",0)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trapcheck")
+stop
+trap4:
+tnt1 a 50
+tnt1 a 0 a_printbold("activating trap 4")
+tnt1 a 50
+tnt1 a 0 acs_namedexecute("change4",0)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trapcheck")
+stop
+trap5:
+tnt1 a 50
+tnt1 a 0 a_printbold("activating trap 1")
+tnt1 a 50
+tnt1 a 0 acs_namedexecute("change5",0)
 tnt1 a 50
 tnt1 a 0 a_spawnitem("trapcheck")
 stop
