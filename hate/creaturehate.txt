@@ -1,0 +1,3941 @@
+actor arach1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,1,2)
+stop
+}
+}
+
+actor arach2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,2,2)
+stop
+}
+}
+
+actor arach3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,3,2)
+stop
+}
+}
+
+actor arach4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,4,2)
+stop
+}
+}
+actor arach5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,5,2)
+stop
+}
+}
+
+actor arach6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,6,2)
+stop
+}
+}
+
+actor arach7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,7,2)
+stop
+}
+}
+
+actor arach8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,8,2)
+stop
+}
+}
+
+actor arach9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,9,2)
+stop
+}
+}
+
+actor arach10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,10,2)
+stop
+}
+}
+
+actor arach11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,11,2)
+stop
+}
+}
+
+actor arach12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,12,2)
+stop
+}
+}
+
+actor arach13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,13,2)
+stop
+}
+}
+
+actor arach14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,14,2)
+stop
+}
+}
+
+actor arach15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,15,2)
+stop
+}
+}
+
+actor arach16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,16,2)
+stop
+}
+}
+
+actor arach17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,17,2)
+stop
+}
+}
+
+actor arach18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,18,2)
+stop
+}
+}
+
+actor arach19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,19,2)
+stop
+}
+}
+
+actor arach20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,20,2)
+stop
+}
+}
+
+actor vileh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,1,2)
+stop
+}
+}
+
+actor vileh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,2,2)
+stop
+}
+}
+
+actor vileh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,3,2)
+stop
+}
+}
+
+actor vileh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,4,2)
+stop
+}
+}
+actor vileh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,5,2)
+stop
+}
+}
+
+actor vileh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,6,2)
+stop
+}
+}
+
+actor vileh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,7,2)
+stop
+}
+}
+
+actor vileh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,8,2)
+stop
+}
+}
+
+actor vileh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,19,2)
+stop
+}
+}
+
+actor vileh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,10,2)
+stop
+}
+}
+
+actor vileh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,11,2)
+stop
+}
+}
+
+actor vileh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,12,2)
+stop
+}
+}
+
+actor vileh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,13,2)
+stop
+}
+}
+
+actor vileh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,14,2)
+stop
+}
+}
+
+actor vileh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,15,2)
+stop
+}
+}
+
+actor vileh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,16,2)
+stop
+}
+}
+
+actor vileh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,17,2)
+stop
+}
+}
+
+actor vileh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,18,2)
+stop
+}
+}
+
+actor vileh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,19,2)
+stop
+}
+}
+
+actor vileh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,20,2)
+stop
+}
+}
+actor baronh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,1,2)
+stop
+}
+}
+
+actor baronh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,2,2)
+stop
+}
+}
+
+actor baronh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,3,2)
+stop
+}
+}
+
+actor baronh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,4,2)
+stop
+}
+}
+actor baronh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,5,2)
+stop
+}
+}
+
+actor baronh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,6,2)
+stop
+}
+}
+
+actor baronh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,7,2)
+stop
+}
+}
+
+actor baronh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,8,2)
+stop
+}
+}
+
+actor baronh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,9,2)
+stop
+}
+}
+
+actor baronh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,10,2)
+stop
+}
+}
+
+actor baronh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,11,2)
+stop
+}
+}
+
+actor baronh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,12,2)
+stop
+}
+}
+
+actor baronh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,13,2)
+stop
+}
+}
+
+actor baronh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,14,2)
+stop
+}
+}
+
+actor baronh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,15,2)
+stop
+}
+}
+
+actor baronh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,16,2)
+stop
+}
+}
+
+actor baronh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,17,2)
+stop
+}
+}
+
+actor baronh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,18,2)
+stop
+}
+}
+
+actor baronh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,19,2)
+stop
+}
+}
+
+actor baronh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,20,2)
+stop
+}
+}
+
+actor cacoh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,1,2)
+stop
+}
+}
+
+actor cacoh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,2,2)
+stop
+}
+}
+
+actor cacoh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,3,2)
+stop
+}
+}
+
+actor cacoh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,4,2)
+stop
+}
+}
+actor cacoh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,5,2)
+stop
+}
+}
+
+actor cacoh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,6,2)
+stop
+}
+}
+
+actor cacoh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,7,2)
+stop
+}
+}
+
+actor cacoh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,8,2)
+stop
+}
+}
+
+actor cacoh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,9,2)
+stop
+}
+}
+
+actor cacoh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,10,2)
+stop
+}
+}
+
+actor cacoh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,11,2)
+stop
+}
+}
+
+actor cacoh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,12,2)
+stop
+}
+}
+
+actor cacoh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,13,2)
+stop
+}
+}
+
+actor cacoh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,14,2)
+stop
+}
+}
+
+actor cacoh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,15,2)
+stop
+}
+}
+
+actor cacoh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,16,2)
+stop
+}
+}
+
+actor cacoh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,17,2)
+stop
+}
+}
+
+actor cacoh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,18,2)
+stop
+}
+}
+
+actor cacoh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,19,2)
+stop
+}
+}
+
+actor cacoh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,20,2)
+stop
+}
+}
+
+actor chainh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,1,2)
+stop
+}
+}
+
+actor chainh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,2,2)
+stop
+}
+}
+
+actor chainh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,3,2)
+stop
+}
+}
+
+actor chainh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,4,2)
+stop
+}
+}
+actor chainh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,5,2)
+stop
+}
+}
+
+actor chainh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,6,2)
+stop
+}
+}
+
+actor chainh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,7,2)
+stop
+}
+}
+
+actor chainh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,8,2)
+stop
+}
+}
+
+actor chainh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,9,2)
+stop
+}
+}
+
+actor chainh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,10,2)
+stop
+}
+}
+
+actor chainh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,11,2)
+stop
+}
+}
+
+actor chainh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,12,2)
+stop
+}
+}
+
+actor chainh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,13,2)
+stop
+}
+}
+
+actor chainh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,14,2)
+stop
+}
+}
+
+actor chainh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,15,2)
+stop
+}
+}
+
+actor chainh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,16,2)
+stop
+}
+}
+
+actor chainh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,17,2)
+stop
+}
+}
+
+actor chainh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,18,2)
+stop
+}
+}
+
+actor chainh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,19,2)
+stop
+}
+}
+
+actor chainh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,20,2)
+stop
+}
+}
+
+actor cyberh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,1,2)
+stop
+}
+}
+
+actor cyberh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,2,2)
+stop
+}
+}
+
+actor cyberh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,3,2)
+stop
+}
+}
+
+actor cyberh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,4,2)
+stop
+}
+}
+actor cyberh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,5,2)
+stop
+}
+}
+
+actor cyberh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,6,2)
+stop
+}
+}
+
+actor cyberh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,7,2)
+stop
+}
+}
+
+actor cyberh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,8,2)
+stop
+}
+}
+
+actor cyberh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,9,2)
+stop
+}
+}
+
+actor cyberh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,10,2)
+stop
+}
+}
+
+actor cyberh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,11,2)
+stop
+}
+}
+
+actor cyberh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,12,2)
+stop
+}
+}
+
+actor cyberh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,13,2)
+stop
+}
+}
+
+actor cyberh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,14,2)
+stop
+}
+}
+
+actor cyberh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,15,2)
+stop
+}
+}
+
+actor cyberh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,16,2)
+stop
+}
+}
+
+actor cyberh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,17,2)
+stop
+}
+}
+
+actor cyberh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,18,2)
+stop
+}
+}
+
+actor cyberh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,19,2)
+stop
+}
+}
+
+actor cyberh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,20,2)
+stop
+}
+}
+
+actor demh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,1,2)
+stop
+}
+}
+
+actor demh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,2,2)
+stop
+}
+}
+
+actor demh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,3,2)
+stop
+}
+}
+
+actor demh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,4,2)
+stop
+}
+}
+actor demh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,5,2)
+stop
+}
+}
+
+actor demh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,6,2)
+stop
+}
+}
+
+actor demh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,7,2)
+stop
+}
+}
+
+actor demh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,8,2)
+stop
+}
+}
+
+actor demh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,9,2)
+stop
+}
+}
+
+actor demh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,10,2)
+stop
+}
+}
+
+actor demh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,11,2)
+stop
+}
+}
+
+actor demh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,12,2)
+stop
+}
+}
+
+actor demh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,13,2)
+stop
+}
+}
+
+actor demh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,14,2)
+stop
+}
+}
+
+actor demh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,15,2)
+stop
+}
+}
+
+actor demh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,16,2)
+stop
+}
+}
+
+actor demh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,17,2)
+stop
+}
+}
+
+actor demh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,18,2)
+stop
+}
+}
+
+actor demh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,19,2)
+stop
+}
+}
+
+actor demh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,20,2)
+stop
+}
+}
+
+actor imph1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,1,2)
+stop
+}
+}
+
+actor imph2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,2,2)
+stop
+}
+}
+
+actor imph3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,3,2)
+stop
+}
+}
+
+actor imph4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,4,2)
+stop
+}
+}
+actor imph5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,5,2)
+stop
+}
+}
+
+actor imph6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,6,2)
+stop
+}
+}
+
+actor imph7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,7,2)
+stop
+}
+}
+
+actor imph8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,8,2)
+stop
+}
+}
+
+actor imph9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,9,2)
+stop
+}
+}
+
+actor imph10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,10,2)
+stop
+}
+}
+
+actor imph11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,11,2)
+stop
+}
+}
+
+actor imph12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,12,2)
+stop
+}
+}
+
+actor imph13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,13,2)
+stop
+}
+}
+
+actor imph14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,14,2)
+stop
+}
+}
+
+actor imph15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,15,2)
+stop
+}
+}
+
+actor imph16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,16,2)
+stop
+}
+}
+
+actor imph17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,17,2)
+stop
+}
+}
+
+actor imph18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,18,2)
+stop
+}
+}
+
+actor imph19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,19,2)
+stop
+}
+}
+
+actor imph20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,20,2)
+stop
+}
+}
+
+actor fath1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,1,2)
+stop
+}
+}
+
+actor fath2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,2,2)
+stop
+}
+}
+
+actor fath3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,3,2)
+stop
+}
+}
+
+actor fath4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,4,2)
+stop
+}
+}
+actor fath5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,5,2)
+stop
+}
+}
+
+actor fath6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,6,2)
+stop
+}
+}
+
+actor fath7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,7,2)
+stop
+}
+}
+
+actor fath8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,8,2)
+stop
+}
+}
+
+actor fath9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,9,2)
+stop
+}
+}
+
+actor fath10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,10,2)
+stop
+}
+}
+
+actor fath11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,11,2)
+stop
+}
+}
+
+actor fath12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,12,2)
+stop
+}
+}
+
+actor fath13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,13,2)
+stop
+}
+}
+
+actor fath14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,14,2)
+stop
+}
+}
+
+actor fath15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,15,2)
+stop
+}
+}
+
+actor fath16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,16,2)
+stop
+}
+}
+
+actor fath17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,17,2)
+stop
+}
+}
+
+actor fath18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,18,2)
+stop
+}
+}
+
+actor fath19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,19,2)
+stop
+}
+}
+
+actor fath20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,20,2)
+stop
+}
+}
+
+actor hellh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,1,2)
+stop
+}
+}
+
+actor hellh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,2,2)
+stop
+}
+}
+
+actor hellh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,3,2)
+stop
+}
+}
+
+actor hellh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,4,2)
+stop
+}
+}
+actor hellh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,5,2)
+stop
+}
+}
+
+actor hellh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,6,2)
+stop
+}
+}
+
+actor hellh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,7,2)
+stop
+}
+}
+
+actor hellh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,8,2)
+stop
+}
+}
+
+actor hellh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,9,2)
+stop
+}
+}
+
+actor hellh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,10,2)
+stop
+}
+}
+
+actor hellh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,11,2)
+stop
+}
+}
+
+actor hellh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,12,2)
+stop
+}
+}
+
+actor hellh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,13,2)
+stop
+}
+}
+
+actor hellh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,14,2)
+stop
+}
+}
+
+actor hellh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,15,2)
+stop
+}
+}
+
+actor hellh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,16,2)
+stop
+}
+}
+
+actor hellh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,17,2)
+stop
+}
+}
+
+actor hellh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,18,2)
+stop
+}
+}
+
+actor hellh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,19,2)
+stop
+}
+}
+
+actor hellh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,20,2)
+stop
+}
+}
+
+actor losth1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,1,2)
+stop
+}
+}
+
+actor losth2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,2,2)
+stop
+}
+}
+
+actor losth3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,3,2)
+stop
+}
+}
+
+actor losth4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,4,2)
+stop
+}
+}
+actor losth5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,5,2)
+stop
+}
+}
+
+actor losth6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,6,2)
+stop
+}
+}
+
+actor losth7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,7,2)
+stop
+}
+}
+
+actor losth8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,8,2)
+stop
+}
+}
+
+actor losth9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,9,2)
+stop
+}
+}
+
+actor losth10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,10,2)
+stop
+}
+}
+
+actor losth11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,11,2)
+stop
+}
+}
+
+actor losth12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,12,2)
+stop
+}
+}
+
+actor losth13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,13,2)
+stop
+}
+}
+
+actor losth14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,14,2)
+stop
+}
+}
+
+actor losth15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,15,2)
+stop
+}
+}
+
+actor losth16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,16,2)
+stop
+}
+}
+
+actor losth17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,17,2)
+stop
+}
+}
+
+actor losth18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,18,2)
+stop
+}
+}
+
+actor losth19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,19,2)
+stop
+}
+}
+
+actor losth20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,20,2)
+stop
+}
+}
+
+actor painh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,1,2)
+stop
+}
+}
+
+actor painh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,2,2)
+stop
+}
+}
+
+actor painh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,3,2)
+stop
+}
+}
+
+actor painh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,4,2)
+stop
+}
+}
+actor painh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,5,2)
+stop
+}
+}
+
+actor painh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,6,2)
+stop
+}
+}
+
+actor painh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,7,2)
+stop
+}
+}
+
+actor painh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,8,2)
+stop
+}
+}
+
+actor painh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,9,2)
+stop
+}
+}
+
+actor painh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,10,2)
+stop
+}
+}
+
+actor painh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,11,2)
+stop
+}
+}
+
+actor painh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,12,2)
+stop
+}
+}
+
+actor painh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,13,2)
+stop
+}
+}
+
+actor painh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,14,2)
+stop
+}
+}
+
+actor painh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,15,2)
+stop
+}
+}
+
+actor painh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,16,2)
+stop
+}
+}
+
+actor painh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,17,2)
+stop
+}
+}
+
+actor painh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,18,2)
+stop
+}
+}
+
+actor painh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,19,2)
+stop
+}
+}
+
+actor painh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,20,2)
+stop
+}
+}
+
+
+actor revh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,1,2)
+stop
+}
+}
+
+actor revh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,2,2)
+stop
+}
+}
+
+actor revh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,3,2)
+stop
+}
+}
+
+actor revh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,4,2)
+stop
+}
+}
+actor revh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,5,2)
+stop
+}
+}
+
+actor revh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,6,2)
+stop
+}
+}
+
+actor revh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,7,2)
+stop
+}
+}
+
+actor revh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,8,2)
+stop
+}
+}
+
+actor revh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,9,2)
+stop
+}
+}
+
+actor revh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,10,2)
+stop
+}
+}
+
+actor revh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,11,2)
+stop
+}
+}
+
+actor revh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,12,2)
+stop
+}
+}
+
+actor revh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,12,2)
+stop
+}
+}
+
+actor revh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,14,2)
+stop
+}
+}
+
+actor revh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,15,2)
+stop
+}
+}
+
+actor revh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,16,2)
+stop
+}
+}
+
+actor revh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,17,2)
+stop
+}
+}
+
+actor revh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,18,2)
+stop
+}
+}
+
+actor revh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,19,2)
+stop
+}
+}
+
+actor revh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,20,2)
+stop
+}
+}
+
+actor shoth1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,1,2)
+stop
+}
+}
+
+actor shoth2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,2,2)
+stop
+}
+}
+
+actor shoth3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,3,2)
+stop
+}
+}
+
+actor shoth4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,4,2)
+stop
+}
+}
+actor shoth5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,5,2)
+stop
+}
+}
+
+actor shoth6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,6,2)
+stop
+}
+}
+
+actor shoth7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,7,2)
+stop
+}
+}
+
+actor shoth8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,8,2)
+stop
+}
+}
+
+actor shoth9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,9,2)
+stop
+}
+}
+
+actor shoth10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,10,2)
+stop
+}
+}
+
+actor shoth11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,11,2)
+stop
+}
+}
+
+actor shoth12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,12,2)
+stop
+}
+}
+
+actor shoth13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,12,2)
+stop
+}
+}
+
+actor shoth14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,14,2)
+stop
+}
+}
+
+actor shoth15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,15,2)
+stop
+}
+}
+
+actor shoth16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,16,2)
+stop
+}
+}
+
+actor shoth17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,17,2)
+stop
+}
+}
+
+actor shoth18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,18,2)
+stop
+}
+}
+
+actor shoth19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,19,2)
+stop
+}
+}
+
+actor shoth20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,20,2)
+stop
+}
+}
+
+actor spech1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,1,2)
+stop
+}
+}
+
+actor spech2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,2,2)
+stop
+}
+}
+
+actor spech3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,3,2)
+stop
+}
+}
+
+actor spech4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,4,2)
+stop
+}
+}
+actor spech5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,5,2)
+stop
+}
+}
+
+actor spech6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,6,2)
+stop
+}
+}
+
+actor spech7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,7,2)
+stop
+}
+}
+
+actor spech8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,8,2)
+stop
+}
+}
+
+actor spech9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,9,2)
+stop
+}
+}
+
+actor spech10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,10,2)
+stop
+}
+}
+
+actor spech11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,11,2)
+stop
+}
+}
+
+actor spech12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,12,2)
+stop
+}
+}
+
+actor spech13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,13,2)
+stop
+}
+}
+
+actor spech14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,14,2)
+stop
+}
+}
+
+actor spech15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,15,2)
+stop
+}
+}
+
+actor spech16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,16,2)
+stop
+}
+}
+
+actor spech17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,17,2)
+stop
+}
+}
+
+actor spech18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,18,2)
+stop
+}
+}
+
+actor spech19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,19,2)
+stop
+}
+}
+
+actor spech20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,20,2)
+stop
+}
+}
+
+actor spidh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,1,2)
+stop
+}
+}
+
+actor spidh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,2,2)
+stop
+}
+}
+
+actor spidh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,3,2)
+stop
+}
+}
+
+actor spidh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,4,2)
+stop
+}
+}
+actor spidh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,5,2)
+stop
+}
+}
+
+actor spidh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,6,2)
+stop
+}
+}
+
+actor spidh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,7,2)
+stop
+}
+}
+
+actor spidh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,8,2)
+stop
+}
+}
+
+actor spidh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,9,2)
+stop
+}
+}
+
+actor spidh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,10,2)
+stop
+}
+}
+
+actor spidh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,11,2)
+stop
+}
+}
+
+actor spidh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,12,2)
+stop
+}
+}
+
+actor spidh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,13,2)
+stop
+}
+}
+
+actor spidh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,14,2)
+stop
+}
+}
+
+actor spidh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,15,2)
+stop
+}
+}
+
+actor spidh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,16,2)
+stop
+}
+}
+
+actor spidh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,17,2)
+stop
+}
+}
+
+actor spidh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,18,2)
+stop
+}
+}
+
+actor spidh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,19,2)
+stop
+}
+}
+
+actor spidh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,20,2)
+stop
+}
+}
+
+actor wolfh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,1,2)
+stop
+}
+}
+
+actor wolfh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,2,2)
+stop
+}
+}
+
+actor wolfh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,3,2)
+stop
+}
+}
+
+actor wolfh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,4,2)
+stop
+}
+}
+actor wolfh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,5,2)
+stop
+}
+}
+
+actor wolfh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,6,2)
+stop
+}
+}
+
+actor wolfh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,7,2)
+stop
+}
+}
+
+actor wolfh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,8,2)
+stop
+}
+}
+
+actor wolfh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,9,2)
+stop
+}
+}
+
+actor wolfh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,10,2)
+stop
+}
+}
+
+actor wolfh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,11,2)
+stop
+}
+}
+
+actor wolfh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,12,2)
+stop
+}
+}
+
+actor wolfh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,13,2)
+stop
+}
+}
+
+actor wolfh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,14,2)
+stop
+}
+}
+
+actor wolfh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,15,2)
+stop
+}
+}
+
+actor wolfh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,16,2)
+stop
+}
+}
+
+actor wolfh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,17,2)
+stop
+}
+}
+
+actor wolfh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,18,2)
+stop
+}
+}
+
+actor wolfh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,19,2)
+stop
+}
+}
+
+actor wolfh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,20,2)
+stop
+}
+}
+
+actor zombh1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,1,2)
+stop
+}
+}
+
+actor zombh2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,2,2)
+stop
+}
+}
+
+actor zombh3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,3,2)
+stop
+}
+}
+
+actor zombh4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,4,2)
+stop
+}
+}
+actor zombh5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,5,2)
+stop
+}
+}
+
+actor zombh6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,6,2)
+stop
+}
+}
+
+actor zombh7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,7,2)
+stop
+}
+}
+
+actor zombh8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,8,2)
+stop
+}
+}
+
+actor zombh9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,9,2)
+stop
+}
+}
+
+actor zombh10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,10,2)
+stop
+}
+}
+
+actor zombh11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,11,2)
+stop
+}
+}
+
+actor zombh12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,12,2)
+stop
+}
+}
+
+actor zombh13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,13,2)
+stop
+}
+}
+
+actor zombh14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,14,2)
+stop
+}
+}
+
+actor zombh15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,15,2)
+stop
+}
+}
+
+actor zombh16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,16,2)
+stop
+}
+}
+
+actor zombh17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,17,2)
+stop
+}
+}
+
+actor zombh18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,18,2)
+stop
+}
+}
+
+actor zombh19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,19,2)
+stop
+}
+}
+
+actor zombh20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,20,2)
+stop
+}
+}

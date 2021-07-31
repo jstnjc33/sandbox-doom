@@ -1,0 +1,601 @@
+actor angryrando : randomspawner
+{
+spawnid 10
+dropitem angryimp  256 7
+dropitem angryzombie 256 7
+dropitem angryspider  256 7
+dropitem angryshotgunguy  256 7
+dropitem angrycaco 256 7
+dropitem angrybaron 256 7
+dropitem angryknight 256 7
+dropitem angrypainelemental  256 7
+dropitem angrycyber  256 7
+dropitem angryrevenant 256 7
+dropitem angrychaingunner 256 7
+dropitem angrysoul 256 7
+dropitem angrydemon  256 7
+dropitem angryspectre1  256 7
+dropitem angrywolf 256 7
+dropitem angryarachnotron  256 7
+dropitem angryvile 256 7
+dropitem angrymancubus 256 7
+}
+
+actor randomgather : randomspawner
+{
+dropitem zombgather 256 7
+dropitem wolfgather 256 7
+dropitem spidgather 256 7
+dropitem specgather 256 7
+dropitem shotgather 256 7
+dropitem revgather 256 7
+dropitem paingather 256 7
+dropitem lostgather 256 7
+dropitem hellgather 256 7
+dropitem fatgather 256 7
+dropitem impgather 256 7
+dropitem demongather 256 7
+dropitem cybergather 256 7
+dropitem cacogather 256 7
+dropitem chaingather 256 7
+dropitem barongather 256 7
+dropitem vilegather 256 7
+dropitem arachgather 256 7
+}
+
+actor levelwarp : randomspawner
+{
+dropitem level01 256 7
+dropitem level02 256 7
+dropitem level03 256 7
+dropitem level04 256 7
+dropitem level05 256 7
+dropitem level06 256 7
+dropitem level07 256 7
+dropitem level08 256 7
+dropitem level09 256 7
+dropitem level10 256 7
+dropitem level11 256 7
+dropitem level12 256 7
+dropitem level13 256 7
+dropitem level14 256 7
+dropitem level15 256 7
+dropitem level16 256 7
+dropitem level17 256 7
+dropitem level18 256 7
+dropitem level19 256 7
+dropitem level20 256 7
+dropitem level21 256 7
+dropitem level22 256 7
+dropitem level23 256 7
+dropitem level24 256 7
+dropitem level25 256 7
+dropitem level26 256 7
+dropitem level27 256 7
+dropitem level28 256 7
+dropitem level29 256 7
+dropitem level30 256 7
+dropitem level31 256 7
+dropitem level32 256 7
+}
+
+actor playerrando : randomspawner
+{
+dropitem playhate 256 7
+dropitem playhate1 256 7
+dropitem playhate2 256 7
+dropitem playhate3 256 7
+dropitem playhate4 256 7
+dropitem playhate5 256 7
+dropitem playhate6 256 7
+dropitem playhate7 256 7
+dropitem playhate8 256 7
+dropitem playhate9 256 7
+dropitem playhate10 256 7
+dropitem playhate11 256 7
+dropitem playhate12 256 7
+dropitem playhate13 256 7
+dropitem playhate14 256 7
+dropitem playhate15 256 7
+dropitem playhate16 256 7
+dropitem playhate17 256 7
+dropitem playhate18 256 7
+dropitem playhate19 256 7
+}
+
+actor arachno : randomspawner
+{
+dropitem arachh1 256 7
+dropitem arachh2 256 7
+dropitem arachh3 256 7
+dropitem arachh4 256 7
+dropitem arachh5 256 7
+dropitem arachh6 256 7
+dropitem arachh7 256 7
+dropitem arachh8 256 7
+dropitem arachh9 256 7
+dropitem arachh10 256 7
+dropitem arachh11 256 7
+dropitem arachh12 256 7
+dropitem arachh13 256 7
+dropitem arachh14 256 7
+dropitem arachh15 256 7
+dropitem arachh16 256 7
+dropitem arachh17 256 7
+dropitem arachh18 256 7
+dropitem arachh19 256 7
+}
+
+actor archno : randomspawner
+{
+dropitem archhateh1 256 7
+dropitem archhateh2 256 7
+dropitem archhateh3 256 7
+dropitem archhateh4 256 7
+dropitem archhateh5 256 7
+dropitem archhateh6 256 7
+dropitem archhateh7 256 7
+dropitem archhateh8 256 7
+dropitem archhateh9 256 7
+dropitem archhateh10 256 7
+dropitem archhateh11 256 7
+dropitem archhateh12 256 7
+dropitem archhateh13 256 7
+dropitem archhateh14 256 7
+dropitem archhateh15 256 7
+dropitem archhateh16 256 7
+dropitem archhateh17 256 7
+dropitem archhateh18 256 7
+dropitem archhateh19 256 7
+}
+
+actor bareno : randomspawner
+{
+dropitem baronh1 256 7
+dropitem baronh2 256 7
+dropitem baronh3 256 7
+dropitem baronh4 256 7
+dropitem baronh5 256 7
+dropitem baronh6 256 7
+dropitem baronh7 256 7
+dropitem baronh8 256 7
+dropitem baronh9 256 7
+dropitem baronh10 256 7
+dropitem baronh11 256 7
+dropitem baronh12 256 7
+dropitem baronh13 256 7
+dropitem baronh14 256 7
+dropitem baronh15 256 7
+dropitem baronh16 256 7
+dropitem baronh17 256 7
+dropitem baronh18 256 7
+dropitem baronh19 256 7
+}
+
+actor cacono : randomspawner
+{
+dropitem cacoh1 256 7
+dropitem cacoh2 256 7
+dropitem cacoh3 256 7
+dropitem cacoh4 256 7
+dropitem cacoh5 256 7
+dropitem cacoh6 256 7
+dropitem cacoh7 256 7
+dropitem cacoh8 256 7
+dropitem cacoh9 256 7
+dropitem cacoh10 256 7
+dropitem cacoh11 256 7
+dropitem cacoh12 256 7
+dropitem cacoh13 256 7
+dropitem cacoh14 256 7
+dropitem cacoh15 256 7
+dropitem cacoh16 256 7
+dropitem cacoh17 256 7
+dropitem cacoh18 256 7
+dropitem cacoh19 256 7
+}
+
+actor chainno : randomspawner
+{
+dropitem chainh1 256 7
+dropitem chainh2 256 7
+dropitem chainh3 256 7
+dropitem chainh4 256 7
+dropitem chainh5 256 7
+dropitem chainh6 256 7
+dropitem chainh7 256 7
+dropitem chainh8 256 7
+dropitem chainh9 256 7
+dropitem chainh10 256 7
+dropitem chainh11 256 7
+dropitem chainh12 256 7
+dropitem chainh13 256 7
+dropitem chainh14 256 7
+dropitem chainh15 256 7
+dropitem chainh16 256 7
+dropitem chainh17 256 7
+dropitem chainh18 256 7
+dropitem chainh19 256 7
+}
+
+actor cyberno : randomspawner
+{
+dropitem cyberh1 256 7
+dropitem cyberh2 256 7
+dropitem cyberh3 256 7
+dropitem cyberh4 256 7
+dropitem cyberh5 256 7
+dropitem cyberh6 256 7
+dropitem cyberh7 256 7
+dropitem cyberh8 256 7
+dropitem cyberh9 256 7
+dropitem cyberh10 256 7
+dropitem cyberh11 256 7
+dropitem cyberh12 256 7
+dropitem cyberh13 256 7
+dropitem cyberh14 256 7
+dropitem cyberh15 256 7
+dropitem cyberh16 256 7
+dropitem cyberh17 256 7
+dropitem cyberh18 256 7
+dropitem cyberh19 256 7
+}
+
+actor demonno : randomspawner
+{
+dropitem demh1 256 7
+dropitem demh2 256 7
+dropitem demh3 256 7
+dropitem demh4 256 7
+dropitem demh5 256 7
+dropitem demh6 256 7
+dropitem demh7 256 7
+dropitem demh8 256 7
+dropitem demh9 256 7
+dropitem demh10 256 7
+dropitem demh11 256 7
+dropitem demh12 256 7
+dropitem demh13 256 7
+dropitem demh14 256 7
+dropitem demh15 256 7
+dropitem demh16 256 7
+dropitem demh17 256 7
+dropitem demh18 256 7
+dropitem demh19 256 7
+}
+
+actor impno : randomspawner
+{
+dropitem imph1 256 7
+dropitem imph2 256 7
+dropitem imph3 256 7
+dropitem imph4 256 7
+dropitem imph5 256 7
+dropitem imph6 256 7
+dropitem imph7 256 7
+dropitem imph8 256 7
+dropitem imph9 256 7
+dropitem imph10 256 7
+dropitem imph11 256 7
+dropitem imph12 256 7
+dropitem imph13 256 7
+dropitem imph14 256 7
+dropitem imph15 256 7
+dropitem imph16 256 7
+dropitem imph17 256 7
+dropitem imph18 256 7
+dropitem imph19 256 7
+}
+
+actor fatno : randomspawner
+{
+dropitem fath1 256 7
+dropitem fath2 256 7
+dropitem fath3 256 7
+dropitem fath4 256 7
+dropitem fath5 256 7
+dropitem fath6 256 7
+dropitem fath7 256 7
+dropitem fath8 256 7
+dropitem fath9 256 7
+dropitem fath10 256 7
+dropitem fath11 256 7
+dropitem fath12 256 7
+dropitem fath13 256 7
+dropitem fath14 256 7
+dropitem fath15 256 7
+dropitem fath16 256 7
+dropitem fath17 256 7
+dropitem fath18 256 7
+dropitem fath19 256 7
+}
+
+actor hellno : randomspawner
+{
+dropitem hellh1 256 7
+dropitem hellh2 256 7
+dropitem hellh3 256 7
+dropitem hellh4 256 7
+dropitem hellh5 256 7
+dropitem hellh6 256 7
+dropitem hellh7 256 7
+dropitem hellh8 256 7
+dropitem hellh9 256 7
+dropitem hellh10 256 7
+dropitem hellh11 256 7
+dropitem hellh12 256 7
+dropitem hellh13 256 7
+dropitem hellh14 256 7
+dropitem hellh15 256 7
+dropitem hellh16 256 7
+dropitem hellh17 256 7
+dropitem hellh18 256 7
+dropitem hellh19 256 7
+}
+
+actor lostno : randomspawner
+{
+dropitem losth1 256 7
+dropitem losth2 256 7
+dropitem losth3 256 7
+dropitem losth4 256 7
+dropitem losth5 256 7
+dropitem losth6 256 7
+dropitem losth7 256 7
+dropitem losth8 256 7
+dropitem losth9 256 7
+dropitem losth10 256 7
+dropitem losth11 256 7
+dropitem losth12 256 7
+dropitem losth13 256 7
+dropitem losth14 256 7
+dropitem losth15 256 7
+dropitem losth16 256 7
+dropitem losth17 256 7
+dropitem losth18 256 7
+dropitem losth19 256 7
+}
+
+actor painno : randomspawner
+{
+dropitem painh1 256 7
+dropitem painh2 256 7
+dropitem painh3 256 7
+dropitem painh4 256 7
+dropitem painh5 256 7
+dropitem painh6 256 7
+dropitem painh7 256 7
+dropitem painh8 256 7
+dropitem painh9 256 7
+dropitem painh10 256 7
+dropitem painh11 256 7
+dropitem painh12 256 7
+dropitem painh13 256 7
+dropitem painh14 256 7
+dropitem painh15 256 7
+dropitem painh16 256 7
+dropitem painh17 256 7
+dropitem painh18 256 7
+dropitem painh19 256 7
+}
+
+actor revno : randomspawner
+{
+dropitem revh1 256 7
+dropitem revh2 256 7
+dropitem revh3 256 7
+dropitem revh4 256 7
+dropitem revh5 256 7
+dropitem revh6 256 7
+dropitem revh7 256 7
+dropitem revh8 256 7
+dropitem revh9 256 7
+dropitem revh10 256 7
+dropitem revh11 256 7
+dropitem revh12 256 7
+dropitem revh13 256 7
+dropitem revh14 256 7
+dropitem revh15 256 7
+dropitem revh16 256 7
+dropitem revh17 256 7
+dropitem revh18 256 7
+dropitem revh19 256 7
+}
+
+actor shotno : randomspawner
+{
+dropitem shoth1 256 7
+dropitem shoth2 256 7
+dropitem shoth3 256 7
+dropitem shoth4 256 7
+dropitem shoth5 256 7
+dropitem shoth6 256 7
+dropitem shoth7 256 7
+dropitem shoth8 256 7
+dropitem shoth9 256 7
+dropitem shoth10 256 7
+dropitem shoth11 256 7
+dropitem shoth12 256 7
+dropitem shoth13 256 7
+dropitem shoth14 256 7
+dropitem shoth15 256 7
+dropitem shoth16 256 7
+dropitem shoth17 256 7
+dropitem shoth18 256 7
+dropitem shoth19 256 7
+}
+
+actor specno : randomspawner
+{
+dropitem spech1 256 7
+dropitem spech2 256 7
+dropitem spech3 256 7
+dropitem spech4 256 7
+dropitem spech5 256 7
+dropitem spech6 256 7
+dropitem spech7 256 7
+dropitem spech8 256 7
+dropitem spech9 256 7
+dropitem spech10 256 7
+dropitem spech11 256 7
+dropitem spech12 256 7
+dropitem spech13 256 7
+dropitem spech14 256 7
+dropitem spech15 256 7
+dropitem spech16 256 7
+dropitem spech17 256 7
+dropitem spech18 256 7
+dropitem spech19 256 7
+}
+
+actor spidno : randomspawner
+{
+dropitem spidh1 256 7
+dropitem spidh2 256 7
+dropitem spidh3 256 7
+dropitem spidh4 256 7
+dropitem spidh5 256 7
+dropitem spidh6 256 7
+dropitem spidh7 256 7
+dropitem spidh8 256 7
+dropitem spidh9 256 7
+dropitem spidh10 256 7
+dropitem spidh11 256 7
+dropitem spidh12 256 7
+dropitem spidh13 256 7
+dropitem spidh14 256 7
+dropitem spidh15 256 7
+dropitem spidh16 256 7
+dropitem spidh17 256 7
+dropitem spidh18 256 7
+dropitem spidh19 256 7
+}
+
+actor wolfno : randomspawner
+{
+dropitem wolfh1 256 7
+dropitem wolfh2 256 7
+dropitem wolfh3 256 7
+dropitem wolfh4 256 7
+dropitem wolfh5 256 7
+dropitem wolfh6 256 7
+dropitem wolfh7 256 7
+dropitem wolfh8 256 7
+dropitem wolfh9 256 7
+dropitem wolfh10 256 7
+dropitem wolfh11 256 7
+dropitem wolfh12 256 7
+dropitem wolfh13 256 7
+dropitem wolfh14 256 7
+dropitem wolfh15 256 7
+dropitem wolfh16 256 7
+dropitem wolfh17 256 7
+dropitem wolfh18 256 7
+dropitem wolfh19 256 7
+}
+
+actor zombno : randomspawner
+{
+dropitem zombh1 256 7
+dropitem zombh2 256 7
+dropitem zombh3 256 7
+dropitem zombh4 256 7
+dropitem zombh5 256 7
+dropitem zombh6 256 7
+dropitem zombh7 256 7
+dropitem zombh8 256 7
+dropitem zombh9 256 7
+dropitem zombh10 256 7
+dropitem zombh11 256 7
+dropitem zombh12 256 7
+dropitem zombh13 256 7
+dropitem zombh14 256 7
+dropitem zombh15 256 7
+dropitem zombh16 256 7
+dropitem zombh17 256 7
+dropitem zombh18 256 7
+dropitem zombh19 256 7
+}
+
+actor randomhate : randomspawner
+{
+dropitem fatno 256 7
+dropitem impno 256 7
+dropitem demonno 256 7
+dropitem chainno 256 7
+dropitem cyberno 256 7
+dropitem cacono 256 7
+dropitem bareno 256 7
+dropitem zombno 256 7
+dropitem spidno 256 7
+dropitem specno 256 7
+dropitem shotno 256 7
+dropitem revno 256 7
+dropitem painno 256 7
+dropitem lostno 256 7
+dropitem hellno 256 7
+dropitem arachno 256 7
+dropitem archno 256 7
+dropitem wolfno 256 7
+}
+
+actor raiserando : randomspawner
+{
+dropitem raise1 256 7
+dropitem raise2 256 7
+dropitem raise3 256 7
+dropitem raise4 256 7
+dropitem raise5 256 7
+dropitem raise6 256 7
+dropitem raise7 256 7
+dropitem raise8 256 7
+dropitem raise9 256 7
+dropitem raise10 256 7
+dropitem raise11 256 7
+dropitem raise12 256 7
+dropitem raise13 256 7
+dropitem raise14 256 7
+dropitem raise15 256 7
+dropitem raise16 256 7
+dropitem raise17 256 7
+dropitem raise18 256 7
+dropitem raise19 256 7
+dropitem raise20 256 7
+}
+
+actor randomonster : randomspawner
+{
+dropitem zombieman2 256 7
+dropitem wolfensteinss2 256 7
+dropitem spidermastermind2 256 7
+dropitem pinky2 256 7
+dropitem spectre2 256 7
+dropitem shotgunguy2 256 7
+dropitem revenant2 256 7
+dropitem lostsoul2 256 7
+dropitem baronofhell2 256 7
+dropitem hellknight2 256 7
+dropitem fatso2 256 7
+dropitem doomimp2 256 7
+dropitem cacodemon2 256 7
+dropitem cyberdemon2 256 7
+dropitem chaingunguy2 256 7
+dropitem arachnotron2 256 7
+dropitem  archvile2 256 7
+}
+
+actor randomode : randomspawner
+{
+dropitem levelpopulate 256 7
+dropitem levelpopulate1 256 7
+dropitem levelpopulate2 256 7
+dropitem levelpopulate5 256 7
+dropitem levelpopulate6 256 7
+dropitem levelpopulate4 256 7
+dropitem levelpopulate7 256 7
+dropitem levelpopulate8 256 7
+dropitem levelpopulate9 256 7
+dropitem levelpopulate10 256 7
+dropitem levelpopulate11 256 7
+dropitem levelpopulate12 256 7
+}

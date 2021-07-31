@@ -1,0 +1,269 @@
+actor playhate
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(1,42,2)
+stop
+}
+}
+
+actor playhate1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(2,42,2)
+stop
+}
+}
+
+actor playhate2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(3,42,2)
+stop
+}
+}
+
+actor playhate3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(4,42,2)
+stop
+}
+}
+
+actor playhate4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(5,42,2)
+stop
+}
+}
+
+actor playhate5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(6,42,2)
+stop
+}
+}
+
+actor playhate6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(7,42,2)
+stop
+}
+}
+
+actor playhate7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(8,42,2)
+stop
+}
+}
+
+actor playhate8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(9,42,2)
+stop
+}
+}
+
+actor playhate9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(10,42,2)
+stop
+}
+}
+
+actor playhate10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(11,42,2)
+stop
+}
+}
+
+actor playhate11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(12,42,2)
+stop
+}
+}
+
+actor playhate12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(13,42,2)
+stop
+}
+}
+
+actor playhate13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(14,42,2)
+stop
+}
+}
+
+actor playhate14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(15,42,2)
+stop
+}
+}
+
+actor playhate15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(16,42,2)
+stop
+}
+}
+
+actor playhate16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(17,42,2)
+stop
+}
+}
+
+actor playhate17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(18,42,2)
+stop
+}
+}
+
+actor playhate18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(19,42,2)
+stop
+}
+}
+
+actor playhate19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(20,42,2)
+stop
+}
+}
+
+actor playerdeath
+{
+States
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate1")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate2")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate3")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate4")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate5")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate6")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate7")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate8")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate9")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate10")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate11")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate12")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate13")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate14")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate15")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate16")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate17")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate18")
+tnt1 a 100
+tnt1 a 0 a_spawnitem("playhate19")
+stop
+}
+}
+

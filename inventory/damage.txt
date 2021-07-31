@@ -1,0 +1,333 @@
+actor damage : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(1)
+stop
+}
+}
+actor damage1 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(2)
+stop
+}
+}
+
+actor damage2 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(3)
+stop
+}
+}
+
+actor damage3 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(4)
+stop
+}
+}
+
+actor damage4: custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(5)
+stop
+}
+}
+
+actor damage5 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(6)
+stop
+}
+}
+
+actor damage6: custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(7)
+stop
+}
+}
+
+actor damage7 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(8)
+stop
+}
+}
+
+actor damage8: custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(9)
+stop
+}
+}
+
+actor damage9: custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(10)
+stop
+}
+}
+
+
+actor damagegift: custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_jump(256,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10")
+stop
+a1:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage",1)
+stop
+a2:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage1",1)
+stop
+a3:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage2",1)
+stop
+a4:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage3",1)
+stop
+a5:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage4",1)
+stop
+a6:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage5",1)
+stop
+a7:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage6",1)
+stop
+a8:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage7",1)
+stop
+a9:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage8",1)
+stop
+a10:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("damage9",1)
+stop
+}
+}
+
+actor kinbrain 
+{
++quicktoretaliate
++missilemore
++missileevenmore
++doharmspecies
++noblooddecals
++alwaysfast
+speed 2
+health 500000
+mass 5000
+speed 0
+monster
+states
+{
+Spawn:
+    BBRN A 10 a_look
+    loop
+    see:
+    bbrn a 10 a_chase
+    loop
+    missile:
+    bbrn a 2
+     tnt1 a 0 a_jump(256,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+    loop
+    a1:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+goto see
+    a2:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage2",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+goto see
+a3:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage3",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+goto see
+    a4:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage4",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+goto see
+    a6:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage5",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+goto see
+    a7:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage6",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+goto see
+    a8:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage7",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+goto see
+    a10:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage8",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+goto see
+    a12:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("ouch",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+    goto see
+    a13:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage9",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a12","a13")
+    goto see
+    }
+    }
+   
+actor kinbrain1
+{
++quicktoretaliate
++missilemore
++missileevenmore
++doharmspecies
++noblooddecals
++alwaysfast
+health 500000
+mass 5000
+speed 0
+monster
+states
+{
+Spawn:
+    BBRN A 10 a_look
+    loop
+    see:
+    bbrn a 10 a_chase
+    loop
+    missile:
+    bbrn a 2
+     tnt1 a 0 a_jump(256,"a1","a2","a3","a4","a5","a6")
+    loop
+    a1:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6")
+goto see
+    a2:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage2",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6")
+goto see
+a3:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage3",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6")
+goto see
+    a4:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage4",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6")
+goto see
+a5:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage5",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6")
+goto see
+    a6:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("damage6",1)
+    tnt1 a 0 a_jump(150,"a1","a2","a3","a4","a5","a6")
+goto see 
+}
+}

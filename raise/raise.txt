@@ -1,0 +1,280 @@
+actor raise1
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(1,0)
+stop
+}
+}
+
+actor raise2
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(2,1)
+stop
+}
+}
+
+actor raise3
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(3,1)
+stop
+}
+}
+
+actor raise4
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(4,0)
+stop
+}
+}
+
+actor raise5
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(5,0)
+stop
+}
+}
+
+actor raise6
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(6,0)
+stop
+}
+}
+
+actor raise7
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(7,0)
+stop
+}
+}
+
+actor raise8
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(8,0)
+stop
+}
+}
+
+actor raise9
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(9,0)
+stop
+}
+}
+
+actor raise10
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(10,0)
+stop
+}
+}
+
+actor raise11
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(11,0)
+stop
+}
+}
+
+actor raise12
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(12,0)
+stop
+}
+}
+
+actor raise13
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(13,0)
+stop
+}
+}
+
+actor raise14
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(14,0)
+stop
+}
+}
+
+actor raise15
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(15,0)
+stop
+}
+}
+
+actor raise16
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(16,0)
+stop
+}
+}
+
+actor raise17
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(17,0)
+stop
+}
+}
+
+actor raise18
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(18,0)
+stop
+}
+}
+
+actor raise19
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(19,0)
+stop
+}
+}
+
+actor raise20
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_raise(20,0)
+stop
+}
+}
+
+actor allraise
+{
+states
+{
+spawn:
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise1")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise2")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise3")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise4")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise5")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise6")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise7")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise8")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise9")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise10")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise11")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise12")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise13")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise14")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise15")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise16")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise17")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise18")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise19")
+tnt1 a 75
+tnt1 a 0 a_spawnitem("raise20")
+stop
+}
+}
+
+actor allraise1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("allraise")
+stop
+}
+}
+

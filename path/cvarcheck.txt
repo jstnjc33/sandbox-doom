@@ -1,0 +1,1308 @@
+actor pcheck1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(arachp==1,"path1")
+tnt1 a 0 a_jumpif(arachp==2,"path2")
+tnt1 a 0 a_jumpif(arachp==3,"path3")
+tnt1 a 0 a_jumpif(arachp==4,"path4")
+tnt1 a 0 a_jumpif(arachp==5,"path5")
+tnt1 a 0 a_jumpif(arachp==6,"path6")
+tnt1 a 0 a_jumpif(arachp==7,"path7")
+tnt1 a 0 a_jumpif(arachp==8,"path8")
+tnt1 a 0 a_jumpif(arachp==9,"path9")
+tnt1 a 0 a_jumpif(arachp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachp10")
+stop
+}
+}
+
+actor pcheck2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(vilep==1,"path1")
+tnt1 a 0 a_jumpif(vilep==2,"path2")
+tnt1 a 0 a_jumpif(vilep==3,"path3")
+tnt1 a 0 a_jumpif(vilep==4,"path4")
+tnt1 a 0 a_jumpif(vilep==5,"path5")
+tnt1 a 0 a_jumpif(vilep==6,"path6")
+tnt1 a 0 a_jumpif(vilep==7,"path7")
+tnt1 a 0 a_jumpif(vilep==8,"path8")
+tnt1 a 0 a_jumpif(vilep==9,"path9")
+tnt1 a 0 a_jumpif(vilep==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilep10")
+stop
+}
+}
+
+actor pcheck3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(baronp==1,"path1")
+tnt1 a 0 a_jumpif(baronp==2,"path2")
+tnt1 a 0 a_jumpif(baronp==3,"path3")
+tnt1 a 0 a_jumpif(baronp==4,"path4")
+tnt1 a 0 a_jumpif(baronp==5,"path5")
+tnt1 a 0 a_jumpif(baronp==6,"path6")
+tnt1 a 0 a_jumpif(baronp==7,"path7")
+tnt1 a 0 a_jumpif(baronp==8,"path8")
+tnt1 a 0 a_jumpif(baronp==9,"path9")
+tnt1 a 0 a_jumpif(baronp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronp10")
+stop
+}
+}
+
+actor pcheck4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(cacop==1,"path1")
+tnt1 a 0 a_jumpif(cacop==2,"path2")
+tnt1 a 0 a_jumpif(cacop==3,"path3")
+tnt1 a 0 a_jumpif(cacop==4,"path4")
+tnt1 a 0 a_jumpif(cacop==5,"path5")
+tnt1 a 0 a_jumpif(cacop==6,"path6")
+tnt1 a 0 a_jumpif(cacop==7,"path7")
+tnt1 a 0 a_jumpif(cacop==8,"path8")
+tnt1 a 0 a_jumpif(cacop==9,"path9")
+tnt1 a 0 a_jumpif(cacop==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacop10")
+stop
+}
+}
+
+actor pcheck5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(chainp==1,"path1")
+tnt1 a 0 a_jumpif(chainp==2,"path2")
+tnt1 a 0 a_jumpif(chainp==3,"path3")
+tnt1 a 0 a_jumpif(chainp==4,"path4")
+tnt1 a 0 a_jumpif(chainp==5,"path5")
+tnt1 a 0 a_jumpif(chainp==6,"path6")
+tnt1 a 0 a_jumpif(chainp==7,"path7")
+tnt1 a 0 a_jumpif(chainp==8,"path8")
+tnt1 a 0 a_jumpif(chainp==9,"path9")
+tnt1 a 0 a_jumpif(chainp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp3")
+stop
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainp10")
+stop
+}
+}
+
+actor pcheck6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(cyberp==1,"path1")
+tnt1 a 0 a_jumpif(cyberp==2,"path2")
+tnt1 a 0 a_jumpif(cyberp==3,"path3")
+tnt1 a 0 a_jumpif(cyberp==4,"path4")
+tnt1 a 0 a_jumpif(cyberp==5,"path5")
+tnt1 a 0 a_jumpif(cyberp==6,"path6")
+tnt1 a 0 a_jumpif(cyberp==7,"path7")
+tnt1 a 0 a_jumpif(cyberp==8,"path8")
+tnt1 a 0 a_jumpif(cyberp==9,"path9")
+tnt1 a 0 a_jumpif(cyberp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberp10")
+stop
+}
+}
+
+actor pcheck7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(demp==1,"path1")
+tnt1 a 0 a_jumpif(demp==2,"path2")
+tnt1 a 0 a_jumpif(demp==3,"path3")
+tnt1 a 0 a_jumpif(demp==4,"path4")
+tnt1 a 0 a_jumpif(demp==5,"path5")
+tnt1 a 0 a_jumpif(demp==6,"path6")
+tnt1 a 0 a_jumpif(demp==7,"path7")
+tnt1 a 0 a_jumpif(demp==8,"path8")
+tnt1 a 0 a_jumpif(demp==9,"path9")
+tnt1 a 0 a_jumpif(demp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonp10")
+stop
+}
+}
+
+actor pcheck8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(fatp==1,"path1")
+tnt1 a 0 a_jumpif(fatp==2,"path2")
+tnt1 a 0 a_jumpif(fatp==3,"path3")
+tnt1 a 0 a_jumpif(fatp==4,"path4")
+tnt1 a 0 a_jumpif(fatp==5,"path5")
+tnt1 a 0 a_jumpif(fatp==6,"path6")
+tnt1 a 0 a_jumpif(fatp==7,"path7")
+tnt1 a 0 a_jumpif(fatp==8,"path8")
+tnt1 a 0 a_jumpif(fatp==9,"path9")
+tnt1 a 0 a_jumpif(fatp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatp10")
+stop
+}
+}
+
+actor pcheck9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(hellp==1,"path1")
+tnt1 a 0 a_jumpif(hellp==2,"path2")
+tnt1 a 0 a_jumpif(hellp==3,"path3")
+tnt1 a 0 a_jumpif(hellp==4,"path4")
+tnt1 a 0 a_jumpif(hellp==5,"path5")
+tnt1 a 0 a_jumpif(hellp==6,"path6")
+tnt1 a 0 a_jumpif(hellp==7,"path7")
+tnt1 a 0 a_jumpif(hellp==8,"path8")
+tnt1 a 0 a_jumpif(hellp==9,"path9")
+tnt1 a 0 a_jumpif(hellp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellp10")
+stop
+}
+}
+
+actor pcheck10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(impp==1,"path1")
+tnt1 a 0 a_jumpif(impp==2,"path2")
+tnt1 a 0 a_jumpif(impp==3,"path3")
+tnt1 a 0 a_jumpif(impp==4,"path4")
+tnt1 a 0 a_jumpif(impp==5,"path5")
+tnt1 a 0 a_jumpif(impp==6,"path6")
+tnt1 a 0 a_jumpif(impp==7,"path7")
+tnt1 a 0 a_jumpif(impp==8,"path8")
+tnt1 a 0 a_jumpif(impp==9,"path9")
+tnt1 a 0 a_jumpif(impp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impp10")
+stop
+}
+}
+
+actor pcheck11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(lostp==1,"path1")
+tnt1 a 0 a_jumpif(lostp==2,"path2")
+tnt1 a 0 a_jumpif(lostp==3,"path3")
+tnt1 a 0 a_jumpif(lostp==4,"path4")
+tnt1 a 0 a_jumpif(lostp==5,"path5")
+tnt1 a 0 a_jumpif(lostp==6,"path6")
+tnt1 a 0 a_jumpif(lostp==7,"path7")
+tnt1 a 0 a_jumpif(lostp==8,"path8")
+tnt1 a 0 a_jumpif(lostp==9,"path9")
+tnt1 a 0 a_jumpif(lostp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostp10")
+stop
+}
+}
+
+actor pcheck12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(revp==1,"path1")
+tnt1 a 0 a_jumpif(revp==2,"path2")
+tnt1 a 0 a_jumpif(revp==3,"path3")
+tnt1 a 0 a_jumpif(revp==4,"path4")
+tnt1 a 0 a_jumpif(revp==5,"path5")
+tnt1 a 0 a_jumpif(revp==6,"path6")
+tnt1 a 0 a_jumpif(revp==7,"path7")
+tnt1 a 0 a_jumpif(revp==8,"path8")
+tnt1 a 0 a_jumpif(revp==9,"path9")
+tnt1 a 0 a_jumpif(revp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revp10")
+stop
+}
+}
+
+actor pcheck13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(painp==1,"path1")
+tnt1 a 0 a_jumpif(painp==2,"path2")
+tnt1 a 0 a_jumpif(painp==3,"path3")
+tnt1 a 0 a_jumpif(painp==4,"path4")
+tnt1 a 0 a_jumpif(painp==5,"path5")
+tnt1 a 0 a_jumpif(painp==6,"path6")
+tnt1 a 0 a_jumpif(painp==7,"path7")
+tnt1 a 0 a_jumpif(painp==8,"path8")
+tnt1 a 0 a_jumpif(painp==9,"path9")
+tnt1 a 0 a_jumpif(painp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painp10")
+stop
+}
+}
+
+actor pcheck14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(shotp==1,"path1")
+tnt1 a 0 a_jumpif(shotp==2,"path2")
+tnt1 a 0 a_jumpif(shotp==3,"path3")
+tnt1 a 0 a_jumpif(shotp==4,"path4")
+tnt1 a 0 a_jumpif(shotp==5,"path5")
+tnt1 a 0 a_jumpif(shotp==6,"path6")
+tnt1 a 0 a_jumpif(shotp==7,"path7")
+tnt1 a 0 a_jumpif(shotp==8,"path8")
+tnt1 a 0 a_jumpif(shotp==9,"path9")
+tnt1 a 0 a_jumpif(shotp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotp10")
+stop
+}
+}
+
+actor pcheck15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(specp==1,"path1")
+tnt1 a 0 a_jumpif(specp==2,"path2")
+tnt1 a 0 a_jumpif(specp==3,"path3")
+tnt1 a 0 a_jumpif(specp==4,"path4")
+tnt1 a 0 a_jumpif(specp==5,"path5")
+tnt1 a 0 a_jumpif(specp==6,"path6")
+tnt1 a 0 a_jumpif(specp==7,"path7")
+tnt1 a 0 a_jumpif(specp==8,"path8")
+tnt1 a 0 a_jumpif(specp==9,"path9")
+tnt1 a 0 a_jumpif(specp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specp10")
+stop
+}
+}
+
+actor pcheck16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(spidp==1,"path1")
+tnt1 a 0 a_jumpif(spidp==2,"path2")
+tnt1 a 0 a_jumpif(spidp==3,"path3")
+tnt1 a 0 a_jumpif(spidp==4,"path4")
+tnt1 a 0 a_jumpif(spidp==5,"path5")
+tnt1 a 0 a_jumpif(spidp==6,"path6")
+tnt1 a 0 a_jumpif(spidp==7,"path7")
+tnt1 a 0 a_jumpif(spidp==8,"path8")
+tnt1 a 0 a_jumpif(spidp==9,"path9")
+tnt1 a 0 a_jumpif(spidp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidp10")
+stop
+}
+}
+actor pcheck17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(wolfp==1,"path1")
+tnt1 a 0 a_jumpif(wolfp==2,"path2")
+tnt1 a 0 a_jumpif(wolfp==3,"path3")
+tnt1 a 0 a_jumpif(wolfp==4,"path4")
+tnt1 a 0 a_jumpif(wolfp==5,"path5")
+tnt1 a 0 a_jumpif(wolfp==6,"path6")
+tnt1 a 0 a_jumpif(wolfp==7,"path7")
+tnt1 a 0 a_jumpif(wolfp==8,"path8")
+tnt1 a 0 a_jumpif(wolfp==9,"path9")
+tnt1 a 0 a_jumpif(wolfp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfp10")
+stop
+}
+}
+
+actor pcheck18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(zombp==1,"path1")
+tnt1 a 0 a_jumpif(zombp==2,"path2")
+tnt1 a 0 a_jumpif(zombp==3,"path3")
+tnt1 a 0 a_jumpif(zombp==4,"path4")
+tnt1 a 0 a_jumpif(zombp==5,"path5")
+tnt1 a 0 a_jumpif(zombp==6,"path6")
+tnt1 a 0 a_jumpif(zombp==7,"path7")
+tnt1 a 0 a_jumpif(zombp==8,"path8")
+tnt1 a 0 a_jumpif(zombp==9,"path9")
+tnt1 a 0 a_jumpif(zombp==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombp10")
+stop
+}
+}
+
+actor pointcheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(point==1,"path1")
+tnt1 a 0 a_jumpif(point==2,"path2")
+tnt1 a 0 a_jumpif(point==3,"path3")
+tnt1 a 0 a_jumpif(point==4,"path4")
+tnt1 a 0 a_jumpif(point==5,"path5")
+tnt1 a 0 a_jumpif(point==6,"path6")
+tnt1 a 0 a_jumpif(point==7,"path7")
+tnt1 a 0 a_jumpif(point==8,"path8")
+tnt1 a 0 a_jumpif(point==9,"path9")
+tnt1 a 0 a_jumpif(point==10,"path10")
+stop
+path1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot1")
+stop
+
+path2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot2")
+stop
+
+path3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot3")
+stop
+
+path4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot4")
+stop
+
+path5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot5")
+stop
+
+path6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot6")
+stop
+
+path7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot7")
+stop
+
+path8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot8")
+stop
+
+path9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot9")
+stop
+
+path10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spot10")
+stop
+}
+}

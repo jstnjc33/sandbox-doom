@@ -1,0 +1,13 @@
+actor explode1
+{
+explosiondamage 5
+explosionradius 150
++forceradiusdmg
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_explode
+stop
+}
+}

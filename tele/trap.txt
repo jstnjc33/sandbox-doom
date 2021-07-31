@@ -1,0 +1,641 @@
+actor trap1
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("trap 1 activated")
+tnt1 a 90
+tnt1 a 0 a_printbold("populating level please wait",10)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon5")
+tnt1 a 50
+tnt1 a 0 a_printbold("changing tids to 1")
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning damagelooper")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("damagelooper")
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning creature warp spot")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning warp death mode 1")
+tnt1 a 50
+tnt1 a 0 teleportother(1,43,1)
+stop
+}
+}
+
+actor trap2
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("trap 2 activated")
+tnt1 a 90
+tnt1 a 0 a_printbold("populating level please wait",10)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon5")
+tnt1 a 50
+tnt1 a 0 a_printbold("changing tids to 1")
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning explodelooper")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("explodelooper")
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning creature warp spot")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning warp death mode 2")
+tnt1 a 50
+tnt1 a 0 teleportother(1,43,1)
+stop
+}
+}
+
+actor trap3
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("trap 3 activated")
+tnt1 a 90
+tnt1 a 0 a_printbold("populating level please wait",10)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon5")
+tnt1 a 50
+tnt1 a 0 a_printbold("changing tids to 1")
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning battlebrain")
+tnt1 a 50
+tnt1 a 0 a_spawnitemex("battlebrain",150,0,0,0,0,0)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning creature warp spot")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 a_printbold("changing battlebrain to friendly")
+tnt1 a 50
+tnt1 a 0 a_spawnitemex("friendgiver",150,0,0,0,0,0,0)
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning trap mode 3")
+tnt1 a 50
+tnt1 a 0 teleportother(1,43,1)
+stop
+}
+}
+
+actor trap4
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("trap 4 activated")
+tnt1 a 90
+tnt1 a 0 a_printbold("populating level please wait",10)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon5")
+tnt1 a 50
+tnt1 a 0 a_printbold("changing tids to 1")
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning kinbrain")
+tnt1 a 50
+tnt1 a 0 a_spawnitemex("kinbrain",150,0,0,0,0,0)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning patrolpoint")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn (43,112,0,1)
+tnt1 a 50
+tnt1 a 0 thing_remove(43)
+tnt1 a 0
+tnt1 a 0 a_printbold("changing kinbrain to friendly")
+tnt1 a 50
+tnt1 a 0 a_spawnitemex("friendgiver",150,0,0,0,0,0,0)
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning deathwalk mode")
+tnt1 a 50
+tnt1 a 0 thing_setgoal(1,1,1)
+stop
+}
+}
+
+actor trap5
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("trap 5 activated")
+tnt1 a 90
+tnt1 a 0 a_printbold("populating level please wait",10)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon5")
+tnt1 a 50
+tnt1 a 0 a_printbold("changing tids to 1")
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning kinbrain")
+tnt1 a 50
+tnt1 a 0 a_spawnitemex("kinbrain",150,0,0,0,0,0)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning creature warp spot")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 a_printbold("changing kinbrain to friendly")
+tnt1 a 50
+tnt1 a 0 a_spawnitemex("friendgiver",150,0,0,0,0,0,0)
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning trap mode 4")
+tnt1 a 50
+tnt1 a 0 teleportother(1,43,1)
+stop
+}
+}
+
+actor trap6
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("cacoking (huntmode) activated")
+tnt1 a 90
+tnt1 a 0 a_printbold("populating level please wait",10)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon5")
+tnt1 a 50
+tnt1 a 0 a_printbold("changing tids to 1")
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning map apot")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 A_printbold("summoning kingcaco")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,175,0,2)
+tnt1 a 50
+tnt1 a 0 a_printbold("removing mapspot")
+tnt1 a 50
+tnt1 a 0 thing_remove(43)
+tnt1 a 50
+tnt1 a 0 a_printbold("changing camera to cacoking")
+tnt1 a 50
+tnt1 a 0 changecamera(2,1,1)
+tnt1 a 50
+tnt1 a 0 a_printbold("death to all")
+tnt1 a 50
+tnt1 a 0 thing_hate (2,1,2)
+stop
+}
+}

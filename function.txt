@@ -1,0 +1,17 @@
+actor testfunc1
+{
+states
+ {
+ spawn:
+ tnt1 a 2
+ tnt1 a 0
+   {
+   if 
+ (hunt1==1)
+    {
+    thing_hate (20,9,2);
+    thing_hate (9,20,2);
+    }
+   }
+  }
+ }

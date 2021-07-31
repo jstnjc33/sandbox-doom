@@ -1,0 +1,34 @@
+actor trapcheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(traps==1,"activate1")
+tnt1 a 0 a_jumpif(traps==2,"activate2")
+tnt1 a 0 a_jumpif(traps==3,"activate3")
+tnt1 a 0 a_jumpif(traps==4,"activate4")
+tnt1 a 0 a_jumpif(traps==5,"activate5")
+stop
+activate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trap1")
+stop
+activate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trap2")
+stop
+activate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trap3")
+stop
+activate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trap4" )
+stop
+activate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem ("trap5")
+stop
+}
+}

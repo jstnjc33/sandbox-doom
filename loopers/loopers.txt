@@ -1,0 +1,57 @@
+actor ouchlooper
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 a_spawnitem("ouchgiver")
+loop
+}
+}
+
+actor poisonlooper
+{
++friendly
++nogravity
++float
+states
+{
+spawn:
+tnt1 a 300
+tnt1 a 0 a_spawnitem("poisonball")
+loop
+}
+}
+
+actor explodelooper
+{
+states
+{
+spawn:
+tnt1 a 75
+tnt1 a 0 a_spawnitem("explodegiver")
+loop
+}
+}
+
+actor poisonlooper1
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_spawnitem("poisongiver")
+loop
+}
+}
+
+actor damagelooper1
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_spawnitem("damagegiver2")
+loop
+}
+}

@@ -1,0 +1,150 @@
+actor tidchange
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 0
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 2
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 a_printbold("tid changing complete")
+stop
+}
+}
+
+actor setup1
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated successfully")
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning tid change")
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 a_printbold("tid changing complete")
+tnt1 a 50
+tnt1 a 0 a_printbold("time")
+tnt1 a 50
+tnt1 a 0 a_printbold("to")
+tnt1 a 50
+tnt1 a 0 a_printbold("fight")
+tnt1 a 50
+tnt1 a 0 thing_hate(1,1,4)
+tnt1 a 50
+stop
+}
+}

@@ -1,0 +1,9 @@
+#library "cvars"
+#include "zcommon.acs"
+
+
+script "change1" (void)
+{
+delay(35);
+setcvar("traps",1);
+}

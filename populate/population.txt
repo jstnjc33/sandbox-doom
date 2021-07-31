@@ -1,0 +1,902 @@
+actor levelpopulate
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("normal mode initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated")
+stop
+}
+}
+
+actor levelpopulate1
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("battle royal mode initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon")
+tnt1 a 50 a_printbold("level populated")
+tnt1 a 0
+tnt1 a 50 a_printbold("setting flags")
+tnt1 a 0 acs_namedexecute("items")
+stop
+}
+}
+
+actor levelpopulate2
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("death mode initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("rumble3")
+stop
+}
+}
+
+actor levelpopulate5
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("poison death mode 2 initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn2")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon2")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated")
+stop
+}
+}
+
+actor levelpopulate6
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("angry monsters mode initializing")
+tnt1 a 90
+tnt1 a 0 a_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(1)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(2)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(3)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(4)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(5)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(6)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(7)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(8)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(9)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(10)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(11)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(12)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(13)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(15)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(16)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(17)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(18)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(19)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon3")
+tnt1 a 2
+tnt1 a 0 thing_deactivate(20)
+tnt1 a 2
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 10 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 9 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 8 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 7 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 6 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 5 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 4 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 3 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 2 seconds")
+tnt1 a 50
+tnt1 a 0 a_printbold("chaos in 1 second")
+tnt1 a 50
+tnt1 a 0 a_printbold("i hope you have a fast computer...let there be chaos")
+tnt1 a 0 a_playsound("battle/start",chan_auto,1.0,false,attn_none)
+tnt1 a 100
+tnt1 a 0 thing_activate(1)
+tnt1 a 0 thing_activate(2)
+tnt1 a 0 thing_activate(3)
+tnt1 a 0 thing_activate(4)
+tnt1 a 0 thing_activate(5)
+tnt1 a 0 thing_activate(6)
+tnt1 a 0 thing_activate(7)
+tnt1 a 0 thing_activate(8)
+tnt1 a 0 thing_activate(9)
+tnt1 a 0 thing_activate(10)
+tnt1 a 0 thing_activate(11)
+tnt1 a 0 thing_activate(12)
+tnt1 a 0 thing_activate(13)
+tnt1 a 0 thing_activate(14)
+tnt1 a 0 thing_activate(15)
+tnt1 a 0 thing_activate(16)
+tnt1 a 0 thing_activate(17)
+tnt1 a 0 thing_activate(18)
+tnt1 a 0 thing_activate(19)
+tnt1 a 0 thing_activate(20) 
+stop
+}
+}
+
+actor levelpopulate3
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("poison death mode 1 initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn4")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon4")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated")
+stop
+}
+}
+
+actor levelpopulate4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("levelpopulate3")
+stop
+}
+}
+
+actor levelpopulate7
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("teleport death mode initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon5")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated")
+stop
+}
+}
+
+actor levelpopulate8
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("random monster mode initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn6")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon6")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated")
+stop
+}
+}
+
+actor levelpopulate9
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("blind monster mode initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn7")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon7")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated")
+stop
+}
+}
+
+actor levelpopulate10
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("monster stealth mode initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated successfully")
+tnt1 a 50
+tnt1 a 0 acs_namedexecute("stealthsetup",0)
+stop
+}
+}
+
+actor levelpopulate11
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("noisealert mode initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn9")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon9")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated successfully")
+tnt1 a 50
+tnt1 a 0 a_printbold("enjoy the chaos")
+stop
+}
+}
+
+actor levelpopulate12
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("monster pain mode 1 initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn10")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon10")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated successfully")
+tnt1 a 50
+tnt1 a 0 a_printbold("enjoy")
+stop
+}
+}
+
+actor flood
+{
+reactiontime 351
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp22")
+tnt1 a 0 a_jump(256,"flood")
+flood:
+tnt1 a 36
+tnt1 a 0 thing_spawn(44,219,0,1)
+tnt1 a 36
+tnt1 a 0 thing_setgoal(1,2,1)
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("pc",0)
+tnt1 a 0 a_countdown
+loop
+}
+}
+
+actor deathv1
+{
+states
+{
+spawn:
+tnt1 a 75
+tnt1 a 0 thing_spawn(21,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(22,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(23,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(24,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(25,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(26,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(27,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(28,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(29,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(30,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(31,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(32,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(33,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(34,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(35,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(36,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(37,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(38,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(39,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(40,113,0,0)
+tnt1 a 75
+tnt1 a 0 thing_spawn(41,113,0,0)
+stop
+}
+}
+
+actor randomode1
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_printbold("random mode being selected")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("randomode")
+stop
+}
+}
+
+actor levelpopulate13
+{
+states
+{
+spawn:
+tnt1 a 90
+tnt1 a 0 a_printbold("poison death mode 3 initializing")
+tnt1 a 90
+tnt1 a 0 A_printbold("populating level please wait")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachspawn11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vilespawn11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronspawn11")
+tnt1 a 50
+tnt1 a 0 a_spawnItem("cacospawn11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainspawn11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keenspawn11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybersummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demonsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("barrellsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("specsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidersummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfsummon11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombsummon11")
+tnt1 a 50
+tnt1 a 0 a_printbold("level populated")
+stop
+}
+}
+

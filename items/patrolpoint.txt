@@ -1,0 +1,14 @@
+actor pt2 : patrolpoint
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 a_checkproximity("death","testmarine",20,1)
+loop
+death:
+tnt1 a 200
+tnt1 a 0 thing_remove(45)
+stop
+}
+}

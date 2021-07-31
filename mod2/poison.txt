@@ -1,0 +1,35 @@
+actor poisonball : doomimpball
+{
++seekermissile
++bounceonwalls
++bounceonfloors
++bounceonceilings
++nogravity
++float
+damage 0
+poisondamage 7,9999
+states
+{
+spawn:
+bal1 ab 4 bright
+tnt1 a 0 a_seekermissile(90,90,smf_look)
+loop
+}
+}
+
+actor poisonkiller
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+goto missile
+missile:
+tnt1 a 200
+tnt1 a 0 a_custommissile("poisonball")
+stop
+}
+}
+

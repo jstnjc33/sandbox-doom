@@ -1,0 +1,4 @@
+#include tele/cvarcheck.txt
+#include tele/monsters.txt
+#include tele/tidchange.txt
+#include tele/trap.txt

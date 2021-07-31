@@ -1,0 +1,64 @@
+actor kingbaron : baronofhell2
+{
++friendly
++invulnerable
++noblockmonst
++lookallaround
++jumpdown
+}
+
+actor kingcaco : cacodemon2
+{
++friendly
++invulnerable
++noblockmonst
++lookallaround
++jumpdown
+}
+
+actor kingimp : doomimp2
+{
++friendly
++invulnerable
++noblockmonst
++lookallaround
++jumpdown
+states
+{
+idle:
+troo abcd 4
+{
+a_look;
+a_wander;
+}
+}
+}
+
+actor kingsummon
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,174,0,20)
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,174,0,20)
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,174,0,20)
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,174,0,20)
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,175,0,20)
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,175,0,20)
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,175,0,20)
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,175,0,20)
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+stop
+}
+}

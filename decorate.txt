@@ -1,0 +1,42 @@
+
+ #include monsters/base.txt
+ #include mod1/mod2.txt
+ #include items/edited.txt
+ #include items/patrolpoint.txt
+ #include items/mapspots.txt
+ #include lol/lol.txt
+ #include angry/angry.txt
+ #include battle/battle.txt
+ #include blind/blind.txt
+ #includegather/gather.txt
+ #include givers/givers.txt
+ #include hate/creaturehate.txt
+ #include hate/friendhate.txt
+ #include hate/cvarcheck.txt
+ #include inventory/custominventory.txt
+ #include inventory/damage.txt
+ #include inventory1/custominventory.txt
+ #include inventory1/cvarcheck.txt
+ #include kings/kings.txt
+ #include levels/levels.txt
+ #include levels/warper.txt
+ #include loopers/loopers.txt
+ #include noise/monsters.txt
+ #include pain/monsters.txt
+ #include path/point.txt
+ #include path/path.txt
+ #include path/cvarcheck.txt
+ #include playerhate/playerhate.txt
+ #include poison/monsters.txt
+ #include poison1/monsters.txt
+ #include poison1/spreader.txt
+ #include poison2/poison.txt
+ #include populate/cvarcheck.txt
+ #include populate/population.txt
+ #include raise/raise.txt
+ #include random/randomspawner.txt
+ #include stuff/explode1.txt
+ #include stuff/friend.txt
+ #include summon/summon.txt
+ #include tele/setup.txt
+#include function.txt

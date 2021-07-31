@@ -1,0 +1,4 @@
+battle/start fight
+
+hellknight/death1 helld
+baron/death2 barod

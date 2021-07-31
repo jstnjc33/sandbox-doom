@@ -1,0 +1,1979 @@
+actor arachp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,1,1)
+stop
+}
+}
+
+actor arachp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,2,1)
+stop
+}
+}
+
+actor arachp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,3,1)
+stop
+}
+}
+
+actor arachp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,4,1)
+stop
+}
+}
+
+actor arachp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,5,1)
+stop
+}
+}
+
+actor arachp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,6,1)
+stop
+}
+}
+
+actor arachp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,7,1)
+stop
+}
+}
+
+actor arachp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,8,1)
+stop
+}
+}
+
+actor arachp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,9,1)
+stop
+}
+}
+
+actor arachp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(1,10,1)
+stop
+}
+}
+
+actor vilep1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,1,1)
+stop
+}
+}
+
+actor vilep2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,2,1)
+stop
+}
+}
+
+actor vilep3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,3,1)
+stop
+}
+}
+
+actor vilep4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,4,1)
+stop
+}
+}
+
+actor vilep5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,5,1)
+stop
+}
+}
+
+actor vilep6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,6,1)
+stop
+}
+}
+
+actor vilep7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,7,1)
+stop
+}
+}
+
+actor vilep8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,8,1)
+stop
+}
+}
+
+actor vilep9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,9,1)
+stop
+}
+}
+
+actor vilep10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(2,10,1)
+stop
+}
+}
+
+actor baronp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,1,1)
+stop
+}
+}
+
+actor baronp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,2,1)
+stop
+}
+}
+
+actor baronp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,3,1)
+stop
+}
+}
+
+actor baronp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,4,1)
+stop
+}
+}
+
+actor baronp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,5,1)
+stop
+}
+}
+
+actor baronp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,6,1)
+stop
+}
+}
+
+actor baronp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,7,1)
+stop
+}
+}
+
+actor baronp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,8,1)
+stop
+}
+}
+
+actor baronp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,9,1)
+stop
+}
+}
+
+actor baronp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(3,10,1)
+stop
+}
+}
+
+actor cacop1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,1,1)
+stop
+}
+}
+
+actor cacop2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,2,1)
+stop
+}
+}
+
+actor cacop3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,3,1)
+stop
+}
+}
+
+actor cacop4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,4,1)
+stop
+}
+}
+
+actor cacop5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,5,1)
+stop
+}
+}
+
+actor cacop6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,6,1)
+stop
+}
+}
+
+actor cacop7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,7,1)
+stop
+}
+}
+
+actor cacop8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,8,1)
+stop
+}
+}
+
+actor cacop9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,9,1)
+stop
+}
+}
+
+actor cacop10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(4,10,1)
+stop
+}
+}
+
+actor chainp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,1,1)
+stop
+}
+}
+
+actor chainp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,2,1)
+stop
+}
+}
+
+actor chainp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,3,1)
+stop
+}
+}
+
+actor chainp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,4,1)
+stop
+}
+}
+
+actor chainp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,5,1)
+stop
+}
+}
+
+actor chainp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,6,1)
+stop
+}
+}
+
+actor chainp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,7,1)
+stop
+}
+}
+
+actor chainp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,8,1)
+stop
+}
+}
+
+actor chainp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,9,1)
+stop
+}
+}
+
+actor chainp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(5,10,1)
+stop
+}
+}
+
+actor cyberp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,1,1)
+stop
+}
+}
+
+actor cyberp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,2,1)
+stop
+}
+}
+
+actor cyberp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,3,1)
+stop
+}
+}
+
+actor cyberp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,4,1)
+stop
+}
+}
+
+actor cyberp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,5,1)
+stop
+}
+}
+
+actor cyberp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,6,1)
+stop
+}
+}
+
+actor cyberp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,7,1)
+stop
+}
+}
+
+actor cyberp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,8,1)
+stop
+}
+}
+
+actor cyberp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,9,1)
+stop
+}
+}
+
+actor cyberp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(7,10,1)
+stop
+}
+}
+
+actor demonp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,1,1)
+stop
+}
+}
+
+actor demonp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,2,1)
+stop
+}
+}
+
+actor demonp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,3,1)
+stop
+}
+}
+
+actor demonp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,4,1)
+stop
+}
+}
+
+actor demonp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,5,1)
+stop
+}
+}
+
+actor demonp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,6,1)
+stop
+}
+}
+
+actor demonp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,7,1)
+stop
+}
+}
+
+actor demonp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,8,1)
+stop
+}
+}
+
+actor demonp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,9,1)
+stop
+}
+}
+
+actor demonp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(8,10,1)
+stop
+}
+}
+
+actor impp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,1,1)
+stop
+}
+}
+
+actor impp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,2,1)
+stop
+}
+}
+
+actor impp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,3,1)
+stop
+}
+}
+
+actor impp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,4,1)
+stop
+}
+}
+
+actor impp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,5,1)
+stop
+}
+}
+
+actor impp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,6,1)
+stop
+}
+}
+
+actor impp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,7,1)
+stop
+}
+}
+
+actor impp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,8,1)
+stop
+}
+}
+
+actor impp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,9,1)
+stop
+}
+}
+
+actor impp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(9,10,1)
+stop
+}
+}
+
+actor fatp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,1,1)
+stop
+}
+}
+
+actor fatp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,2,1)
+stop
+}
+}
+
+actor fatp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,3,1)
+stop
+}
+}
+
+actor fatp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,4,1)
+stop
+}
+}
+
+actor fatp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,5,1)
+stop
+}
+}
+
+actor fatp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,6,1)
+stop
+}
+}
+
+actor fatp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,7,1)
+stop
+}
+}
+
+actor fatp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,8,1)
+stop
+}
+}
+
+actor fatp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,9,1)
+stop
+}
+}
+
+actor fatp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(11,10,1)
+stop
+}
+}
+
+actor hellp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,1,1)
+stop
+}
+}
+
+actor hellp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,2,1)
+stop
+}
+}
+
+actor hellp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,3,1)
+stop
+}
+}
+
+actor hellp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,4,1)
+stop
+}
+}
+
+actor hellp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,5,1)
+stop
+}
+}
+
+actor hellp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,6,1)
+stop
+}
+}
+
+actor hellp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,7,1)
+stop
+}
+}
+
+actor hellp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,8,1)
+stop
+}
+}
+
+actor hellp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,9,1)
+stop
+}
+}
+
+actor hellp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(12,10,1)
+stop
+}
+}
+
+actor lostp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,1,1)
+stop
+}
+}
+
+actor lostp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,2,1)
+stop
+}
+}
+
+actor lostp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,3,1)
+stop
+}
+}
+
+actor lostp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,4,1)
+stop
+}
+}
+
+actor lostp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,5,1)
+stop
+}
+}
+
+actor lostp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,6,1)
+stop
+}
+}
+
+actor lostp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,7,1)
+stop
+}
+}
+
+actor lostp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,8,1)
+stop
+}
+}
+
+actor lostp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,9,1)
+stop
+}
+}
+
+actor lostp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(13,10,1)
+stop
+}
+}
+
+actor painp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,1,1)
+stop
+}
+}
+
+actor painp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,2,1)
+stop
+}
+}
+
+actor painp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,3,1)
+stop
+}
+}
+
+actor painp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,4,1)
+stop
+}
+}
+
+actor painp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,5,1)
+stop
+}
+}
+
+actor painp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,6,1)
+stop
+}
+}
+
+actor painp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,7,1)
+stop
+}
+}
+
+actor painp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,8,1)
+stop
+}
+}
+
+actor painp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,9,1)
+stop
+}
+}
+
+actor painp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(14,10,1)
+stop
+}
+}
+
+actor revp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,1,1)
+stop
+}
+}
+
+actor revp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,2,1)
+stop
+}
+}
+
+actor revp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,3,1)
+stop
+}
+}
+
+actor revp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,4,1)
+stop
+}
+}
+
+actor revp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,5,1)
+stop
+}
+}
+
+actor revp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,6,1)
+stop
+}
+}
+
+actor revp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,7,1)
+stop
+}
+}
+
+actor revp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,8,1)
+stop
+}
+}
+
+actor revp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,9,1)
+stop
+}
+}
+
+actor revp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(15,10,1)
+stop
+}
+}
+
+actor shotp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,1,1)
+stop
+}
+}
+
+actor shotp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,2,1)
+stop
+}
+}
+
+actor shotp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,3,1)
+stop
+}
+}
+
+actor shotp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,4,1)
+stop
+}
+}
+
+actor shotp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,5,1)
+stop
+}
+}
+
+actor shotp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,6,1)
+stop
+}
+}
+
+actor shotp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,7,1)
+stop
+}
+}
+
+actor shotp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,8,1)
+stop
+}
+}
+
+actor shotp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,9,1)
+stop
+}
+}
+
+actor shotp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(16,10,1)
+stop
+}
+}
+
+actor specp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,1,1)
+stop
+}
+}
+
+actor specp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,2,1)
+stop
+}
+}
+
+actor specp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,3,1)
+stop
+}
+}
+
+actor specp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,4,1)
+stop
+}
+}
+
+actor specp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,5,1)
+stop
+}
+}
+
+actor specp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,6,1)
+stop
+}
+}
+
+actor specp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,7,1)
+stop
+}
+}
+
+actor specp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,8,1)
+stop
+}
+}
+
+actor specp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,9,1)
+stop
+}
+}
+
+actor specp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(17,10,1)
+stop
+}
+}
+
+actor spidp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,1,1)
+stop
+}
+}
+
+actor spidp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,2,1)
+stop
+}
+}
+
+actor spidp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,3,1)
+stop
+}
+}
+
+actor spidp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,4,1)
+stop
+}
+}
+
+actor spidp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,5,1)
+stop
+}
+}
+
+actor spidp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,6,1)
+stop
+}
+}
+
+actor spidp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,7,1)
+stop
+}
+}
+
+actor spidp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,8,1)
+stop
+}
+}
+
+actor spidp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,9,1)
+stop
+}
+}
+
+actor spidp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(18,10,1)
+stop
+}
+}
+
+actor wolfp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,1,1)
+stop
+}
+}
+
+actor wolfp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,2,1)
+stop
+}
+}
+
+actor wolfp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,3,1)
+stop
+}
+}
+
+actor wolfp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,4,1)
+stop
+}
+}
+
+actor wolfp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,5,1)
+stop
+}
+}
+
+actor wolfp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,6,1)
+stop
+}
+}
+
+actor wolfp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,7,1)
+stop
+}
+}
+
+actor wolfp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,8,1)
+stop
+}
+}
+
+actor wolfp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,9,1)
+stop
+}
+}
+
+actor wolfp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(19,10,1)
+stop
+}
+}
+
+actor zombp1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,1,1)
+stop
+}
+}
+
+actor zombp2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,2,1)
+stop
+}
+}
+
+actor zombp3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,3,1)
+stop
+}
+}
+
+actor zombp4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,4,1)
+stop
+}
+}
+
+actor zombp5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,5,1)
+stop
+}
+}
+
+actor zombp6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,6,1)
+stop
+}
+}
+
+actor zombp7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,7,1)
+stop
+}
+}
+
+actor zombp8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,8,1)
+stop
+}
+}
+
+actor zombp9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,9,1)
+stop
+}
+}
+
+actor zombp10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_setgoal(20,10,1)
+stop
+}
+}

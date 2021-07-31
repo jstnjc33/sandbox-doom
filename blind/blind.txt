@@ -1,0 +1,373 @@
+ actor blindarachnotron : arachnotron2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    BSPI AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    BSPI A 20
+    BSPI A 3 A_BabyMetal
+    BSPI ABBCC 3 A_Chase
+    BSPI D 3 A_BabyMetal
+    BSPI DEEFF 3 A_Chase
+
+    Goto See+1
+loop
+    }
+    }
+
+actor blindbaron : baronofhell2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    BOSS AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    BOSS AABBCCDD 3 A_Chase
+    Loop
+    }
+    }
+
+actor blindcaco: cacodemon2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    HEAD A 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    HEAD A 3 A_Chase
+    loop
+    }
+    }
+
+
+actor blindchaingunner: chaingunguy2
+   {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+   states
+   {
+   spawn:
+   CPOS AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    CPOS AABBCCDD 3 A_Chase
+    Loop
+    }
+    }
+
+actor blindcyber : cyberdemon2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
++forceradiusdmg
+    states
+    {
+    spawn:
+    CYBR AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    CYBR A 3 A_Hoof
+    CYBR ABBCC 3 A_Chase
+    CYBR D 3 A_Metal
+    CYBR D 3 A_Chase
+    loop
+Pain:
+    CYBR G 10 A_Pain
+    tnt1 a 0 a_logint(health)
+    Goto See
+    }
+    }
+
+actor blinddemon : demon2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    SARG AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    SARG AABBCCDD 2 Fast A_Chase
+   Loop
+    }
+    }
+
+actor blindimp : doomimp2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    TROO AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    TROO AABBCCDD 3 A_Chase
+loop
+    }
+    }
+
+actor blindcommanderkeen1 : commanderkeen2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    KEEN A 1
+
+tnt1 a 0 noisealert(0,0)
+    Loop
+    }
+    }
+
+actor blindknight : hellknight2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    BOS2 AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    BOS2 AABBCCDD 3 A_Chase
+
+    Loop
+    }
+    }
+
+actor blindmancubus : fatso2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    FATT AB 15 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    FATT AABBCCDDEEFF 4 A_Chase
+    loop
+    }
+    }
+
+actor blindpainelemental : painelemental2
+  {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+  states
+  {
+  Spawn:
+  PAIN A 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    PAIN AABBCC 3 A_Chase
+    Loop
+    }
+    }
+   
+actor blindrevenant : revenant2
+   {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+   states
+   {
+   spawn:
+   SKEL AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    SKEL AABBCCDDEEFF 2 A_Chase
+
+    Loop
+
+    }
+    }
+    
+actor blindshotgunguy : shotgunguy2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    SPOS AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+    See:
+    SPOS AABBCCDD 3 A_Chase
+
+    Loop
+    }
+    }
+
+actor blindsoul : lostsoul2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    States
+    {
+    spawn:
+    SKUL AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    SKUL AB 6 Bright A_Chase
+
+    Loop
+    }
+    }
+
+actor blindspectre1 : spectre2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    SARG AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+    See:
+    SARG AABBCCDD 2 Fast A_Chase
+
+    Loop
+    }
+    }
+    
+actor blindspider : spidermastermind2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+    states
+    {
+    spawn:
+    SPID AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+    See:
+    SPID A 3 A_Metal
+    SPID ABB 3 A_Chase
+    SPID C 3 A_Metal
+    SPID CDD 3 A_Chase
+    SPID E 3 A_Metal
+    SPID EFF 3 A_Chase
+
+    Loop
+pain:
+SPID I 3
+    SPID I 3 A_Pain
+    tnt1 a 0 a_logint(health)
+    Goto See
+    }
+    }
+
+actor blindvile : archvile2
+{
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+states
+{
+spawn:
+VILE AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+See:
+    VILE AABBCCDDEEFF 2 A_VileChase
+
+    Loop
+    }
+    }
+
+actor blindwolf : wolfensteinss2
+    {
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+states
+{
+spawn:
+SSWV AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+    See:
+    SSWV AABBCCDD 3 A_Chase
+loop
+    }
+}
+
+actor blindzombie : zombieman2
+{
++quicktoretaliate
++noblockmonst
++lookallaround
++jumpdown
++doharmspecies
+states
+{
+spawn:
+POSS AB 10 A_Lookex(lof_nosightcheck,0,256,60,60,"see")
+    Loop
+    See:
+    POSS AABBCCDD 4 A_Chase
+    Loop
+    }
+}

@@ -1,0 +1,393 @@
+actor rp1 : mp replaces arachnotron
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"arach")
+tnt1 a 0 a_jumpif(enabled==1,"arach1")
+loop
+arach:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("arachnotron2")
+stop
+arach1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp")
+stop
+}
+}
+
+actor rp2 : mp1 replaces archvile
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"vile")
+tnt1 a 0 a_jumpif(enabled==1,"vile1")
+loop
+vile:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("archvile2")
+stop
+vile1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp1")
+stop
+}
+}
+
+actor rp3 : mp2 replaces baronofhell
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"baron")
+tnt1 a 0 a_jumpif(enabled==1,"baron1")
+loop
+baron:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("baronofhell2")
+stop
+baron1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp2")
+stop
+}
+}
+
+actor rp4 : mp3 replaces cacodemon
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"caco")
+tnt1 a 0 a_jumpif(enabled==1,"caco1")
+loop
+caco:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("cacodemon2")
+stop
+caco1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp3")
+stop
+}
+}
+
+actor rp5 : mp4 replaces chaingunguy
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"chain")
+tnt1 a 0 a_jumpif(enabled==1,"chain1")
+loop
+chain:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("chaingunguy2")
+stop
+chain1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp4")
+stop
+}
+}
+
+actor rp6 : mp5 replaces commanderkeen
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"keen")
+tnt1 a 0 a_jumpif(enabled==1,"keen1")
+loop
+keen:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("commanderkeen2")
+stop
+keen1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp5")
+stop
+}
+}
+
+actor rp7 : mp6 replaces cyberdemon
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"cyber")
+tnt1 a 0 a_jumpif(enabled==1,"cyber1")
+loop
+cyber:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("cyberdemon2")
+stop
+cyber1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp6")
+stop
+}
+}
+
+actor rp8 : mp7 replaces demon
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"demon")
+tnt1 a 0 a_jumpif(enabled==1,"demon1")
+loop
+demon:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("pinky2")
+stop
+demon1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp7")
+stop
+}
+}
+
+actor rp9 : mp8 replaces doomimp
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"imp")
+tnt1 a 0 a_jumpif(enabled==1,"imp1")
+loop
+imp:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("doomimp2")
+stop
+imp1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp8")
+stop
+}
+}
+
+actor rp10 : mp9 replaces explosivebarrel
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"barrel")
+tnt1 a 0 a_jumpif(enabled==1,"barrel1")
+loop
+barrel:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("explosivebarrel2")
+stop
+barrel1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp9")
+stop
+}
+}
+actor rp11 : mp10 replaces fatso
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"fat")
+tnt1 a 0 a_jumpif(enabled==1,"fat1")
+loop
+fat:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("fatso2")
+stop
+fat1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp10")
+stop
+}
+}
+
+actor rp12 : mp11 replaces hellknight
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"hell")
+tnt1 a 0 a_jumpif(enabled==1,"hell1")
+loop
+hell:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("hellknight2")
+stop
+hell1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp11")
+stop
+}
+}
+
+actor rp13 : mp12 replaces lostsoul
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"soul")
+tnt1 a 0 a_jumpif(enabled==1,"soul1")
+loop
+soul:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("lostsoul2")
+loop
+soul1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp12")
+stop
+}
+}
+
+actor rp14 : mp13 replaces painelemental
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==1,"pain1")
+loop
+pain1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp13")
+stop
+}
+}
+
+actor rp15 : mp14 replaces revenant
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"rev")
+tnt1 a 0 a_jumpif(enabled==1,"rev1")
+loop
+rev:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("revenant2")
+stop
+rev1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp14")
+stop
+}
+}
+
+actor rp16 : mp15 replaces shotgunguy
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"shot")
+tnt1 a 0 a_jumpif(enabled==1,"shot1")
+loop
+shot:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("shotgunguy2")
+stop
+shot1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp15")
+stop
+}
+}
+
+actor rp17 : mp16 replaces spectre
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"spec")
+tnt1 a 0 a_jumpif(enabled==1,"spec1")
+loop
+spec:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spectre2")
+stop
+spec1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp16")
+stop
+}
+}
+
+actor rp18 : mp17 replaces spidermastermind
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"spid")
+tnt1 a 0 a_jumpif(enabled==1,"spid1")
+loop
+spid:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spidermastermind2")
+stop
+spid1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp17")
+stop
+}
+}
+
+actor rp19 : mp18 replaces wolfensteinss
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"wolf")
+tnt1 a 0 a_jumpif(enabled==1,"wolf1")
+loop
+wolf:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("wolfensteinss2")
+stop
+wolf1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp18")
+stop
+}
+}
+
+actor rp20 : mp19 replaces zombieman
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(enabled==0,"zomb")
+tnt1 a 0 a_jumpif(enabled==1,"zomb1")
+loop
+zomb:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("zombieman2")
+stop
+zomb1:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("mp19")
+stop
+}
+}

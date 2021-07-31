@@ -1,0 +1,105 @@
+actor battlebrain 
+{
++quicktoretaliate
++missilemore
++missileevenmore
++doharmspecies
++noblooddecals
++alwaysfast
+speed 0
+height 56
+health 999999
+mass 50000
+monster
+states
+{
+Spawn:
+    BBRN A 10 a_look
+    loop
+    see:
+    bbrn a 10 a_chase
+    loop
+    missile:
+    bbrn a 2
+     tnt1 a 0 a_jump(256,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+    loop
+    a1:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("arachnotronplasma")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a2:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("baronball")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a3:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("cacodemonball")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a4:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("arachnotronplasma")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+a5:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_vileattack
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12,","a13")
+goto see
+    a6:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("doomimpball")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a7:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("fatshot")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a8:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("plasmaball")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a9:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright A_SkelMissile
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a10:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("rocket")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a11:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_customrailgun(15)
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+goto see
+    a12:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_givetotarget("ouch",1)
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+    goto see
+    a13:
+    bbrn a 2
+    bbrn a 3 a_facetarget
+    bbrn a 2 bright a_custommissile("bfgball")
+    tnt1 a 0 a_jump(200,"a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a12","a13")
+    goto see
+    }
+    }

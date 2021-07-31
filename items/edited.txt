@@ -1,0 +1,120 @@
+ACTOR Cell2 : cell 
+{
+  Inventory.PickupMessage "$GOTCELL" // "Picked up an energy cell."
+  Inventory.Amount 20
+  Inventory.MaxAmount 300
+  Ammo.BackpackAmount 20
+  Ammo.BackpackMaxAmount 600
+  Inventory.Icon "CELLA0"
+  States
+  {
+  Spawn:
+    CELL A -1
+    Stop
+  }
+}
+
+ACTOR CellPack2 : cellpack
+{
+  Inventory.PickupMessage "$GOTCELLBOX" // "Picked up an energy cell pack."
+  Inventory.Amount 100
+  States
+  {
+  Spawn:
+    CELP A -1
+    Stop
+  }
+}
+
+ACTOR Clip2 : clip 
+{
+  Inventory.PickupMessage "picked up 10 bullets"
+  Inventory.Amount 10
+  Inventory.MaxAmount 200
+  Ammo.BackpackAmount 10
+  Ammo.BackpackMaxAmount 400
+  Inventory.Icon "CLIPA0"
+  States
+  {
+  Spawn:
+    CLIP A 10
+    tnt1 a 0 a_spawnitem("mp22")
+    clip a 10 
+    tnt1 a 0 thing_spawn(44,218,0,45)
+    clip a 10
+    goto clip2
+    clip2:
+    clip a 1
+    tnt1 a 0 a_checkproximity("spawn","pt2",30,0)
+    loop
+  }
+}
+
+ACTOR ClipBox2 : clipbox 
+{
+  Inventory.PickupMessage "$GOTCLIPBOX" // "Picked up a box of bullets."
+  Inventory.Amount 50
+  Ammo.BackpackMaxAmount 666
+  States
+  {
+  Spawn:
+    AMMO A -1
+    Stop
+  }
+}
+
+ACTOR RocketAmmo2 : rocketammo replaces rocketammo
+{
+  Inventory.PickupMessage "$GOTROCKET" // "Picked up a rocket."
+  Inventory.Amount 1
+  Inventory.MaxAmount 50
+  Ammo.BackpackAmount 1
+  Ammo.BackpackMaxAmount 100
+  Inventory.Icon "ROCKA0"
+  States
+  {
+  Spawn:
+    ROCK A -1
+    Stop
+  }
+}
+
+ACTOR RocketBox2 : rocketbox replaces rocketbox
+{
+  Inventory.PickupMessage "$GOTROCKBOX" // "Picked up a box of rockets."
+  Inventory.Amount 5
+  States
+  {
+  Spawn:
+    BROK A -1
+    Stop
+  }
+}
+
+ACTOR Shell2 : shell replaces shell
+{
+  Inventory.PickupMessage "$GOTSHELLS" // "Picked up 4 shotgun shells."
+  Inventory.Amount 4
+  Inventory.MaxAmount 50
+  Ammo.BackpackAmount 4
+  Ammo.BackpackMaxAmount 100
+  Inventory.Icon "SHELA0"
+  States
+  {
+  Spawn:
+    SHEL A -1
+    Stop
+  }
+}
+
+ACTOR ShellBox2 : shellbox replaces shellbox
+{
+  Inventory.PickupMessage "$GOTSHELLBOX" // "Picked up a box of shotgun shells."
+  Inventory.Amount 20
+  States
+  {
+  Spawn:
+    SBOX A -1
+    Stop
+  }
+}

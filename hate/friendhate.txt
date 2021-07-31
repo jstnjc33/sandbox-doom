@@ -1,0 +1,266 @@
+actor friendhate
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,1,2)
+stop
+}
+}
+
+actor friendhate1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,2,2)
+stop
+}
+}
+
+actor friendhate2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,3,2)
+stop
+}
+}
+
+actor friendhate3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,4,2)
+stop
+}
+}
+
+actor friendhate4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,5,2)
+stop
+}
+}
+
+actor friendhate5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,6,2)
+stop
+}
+}
+
+actor friendhate6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,7,2)
+stop
+}
+}
+
+actor friendhate7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,8,2)
+stop
+}
+}
+
+actor friendhate8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,9,2)
+stop
+}
+}
+
+actor friendhate9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,10,2)
+stop
+}
+}
+
+actor friendhate10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,11,2)
+stop
+}
+}
+
+actor friendhate11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,12,2)
+stop
+}
+}
+
+actor friendhate12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,13,2)
+stop
+}
+}
+
+actor friendhate13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,14,2)
+stop
+}
+}
+
+actor friendhate14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,15,2)
+stop
+}
+}
+
+actor friendhate15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,16,2)
+stop
+}
+}
+
+actor friendhate16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,17,2)
+stop
+}
+}
+
+actor friendhate17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,18,2)
+stop
+}
+}
+
+actor friendhate18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,19,2)
+stop
+}
+}
+
+actor friendhate19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_hate(45,20,2)
+stop
+}
+}
+
+actor randomfriendhate : randomspawner
+{
+dropitem friendhate 256 7
+dropitem friendhate1 256 7
+dropitem friendhate2 256 7
+dropitem friendhate3256 7
+dropitem friendhate4 256 7
+dropitem friendhate5 256 7
+dropitem friendhate6 256 7
+dropitem friendhate7 256 7
+dropitem friendhate8 256 7
+dropitem friendhate9 256 7
+dropitem friendhate10 256 7
+dropitem friendhate11 256 7
+dropitem friendhate12 256 7
+dropitem friendhate13 256 7
+dropitem friendhate14 256 7
+dropitem friendhate15 256 7
+dropitem friendhate16 256 7
+dropitem friendhate17 256 7
+dropitem friendhate18 256 7
+dropitem friendhate19 256 7
+}
+
+
+actor friendhatesummon
+{
+states
+{
+spawn:
+tnt1 a 75
+tnt1 a 0 a_spawnitem("randomfriendhate")
+stop
+}
+}
+
+actor barefriend
+{
+States
+{
+spawn:
+tnt1 a 75
+tnt1 a 0 a_spawnitem("friendhatesummon")
+stop
+}
+}

@@ -1,0 +1,161 @@
+#library "monsterchecker"
+#include "zcommon.acs"
+
+script "getstealththing" (void)
+{
+if(!getcvar("stealth"))
+{
+setcvar("stealth",1);
+}
+}
+
+script "stealthsetup" (void)
+{
+delay(35);
+print(s:"activating stealth mode");
+delay(50);
+giveactorinventory(1,"stealth",1);
+delay(50);
+giveactorinventory(2,"stealth",1);
+delay(50);
+giveactorinventory(3,"stealth",1);
+delay(50);
+giveactorinventory(4,"stealth",1);
+delay(50);
+giveactorinventory(5,"stealth",1);
+delay(50);
+giveactorinventory(6,"stealth",1);
+delay(50);
+giveactorinventory(7,"stealth",1);
+delay(50);
+giveactorinventory(8,"stealth",1);
+delay(50);
+giveactorinventory(9,"stealth",1);
+delay(50);
+giveactorinventory(10,"stealth",1);
+delay(50);
+giveactorinventory(11,"stealth",1);
+delay(50);
+giveactorinventory(12,"stealth",1);
+delay(50);
+giveactorinventory(13,"stealth",1);
+delay(50);
+giveactorinventory(14,"stealth",1);
+delay(50);
+giveactorinventory(15,"stealth",1);
+delay(50);
+giveactorinventory(16,"stealth",1);
+delay(50);
+giveactorinventory(17,"stealth",1);
+delay(50);
+giveactorinventory(18,"stealth",1);
+delay(50);
+giveactorinventory(19,"stealth",1);
+delay(50);
+giveactorinventory(20,"stealth",1);
+delay(35);
+print(s:"stealth mode activation successful");
+delay(50);
+print(s:"be on your toes marine");
+delay(50);
+print(s:"thats an order!");
+delay(50);
+}
+
+
+script "hate"(void)
+{
+int a=getcvar("attacker");
+int b=getcvar("target"); 
+delay(35);
+thing_hate(a,b,2);
+}
+
+script "death" (void)
+{
+delay(35);
+thing_changetid(2,1);
+delay(35);
+thing_changetid(3,1);
+delay(35);
+thing_changetid(4,1);
+delay(35);
+thing_changetid(5,1);
+delay(35);
+thing_changetid(6,1);
+delay(35);
+thing_changetid(7,1);
+delay(35);
+thing_changetid(8,1);
+delay(35);
+thing_changetid(9,1);
+delay(35);
+thing_changetid(10,1);
+delay(35);
+thing_changetid(11,1);
+delay(35);
+thing_changetid(12,1);
+delay(35);
+thing_changetid(13,1);
+delay(35);
+thing_changetid(14,1);
+delay(35);
+thing_changetid(15,1);
+delay(35);
+thing_changetid(16,1);
+delay(35);
+thing_changetid(17,1);
+delay(35);
+thing_changetid(18,1);
+delay(35);
+thing_changetid(19,1);
+delay(35);
+thing_changetid(20,1);
+delay(35);
+thing_hate(1,1,2);
+}
+
+script "pc" (void)
+{
+delay(35);
+int a = getlevelinfo(levelinfo_total_monsters);
+int b = 350;
+int c = a==b;
+int d = 200;
+int e = getactorx(42);
+int f = getactory(42);
+int g = getactorz(42);
+int h =a==d;
+if
+(c)
+{
+thing_hate (1,1,2);
+}
+}
+
+script "pc1" (void)
+{
+delay(35);
+int a = getlevelinfo(levelinfo_total_monsters);
+int d = 200;
+int e = getactorx(42);
+int f = getactory(42);
+int g = getactorz(42);
+int h =a>=d;
+if
+(h)
+{
+delay(35);
+printbold(s:"demonic presence is increasing to undesirable levels");
+delay(35);
+printbold(s:"summoning cacoking");
+delay(35);
+spawnforced("mp21",e,f,g);
+delay(35);
+thing_spawn(43,175,0,42);
+delay(35);
+thing_hate (42,1,2);
+delay(35);
+thing_remove(43);
+}
+}

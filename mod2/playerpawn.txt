@@ -1,0 +1,84 @@
+actor testmarine : playerpawn
+{
+speed 1
+player.displayname "testmarine"
+player.maxhealth 100
+player.startitem "fist"
+player.startitem "pistol"
+player.startitem "clip",50
+player.startitem "tidchange1"
+player.startitem "megainv"
+States
+  {
+  Spawn:
+  play a 1
+    tnt1 a 0 a_jumpif(hunt1==1,"hunter")
+    tnt1 a 0 a_jumpif(clip1==1,"clip")
+    Loop
+  see:
+  tnt1 a 0 a_jumpif(sight==0,"spawn")
+  play abcd 10 a_chase
+    loop
+hunter:
+play a 1
+tnt1 a 0 a_jumpif(hunt1==0,"spawn2")
+tnt1 a 0 a_setspeed(3)
+tnt1 a 0 a_chase
+loop
+clip1:
+play a 1
+tnt1 a 0 a_jumpif(hunt1==0,"spawn2")
+tnt1 a 0 a_setspeed(5)
+tnt1 a 0 thing_setgoal(42,45,1)
+tnt1 a 0 a_chase
+loop
+spawn2:
+tnt1 a 0
+tnt1 a 0 a_setspeed(1)
+goto spawn
+  Missile:
+    PLAY E 12
+tnt1 a 0 a_givetotarget("damagegift",1)
+    Goto Spawn
+  Melee:
+    PLAY F 6 BRIGHT
+    Goto Missile
+  Pain:
+    PLAY G 4 
+    PLAY G 4 A_Pain
+    Goto Spawn
+  Death:
+    PLAY H 0 A_PlayerSkinCheck("AltSkinDeath")
+  Death1:
+    PLAY H 10
+    PLAY I 10 A_PlayerScream
+    PLAY J 10 A_NoBlocking
+    PLAY KLM 10
+    PLAY N -1
+    Stop
+  XDeath:
+    PLAY O 0 A_PlayerSkinCheck("AltSkinXDeath")
+  XDeath1:
+    PLAY O 5
+    PLAY P 5 A_XScream
+    PLAY Q 5 A_NoBlocking
+    PLAY RSTUV 5
+    PLAY W -1
+    Stop
+  AltSkinDeath:
+    PLAY H 6
+    PLAY I 6 A_PlayerScream
+    PLAY JK 6
+    PLAY L 6 A_NoBlocking
+    PLAY MNO 6
+    PLAY P -1
+    Stop
+  AltSkinXDeath:
+    PLAY Q 5 A_PlayerScream
+    PLAY R 0 A_NoBlocking
+    PLAY R 5 A_SkullPop
+    PLAY STUVWX 5
+    PLAY Y -1
+    Stop
+  }
+}

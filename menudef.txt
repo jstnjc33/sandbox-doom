@@ -1,0 +1,308 @@
+addoptionmenu optionsmenu
+{
+submenu "sandbox doom","sandboxmenu"
+}
+
+optionmenu sandboxmenu
+{
+title "sandbox doom"
+submenu "open main mod menu","modmenu1"
+}
+
+optionmenu modmenu1
+{
+title"sandbox main menu"
+statictext"for this to do anything please visit enable"
+submenu "enable","en1"
+submenu "levels","levels1"
+submenu "monster modes","modes1"
+submenu "monster control","control1"
+submenu "pathing","ph1"
+submenu "traps","tr1"
+submenu "player options","ai1"
+submenu "items","itm1"
+submenu "music","ms1"
+submenu "modmenu","modmenu"
+}
+
+optionmenu modmenu
+{
+title"modmenu"
+class "consolecommandmenu"
+command "chillax","restart -iwad doom2.wad -file games/chaos.wad"
+}
+
+optionmenu "consolecommandmenu"
+{
+class "ConsoleCommandMenu"
+    Command "" , ""
+}
+optionmenu ms1
+{
+title"music selection"
+statictext"ok choose a song"
+command "resident evil(enigma)","changemus enigma"
+}
+optionmenu itm1
+{
+title" custominventory item usage"
+statictext"only 1 option at a time can be chosen"
+statictext"so think carefully"
+statictext" use the item in your inventory to get the desired effect"
+statictext"you will know when you have found the item"
+option"powerups:","spup","pups1"
+option "inventory : monster","cpup","pup8"
+option "inventory : player","plpup","pup9"
+option "armors:","apup","pups2"
+option "health:","hpup","pup3"
+option "ammo:","ipup","pup4"
+option "cards:","kpup","pup5"
+option "skulls:","kpup","pup6"
+option "allkeys","kpup","pup7"
+option "random","pup","pup10"
+command "close menu","closemenu"
+}
+
+
+optionvalue pups1
+{
+0,"none"
+1,"allmap"
+2,"infrared"
+3,"invulnsphere"
+4,"radsuit"
+5,"megasphere"
+12,"berserk"
+14,"blursphere"
+16,"soulsphere"
+49,"flight"
+}
+
+optionvalue pups2
+{
+0,"none"
+6,"bluearmor"
+7,"greenarmor"
+29,"armor regen"
+}
+
+optionvalue pup3
+{
+0,"none"
+5,"megasphere"
+15,"medkit"
+17,"stimpack"
+30,"health regen"
+}
+
+optionvalue pup4
+{
+0,"none"
+25,"clip regen"
+26,"shot regen"
+27,"rocket regen"
+28,"cell regen"
+32,"all ammo regen"
+}
+
+optionvalue pup5
+{
+0,"none"
+18,"blue key card"
+19,"red key card"
+20,"yellowcard"
+}
+
+optionvalue pup6
+{
+0,"none"
+21,"blue skull key"
+22,"red skull key"
+23,"yellow skull key"
+}
+
+optionvalue pup7
+{
+0,"no"
+24,"yes"
+}
+
+optionvalue pup8
+{
+0,"none"
+33,"canpass"
+34,"slideonwalls"
+35,"avoidmelee"
+36,"jumpdown"
+37,"lookallaround"
+38,"quicktoretaliate"
+39,"noblockmonst"
+40,"doharmspecies"
+41,"forceradiusdmg"
+42,"stealth"
+44,"friend"
+}
+
+optionvalue pup9
+{
+0,"none"
+8,"backpack"
+43,"spectral"
+45,"all weapons"
+}
+
+optionvalue pup10
+{
+0,"no trap"
+46,"trap 1"
+47,"regeneration slow mode"
+48,"regeneration fast mode"
+}
+
+optionmenu levels1
+{
+slider "warp to:","levels",0.0,32.0,1.0
+command "activate level warp","summon warp"
+command "close menu","closemenu"
+}
+
+optionmenu ai1
+{
+title "player options"
+statictext"you will start moving and attacking"
+statictext"no user interaction need"
+option "ai mode","hunt1","onoff"
+}
+optionmenu tr1
+{
+title "ok which trap"
+statictext "traps activate automatically"
+statictext"where your standing so pick carefully"
+statictext"and populate the level"
+option "trap:","traps","traps1"
+command "activate trap","summon trapcheck"
+command "close menu","closemenu"
+}
+
+optionvalue traps1
+{
+0,"none"
+1,"warp death mode 1"
+2,"warp death mode 2"
+3,"battlebrain(massacre mode)"
+4,"deathwalk(kinbrain)"
+5,"kinbrain(massacre mode)"
+}
+optionmenu en1
+{
+title"mod configuration"
+statictext"must leave on to take affect"
+option "enable","enabled","onoff"
+}
+
+optionmenu modes1
+{
+title"choose which mode you would like to play"
+statictext"first choose which mode you would like to play on" ,blue
+statictext"then click activate monster mode" ,green
+statictext "cvar based monster modes" ,orange
+option "monster mode:","modes","modes1"
+command "activate monster mode","summon populatecheck"
+command "close menu","closemenu"
+}
+
+optionvalue modes1
+{
+0,"no mode"
+1,"normal mode"
+2,"battle royal mode"
+3,"death mode"
+4,"poison mode 1"
+5,"poison mode 2"
+6,"angry monsters mode"
+7,"teledeath mode"
+8,"random mode"
+9,"blind monsters mode"
+10,"stealth monsters mode"
+11,"noise alert mode"
+12,"pain mode"
+13,"random mode selection"
+14,"poison mode 3"
+}
+optionmenu control1
+{
+title"control menu"
+submenu"hatemenu","ha1"
+command "close menu","closemenu"
+}
+
+
+optionmenu ha1
+{
+title"hatemenu"
+option "attacker:","attacker","ak1"
+option "target:","target","tg1"
+command "hate","pukename hate"
+command "close menu","closemenu"
+}
+
+optionvalue ak1
+{
+0,"none"
+1,"arachnotron"
+2,"archvile"
+3,"baronofhell"
+4,"cacodemon"
+5,"chaingunguy"
+6,"commanderkeen"
+7,"cyberdemon"
+8,"demon"
+9,"doomimp"
+10,"explosive barrel"
+11,"mancubus"
+12,"hellknight"
+13,"lostsoul"
+14,"painelemental"
+15,"revenant"
+16,"shotgunguy"
+17,"spectre"
+18,"spidermastermind"
+19,"wolfensteinss"
+20,"zombieman"
+42,"doomguy"
+}
+
+optionvalue tg1
+{
+0,"none"
+1,"arachnotron"
+2,"archvile"
+3,"baronofhell"
+4,"cacodemon"
+5,"chaingunguy"
+6,"commanderkeen"
+7,"cyberdemon"
+8,"demon"
+9,"doomimp"
+10,"explosive barrel"
+11,"mancubus"
+12,"hellknight"
+13,"lostsoul"
+14,"painelemental"
+15,"revenant"
+16,"shotgunguy"
+17,"spectre"
+18,"spidermastermind"
+19,"wolfensteinss"
+20,"zombieman"
+42,"doomguy"
+}
+
+optionmenu ph1
+{
+statictext"ok choose a return spot"
+statictext"affects monsters AND player"
+slider "patrolpoint:","point",0.0,10.0,1.0
+command "activate patrolpoint","summon pointcheck"
+command "close menu","closemenu"
+}

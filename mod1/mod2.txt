@@ -1,0 +1,8 @@
+#include mod2/mapspots.txt
+#include mod2/replacers.txt
+#include mod2/spawners.txt
+#include mod2/playerpawn.txt
+#include mod2/giver.txt
+#include mod2/looper.txt
+#include mod2/patrolpoint.txt
+#include mod2/poison.txt

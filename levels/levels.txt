@@ -1,0 +1,351 @@
+actor level01
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl1",0)
+stop
+}
+}
+
+actor level02
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl2",0)
+stop
+}
+}
+
+actor level03
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl3",0)
+stop
+}
+}
+
+actor level04
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl4",0)
+stop
+}
+}
+
+actor level05
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl5",0)
+stop
+}
+}
+
+actor level06
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl6",0)
+stop
+}
+}
+
+actor level07
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl7",0)
+stop
+}
+}
+
+actor level08
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl8",0)
+stop
+}
+}
+
+actor level09
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl9",0)
+stop
+}
+}
+
+actor level10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl10",0)
+stop
+}
+}
+actor level11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl11",0)
+stop
+}
+}
+
+actor level12
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl12",0)
+stop
+}
+}
+
+actor level13
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl13",0)
+stop
+}
+}
+
+actor level14
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl14",0)
+stop
+}
+}
+
+actor level15
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl15",0)
+stop
+}
+}
+
+actor level16
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl16",0)
+stop
+}
+}
+
+actor level17
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl17",0)
+stop
+}
+}
+
+actor level18
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl18",0)
+stop
+}
+}
+
+actor level19
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl19",0)
+stop
+}
+}
+
+actor level20
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl20",0)
+stop
+}
+}
+
+actor level21
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl21",0)
+stop
+}
+}
+
+actor level22
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl22",0)
+stop
+}
+}
+
+actor level23
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl23",0)
+stop
+}
+}
+
+actor level24
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl24",0)
+stop
+}
+}
+
+actor level25
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl25",0)
+stop
+}
+}
+
+actor level26
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl26",0)
+stop
+}
+}
+
+actor level27
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl27",0)
+stop
+}
+}
+
+actor level28
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl28",0)
+stop
+}
+}
+
+actor level29
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl29",0)
+stop
+}
+}
+
+actor level30
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl30",0)
+stop
+}
+}
+
+actor level31
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl31",0)
+stop
+}
+}
+
+actor level32
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 acs_namedexecute("lvl32",0)
+stop
+}
+}
+

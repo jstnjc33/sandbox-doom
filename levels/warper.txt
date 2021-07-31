@@ -1,0 +1,234 @@
+actor warp
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(levels==1,"lv1")
+tnt1 a 0 a_jumpif(levels==2,"lv2")
+tnt1 a 0 a_jumpif(levels==3,"lv3")
+tnt1 a 0 a_jumpif(levels==4,"lv4")
+tnt1 a 0 a_jumpif(levels==5,"lv5")
+tnt1 a 0 a_jumpif(levels==6,"lv6")
+tnt1 a 0 a_jumpif(levels==7,"lv7")
+tnt1 a 0 a_jumpif(levels==8,"lv8")
+tnt1 a 0 a_jumpif(levels==9,"lv9")
+tnt1 a 0 a_jumpif(levels==10,"lv10")
+tnt1 a 0 a_jumpif(levels==11,"lv11")
+tnt1 a 0 a_jumpif(levels==12,"lv12")
+tnt1 a 0 a_jumpif(levels==13,"lv13")
+tnt1 a 0 a_jumpif(levels==14,"lv14")
+tnt1 a 0 a_jumpif(levels==15,"lv15")
+tnt1 a 0 a_jumpif(levels==16,"lv16")
+tnt1 a 0 a_jumpif(levels==17,"lv17")
+tnt1 a 0 a_jumpif(levels==18,"lv18")
+tnt1 a 0 a_jumpif(levels==19,"lv19")
+tnt1 a 0 a_jumpif(levels==20,"lv20")
+tnt1 a 0 a_jumpif(levels==21,"lv21")
+tnt1 a 0 a_jumpif(levels==22,"lv22")
+tnt1 a 0 a_jumpif(levels==23,"lv23")
+tnt1 a 0 a_jumpif(levels==24,"lv24")
+tnt1 a 0 a_jumpif(levels==25,"lv25")
+tnt1 a 0 a_jumpif(levels==26,"lv26")
+tnt1 a 0 a_jumpif(levels==27,"lv27")
+tnt1 a 0 a_jumpif(levels==28,"lv28")
+tnt1 a 0 a_jumpif(levels==29,"lv29")
+tnt1 a 0 a_jumpif(levels==30,"lv30")
+tnt1 a 0 a_jumpif(levels==31,"lv31")
+tnt1 a 0 a_jumpif(levels==32,"lv32")
+stop
+lv1:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 1")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level01")
+stop
+lv2:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 2")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level02")
+stop
+lv3:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 3")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level03")
+stop
+lv4:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 4")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level04")
+stop
+lv5:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 5")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level05")
+stop
+lv6:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 6")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level06")
+stop
+lv7:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 7")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level07")
+stop
+lv8:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 8")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level08")
+stop
+lv9:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 9")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level09")
+stop
+lv10:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 10")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level10")
+stop
+lv11:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 11")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level11")
+stop
+lv12:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 12")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level12")
+stop
+lv13:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 13")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level13")
+stop
+lv14:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 14")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level14")
+stop
+lv15:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 15")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level15")
+stop
+lv16:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 16")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level16")
+stop
+lv17:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 17")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level17")
+stop
+lv18:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 18")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level18")
+stop
+lv19:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 19")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level19")
+stop
+lv20:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 20")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level20")
+stop
+lv21:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 21")
+tnt2 a 50
+tnt1 a 0 a_spawnitem("level21")
+stop
+lv22:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 22")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level22")
+stop
+lv23:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 23")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level23")
+stop
+lv24:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 24")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level24")
+stop
+lv25:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 25")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level25")
+stop
+lv26:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 26")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level26")
+stop
+lv27:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 27")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level27")
+stop
+lv28:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 28")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level28")
+stop
+lv29:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 29")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level29")
+stop
+lv30:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 30")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level30")
+stop
+lv31:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 31")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level31")
+stop
+lv32:
+tnt1 a 50
+tnt1 a 0 a_printbold("autolevel warping to map 32")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("level32")
+stop
+}
+}

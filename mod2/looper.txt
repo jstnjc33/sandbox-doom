@@ -1,0 +1,10 @@
+actor damagelooper
+{
+states
+{
+spawn:
+tnt1 a 35
+tnt1 a 0 a_spawnitem("damagegiver")
+loop
+}
+}

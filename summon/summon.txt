@@ -1,0 +1,2209 @@
+
+actor arachspawn4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,114,0,1)
+stop
+}
+}
+
+actor vilespawn4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,115,0,2)
+stop
+}
+}
+
+actor baronspawn4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,116,0,3)
+stop
+}
+}
+
+actor cacospawn4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,117,0,4)
+stop
+}
+}
+
+actor chainspawn4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,118,0,5)
+stop
+}
+}
+
+actor keenspawn4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,119,0,6)
+stop
+}
+}
+
+actor cybersummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,120,0,7)
+stop
+}
+}
+
+actor demonsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,121,0,8)
+stop
+}
+}
+
+actor impsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,122,0,9)
+stop
+}
+}
+
+actor barrellsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,123,0,10)
+stop
+}
+}
+
+actor fatsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,124,0,11)
+stop
+}
+}
+
+actor hellsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,125,0,12)
+stop
+}
+}
+
+actor lostsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,126,0,13)
+stop
+}
+}
+
+actor painsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,127,0,14)
+stop
+}
+}
+
+actor revsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,128,0,15)
+stop
+}
+}
+
+actor shotsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,129,0,16)
+stop
+}
+}
+
+actor specsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,130,0,17)
+stop
+}
+}
+
+actor spidersummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,131,0,18)
+stop
+}
+}
+
+actor wolfsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,132,0,19)
+stop
+}
+}
+
+actor zombsummon4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,133,0,20)
+stop
+}
+}
+
+actor arachspawn2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,134,0,1)
+stop
+}
+}
+
+actor vilespawn2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,135,0,2)
+stop
+}
+}
+
+actor baronspawn2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,136,0,3)
+stop
+}
+}
+
+actor cacospawn2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,137,0,4)
+stop
+}
+}
+
+actor chainspawn2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,138,0,5)
+stop
+}
+}
+
+actor keenspawn2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,139,0,6)
+stop
+}
+}
+
+actor cybersummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,140,0,7)
+stop
+}
+}
+
+actor demonsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,141,0,8)
+stop
+}
+}
+
+actor impsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,142,0,9)
+stop
+}
+}
+
+actor barrellsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,143,0,10)
+stop
+}
+}
+
+actor fatsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,144,0,11)
+stop
+}
+}
+
+actor hellsummon2 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,145,0,12)
+stop
+}
+}
+
+actor lostsummon2 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,146,0,13)
+stop
+}
+}
+
+actor painsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,147,0,14)
+stop
+}
+}
+
+actor revsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,148,0,15)
+stop
+}
+}
+
+actor shotsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,149,0,16)
+stop
+}
+}
+
+actor specsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,150,0,17)
+stop
+}
+}
+
+actor spidersummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,151,0,18)
+stop
+}
+}
+
+actor wolfsummon2 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,152,0,19)
+stop
+}
+}
+
+actor zombsummon2
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,153,0,20)
+stop
+}
+}
+
+actor arachspawn3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,154,0,1)
+stop
+}
+}
+
+actor vilespawn3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,155,0,2)
+stop
+}
+}
+
+actor baronspawn3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,156,0,3)
+stop
+}
+}
+
+actor cacospawn3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,157,0,4)
+stop
+}
+}
+
+actor chainspawn3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,158,0,5)
+stop
+}
+}
+
+actor keenspawn3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,159,0,6)
+stop
+}
+}
+
+actor cybersummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,160,0,7)
+stop
+}
+}
+
+actor demonsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,161,0,8)
+stop
+}
+}
+
+actor impsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,162,0,9)
+stop
+}
+}
+
+actor barrellsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,163,0,10)
+stop
+}
+}
+
+actor fatsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,164,0,11)
+stop
+}
+}
+
+actor hellsummon3 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,165,0,12)
+stop
+}
+}
+
+actor lostsummon3 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,166,0,13)
+stop
+}
+}
+
+actor painsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,167,0,14)
+}
+}
+
+actor revsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,168,0,15)
+stop
+}
+}
+
+actor shotsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,169,0,16)
+stop
+}
+}
+
+actor specsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,170,0,17)
+stop
+}
+}
+
+actor spidersummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,171,0,18)
+stop
+}
+}
+
+actor wolfsummon3 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,172,0,19)
+stop
+}
+}
+
+actor zombsummon3
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,173,0,20)
+stop
+}
+}
+
+actor arachspawn5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,176,0,1)
+stop
+}
+}
+
+actor vilespawn5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,177,0,2)
+stop
+}
+}
+
+actor baronspawn5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,178,0,3)
+stop
+}
+}
+
+actor cacospawn5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,179,0,4)
+stop
+}
+}
+
+actor chainspawn5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,180,0,5)
+stop
+}
+}
+
+actor keenspawn5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,181,0,6)
+stop
+}
+}
+
+actor cybersummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,182,0,7)
+stop
+}
+}
+
+actor demonsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,183,0,8)
+stop
+}
+}
+
+actor impsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,184,0,9)
+stop
+}
+}
+
+actor barrellsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,195,0,10)
+stop
+}
+}
+
+actor fatsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,185,0,11)
+stop
+}
+}
+
+actor hellsummon5 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,186,0,12)
+stop
+}
+}
+
+actor lostsummon5 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,187,0,13)
+stop
+}
+}
+
+actor painsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,188,0,14)
+}
+}
+
+actor revsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,189,0,15)
+stop
+}
+}
+
+actor shotsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,190,0,16)
+stop
+}
+}
+
+actor specsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,191,0,17)
+stop
+}
+}
+
+actor spidersummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,192,0,18)
+stop
+}
+}
+
+actor wolfsummon5 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,193,0,19)
+stop
+}
+}
+
+actor zombsummon5
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,194,0,20)
+stop
+}
+}
+
+actor arachspawn6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,196,0,1)
+stop
+}
+}
+
+actor vilespawn6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,196,0,2)
+stop
+}
+}
+
+actor baronspawn6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,196,0,3)
+stop
+}
+}
+
+actor cacospawn6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,196,0,4)
+stop
+}
+}
+
+actor chainspawn6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,196,0,5)
+stop
+}
+}
+
+actor keenspawn6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,196,0,6)
+stop
+}
+}
+
+actor cybersummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,196,0,7)
+stop
+}
+}
+
+actor demonsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,196,0,8)
+stop
+}
+}
+
+actor impsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,196,0,9)
+stop
+}
+}
+
+actor barrellsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,196,0,10)
+stop
+}
+}
+
+actor fatsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,196,0,11)
+stop
+}
+}
+
+actor hellsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,196,0,12)
+stop
+}
+}
+
+actor lostsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,197,0,13)
+stop
+}
+}
+
+actor painsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,196,0,14)
+}
+}
+
+actor revsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,196,0,15)
+stop
+}
+}
+
+actor shotsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,196,0,16)
+stop
+}
+}
+
+actor specsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,196,0,17)
+stop
+}
+}
+
+actor spidersummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,196,0,18)
+stop
+}
+}
+
+actor wolfsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,196,0,19)
+stop
+}
+}
+
+actor zombsummon6
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,196,0,20)
+stop
+}
+}
+
+actor arachspawn7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,197,0,1)
+stop
+}
+}
+
+actor vilespawn7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,213,0,2)
+stop
+}
+}
+
+actor baronspawn7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,198,0,3)
+stop
+}
+}
+
+actor cacospawn7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,199,0,4)
+stop
+}
+}
+
+actor chainspawn7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,200,0,5)
+stop
+}
+}
+
+actor keenspawn7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,204,0,6)
+stop
+}
+}
+
+actor cybersummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,201,0,7)
+stop
+}
+}
+
+actor demonsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,202,0,8)
+stop
+}
+}
+
+actor impsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,203,0,9)
+stop
+}
+}
+
+actor barrellsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,196,0,10)
+stop
+}
+}
+
+actor fatsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,206,0,11)
+stop
+}
+}
+
+actor hellsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,205,0,12)
+stop
+}
+}
+
+actor lostsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,210,0,13)
+stop
+}
+}
+
+actor painsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,207,0,14)
+}
+}
+
+actor revsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,208,0,15)
+stop
+}
+}
+
+actor shotsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,209,0,16)
+stop
+}
+}
+
+actor specsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,211,0,17)
+stop
+}
+}
+
+actor spidersummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,212,0,18)
+stop
+}
+}
+
+actor wolfsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,214,0,19)
+stop
+}
+}
+
+actor zombsummon7
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,215,0,20)
+stop
+}
+}
+
+actor arachspawn8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,220,0,1)
+stop
+}
+}
+
+actor vilespawn8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,220,0,2)
+stop
+}
+}
+
+actor baronspawn8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,220,0,3)
+stop
+}
+}
+
+actor cacospawn8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,220,0,4)
+stop
+}
+}
+
+actor chainspawn8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,220,0,5)
+stop
+}
+}
+
+actor keenspawn8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,220,0,6)
+stop
+}
+}
+
+actor cybersummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,220,0,7)
+stop
+}
+}
+
+actor demonsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,220,0,8)
+stop
+}
+}
+
+actor impsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,220,9)
+stop
+}
+}
+
+actor barrellsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,220,0,10)
+stop
+}
+}
+
+actor fatsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,220,0,11)
+stop
+}
+}
+
+actor hellsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,220,0,12)
+stop
+}
+}
+
+actor lostsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,220,0,13)
+stop
+}
+}
+
+actor painsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,220,0,14)
+}
+}
+
+actor revsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,220,0,15)
+stop
+}
+}
+
+actor shotsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,220,0,16)
+stop
+}
+}
+
+actor specsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,220,0,17)
+stop
+}
+}
+
+actor spidersummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,220,0,18)
+stop
+}
+}
+
+actor wolfsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,220,0,19)
+stop
+}
+}
+
+actor zombsummon8
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,220,0,20)
+stop
+}
+}
+
+actor arachspawn9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,221,0,1)
+stop
+}
+}
+
+actor vilespawn9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,222,0,2)
+stop
+}
+}
+
+actor baronspawn9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,223,0,3)
+stop
+}
+}
+
+actor cacospawn9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,224,0,4)
+stop
+}
+}
+
+actor chainspawn9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,225,0,5)
+stop
+}
+}
+
+actor keenspawn9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,226,0,6)
+stop
+}
+}
+
+actor cybersummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,227,0,7)
+stop
+}
+}
+
+actor demonsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,228,0,8)
+stop
+}
+}
+
+actor impsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,229,0,9)
+stop
+}
+}
+
+actor barrellsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,230,0,10)
+stop
+}
+}
+
+actor fatsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,231,0,11)
+stop
+}
+}
+
+actor hellsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,232,0,12)
+stop
+}
+}
+
+actor lostsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,233,0,13)
+stop
+}
+}
+
+actor painsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,234,0,14)
+}
+}
+
+actor revsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,235,0,15)
+stop
+}
+}
+
+actor shotsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,236,0,16)
+stop
+}
+}
+
+actor specsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,237,0,17)
+stop
+}
+}
+
+actor spidersummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,238,0,18)
+stop
+}
+}
+
+actor wolfsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,239,0,19)
+stop
+}
+}
+
+actor zombsummon9
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,240,0,20)
+stop
+}
+}
+
+actor arachspawn10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,241,0,1)
+stop
+}
+}
+
+actor vilespawn10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,242,0,2)
+stop
+}
+}
+
+actor baronspawn10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,243,0,3)
+stop
+}
+}
+
+actor cacospawn10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,244,0,4)
+stop
+}
+}
+
+actor chainspawn10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,245,0,5)
+stop
+}
+}
+
+actor keenspawn10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,246,0,6)
+stop
+}
+}
+
+actor cybersummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,247,0,7)
+stop
+}
+}
+
+actor demonsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,248,0,8)
+stop
+}
+}
+
+actor impsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,249,0,9)
+stop
+}
+}
+
+actor barrellsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,250,0,10)
+stop
+}
+}
+
+actor fatsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,251,0,11)
+stop
+}
+}
+
+actor hellsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,252,0,12)
+stop
+}
+}
+
+actor lostsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,253,0,13)
+stop
+}
+}
+
+actor painsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,234,0,14)
+}
+}
+
+actor revsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,255,0,15)
+stop
+}
+}
+
+actor shotsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,256,0,16)
+stop
+}
+}
+
+actor specsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,257,0,17)
+stop
+}
+}
+
+actor spidersummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,258,0,18)
+stop
+}
+}
+
+actor wolfsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,259,0,19)
+stop
+}
+}
+
+actor zombsummon10
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,260,0,20)
+stop
+}
+}
+
+actor arachspawn11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(21,262,0,1)
+stop
+}
+}
+
+actor vilespawn11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(22,263,0,2)
+stop
+}
+}
+
+actor baronspawn11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(23,264,0,3)
+stop
+}
+}
+
+actor cacospawn11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(24,265,0,4)
+stop
+}
+}
+
+actor chainspawn11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(25,266,0,5)
+stop
+}
+}
+
+actor keenspawn11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(26,267,0,6)
+stop
+}
+}
+
+actor cybersummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(27,268,0,7)
+stop
+}
+}
+
+actor demonsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(28,269,0,8)
+stop
+}
+}
+
+actor impsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(29,270,0,9)
+stop
+}
+}
+
+actor barrellsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(30,271,0,10)
+stop
+}
+}
+
+actor fatsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(31,272,0,11)
+stop
+}
+}
+
+actor hellsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(32,273,0,12)
+stop
+}
+}
+
+actor lostsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(33,274,0,13)
+stop
+}
+}
+
+actor painsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(34,275,0,14)
+}
+}
+
+actor revsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(35,276,0,15)
+stop
+}
+}
+
+actor shotsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(36,277,0,16)
+stop
+}
+}
+
+actor specsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(37,278,0,17)
+stop
+}
+}
+
+actor spidersummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(38,279,0,18)
+stop
+}
+}
+
+actor wolfsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(39,280,0,19)
+stop
+}
+}
+
+actor zombsummon11
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 thing_spawn(40,281,0,20)
+stop
+}
+}
+
+actor itemgiver 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("canpass1")
+tnt1 a 0 a_spawnitem("slideonwalls1")
+tnt1 a 0 a_spawnitem("jumpdown1")
+tnt1 a 0 a_spawnitem("lookallaround1")
+tnt1 a 0 a_spawnitem("quicktoretaliate1")
+tnt1 a 0 a_spawnitem("noblockmonst1")
+tnt1 a 0 a_spawnitem("doharmspecies1")
+stop
+}
+}

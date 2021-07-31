@@ -1,0 +1,114 @@
+actor rumble
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 a_playsound("battle/start",0,1.0,false,attn_none)
+tnt1 a 75
+tnt1 a 0 thing_hate(1,1,2)
+stop
+}
+}
+
+actor rumble3
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_changetid(2,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(3,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(4,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(5,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(6,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(7,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(8,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(9,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(10,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(11,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(12,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(13,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(14,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(15,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(16,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(17,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(18,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(19,1)
+tnt1 a 50
+tnt1 a 0 thing_changetid(20,1)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("pain")
+stop
+}
+}
+
+actor rumble1
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp20")
+tnt1 a 50
+tnt1 a 0 thing_spawn(41,111,0,0)
+tnt1 a 50
+tnt1 a 0 thing_remove(41)
+stop
+}
+}

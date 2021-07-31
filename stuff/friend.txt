@@ -1,0 +1,36 @@
+actor explodefriend
+{
++friendly
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("explode2",1)
+stop
+}
+}
+
+actor friendsetup
+{
++friendly
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_look
+tnt1 a 50
+tnt1 a 0 a_givetotarget("canpass",1)
+tnt1 a 50
+tnt1 a 0 a_givetotarget("lookallaround",1)
+tnt1 a 50
+tnt1 a 0 a_givetotarget("quicktoretaliate",1)
+tnt1 a 50
+tnt1 a 0 a_givetotarget("noblockmonst",1)
+tnt1 a 50
+tnt1 a 0 a_givetotarget("friendly1",1)
+tnt1 a 50
+tnt1 a 0 a_givetotarget("spectral",1)
+stop
+}
+}

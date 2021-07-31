@@ -1,0 +1,10 @@
+actor pt : patrolpoint
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 
+loop
+}
+}

@@ -1,0 +1,250 @@
+actor mp : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,21)
+loop
+}
+}
+
+actor mp1 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,22)
+loop
+}
+}
+
+actor mp2 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,23)
+loop
+}
+}
+
+actor mp3: mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,24)
+loop
+}
+}
+
+actor mp4 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,25)
+loop
+}
+}
+
+actor mp5 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,26)
+loop
+}
+}
+
+actor mp6: mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,27)
+loop
+}
+}
+
+actor mp7 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,28)
+loop
+}
+}
+actor mp8 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,29)
+loop
+}
+}
+
+actor mp9: mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,30)
+loop
+}
+}
+
+actor mp10 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,31)
+loop
+}
+}
+
+actor mp11 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,32)
+loop
+}
+}
+
+actor mp12 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,33)
+loop
+}
+}
+
+actor mp13 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,34)
+loop
+}
+}
+
+actor mp14 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,35)
+loop
+}
+}
+
+actor mp15 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,36)
+loop
+}
+}
+
+actor mp16 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,37)
+loop
+}
+}
+
+actor mp17 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,38)
+loop
+}
+}
+actor mp18 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,39)
+loop
+}
+}
+
+actor mp19 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,40)
+loop
+}
+}
+
+actor mp20 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,41)
+loop
+}
+}
+
+actor mp21 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,43)
+loop
+}
+}
+
+actor mp22 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,44)
+loop
+}
+}

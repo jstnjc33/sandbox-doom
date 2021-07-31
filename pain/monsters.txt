@@ -1,0 +1,235 @@
+actor painzombie : zombieman2
+{
+states
+{
+Pain:
+    POSS G 3
+    POSS G 3 A_Pain
+    poss g 3 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+ }
+}
+
+actor painwolf : wolfensteinss2
+{
+states
+{
+Pain:
+    SSWV H 3
+    SSWV H 3 A_Pain
+    sswv h 3 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+ }
+}
+
+actor painspider : spidermastermind2
+{
+States
+{
+Pain:
+    SPID I 3
+    SPID I 3 A_Pain
+    tnt1 a 0 a_logint(health)
+    tnt1 a 0 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+ }
+ }
+ 
+ actor painpinky : pinky2
+ {
+ states
+ {
+ Pain:
+    SARG H 2 Fast
+    SARG H 2 Fast A_Pain
+    sarg h 2 fast a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+ }
+ }
+ 
+ actor painspectre : pinky2
+ {
+ states
+ {
+ Pain:
+    SARG H 2 Fast
+    SARG H 2 Fast A_Pain
+    sarg h 2 fast a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+}
+}
+
+actor painshot : shotgunguy2
+{
+states
+{
+Pain:
+    SPOS G 3
+    SPOS G 3 A_Pain
+    spos g 3 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+ }
+ }
+ 
+ actor painrev : revenant2
+ {
+ states
+ {
+ Pain:
+    SKEL L 5
+    SKEL L 5 A_Pain
+    skel l 5 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+  }
+  }
+  
+  actor painsoul : lostsoul2
+  {
+  states
+  {
+  Pain:
+    SKUL E 3 Bright
+    SKUL E 3 Bright A_Pain
+    skul e 3 bright a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+ }
+ }
+ 
+ actor painbaron : baronofhell2
+ {
+ states
+ {
+ Pain:
+    BOSS H 2
+    BOSS H 2 A_Pain
+    boss h 2 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+ }
+ }
+ 
+ 
+ actor painknight : hellknight2
+ {
+ states
+ {
+ Pain:
+    BOS2 H 2
+    BOS2 H 2 A_Pain
+    bos2 h 2 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+  }
+  }
+  
+actor painfat : fatso2
+{
+states
+{
+Pain:
+    FATT J 3
+    FATT J 3 A_Pain
+    fatt j 3 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+}
+}
+
+actor painbarrel : explosivebarrel3
+{
+states
+{
+Death:
+    BEXP A 5 Bright
+    BEXP B 5 Bright A_Scream
+    BEXP C 5 Bright
+    BEXP D 5 Bright A_Explode
+    BEXP E 10 Bright
+    bexp E 1 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    TNT1 A 1050 Bright A_BarrelDestroy
+    TNT1 A 5 A_Respawn
+    Wait
+}
+}
+
+actor painimp : doomimp2
+{
+states
+{
+Pain:
+    TROO H 2
+    TROO H 2 A_Pain
+    troo h 2 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+}
+}
+
+actor paincyber : cyberdemon2
+{
+states
+{
+Pain:
+    CYBR G 10 A_Pain
+    cybr g 1 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    tnt1 a 0 a_logint(health)
+    Goto See
+}
+}
+
+actor painkeen : commanderkeen2
+{
+states
+{
+Pain:
+    KEEN M 4
+    KEEN M 8 A_Pain
+    keen m 1 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto Spawn
+}
+}
+
+actor painchain : chaingunguy2
+{
+states
+{
+Pain:
+    CPOS G 3
+    CPOS G 3 A_Pain
+    cpos g 3 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+}
+}
+
+actor paincaco : cacodemon2
+{
+states
+{
+Pain:
+    HEAD E 3
+    HEAD E 3 A_Pain
+    HEAD F 6
+    head f 1 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+}
+}
+
+actor painarach : arachnotron2
+{
+states
+{
+Pain:
+    BSPI I 3
+    BSPI I 3 A_Pain
+    bspi i 1 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See+1
+}
+}
+
+actor painarch : archvile2
+{
+states
+{
+Pain:
+    VILE Q 5   
+    VILE Q 5 A_Pain
+    vile q 1 a_radiusgive("ouch1", 250,rgf_monsters,1)
+    Goto See
+}
+}

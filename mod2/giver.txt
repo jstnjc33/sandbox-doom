@@ -1,0 +1,61 @@
+actor noisegiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("noisealert",1)
+stop
+}
+}
+
+actor damagegiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("damage2",1)
+stop
+}
+}
+
+actor damagegiver1
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("damage3",1)
+stop
+}
+}
+actor poisongiver3
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("poisontrap",1)
+stop
+}
+}
+
+actor poisongiver4
+{
+states
+{
+spawn:
+tnt1 a 75
+tnt1 a 0 a_radiusgive("poisontrap",500,rgf_monsters,1)
+stop
+}
+}

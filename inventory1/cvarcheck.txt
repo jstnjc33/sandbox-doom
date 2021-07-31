@@ -1,0 +1,390 @@
+actor powercheck
+{
+states
+{
+spawn:
+tnt1 a 2 
+tnt1 a 0 a_jumpif(spup==1,"allmap")
+tnt1 a 0 a_jumpif(spup==2,"infrared")
+tnt1 a 0 a_jumpif(spup==3,"InvulnerabilitySphere")
+tnt1 a 0 a_jumpif(spup==4,"radsuit")
+tnt1 a 0 a_jumpif(hpup==5,"megasphere")
+tnt1 a 0 a_jumpif(apup==6,"bluearmor")
+tnt1 a 0 a_jumpif(apup==7,"greenarmor")
+tnt1 a 0 a_jumpif(plpup==8,"backpack")
+tnt1 a 0 a_jumpif(ppup==9,"cellpack")
+tnt1 a 0 a_jumpif(ppup==10,"clipbox")
+tnt1 a 0 a_jumpif(ppup==11,"rocketbox")
+tnt1 a 0 a_jumpif(spup==12,"berserk")
+tnt1 a 0 a_jumpif(ppup==13,"shellbox")
+tnt1 a 0 a_jumpif(spup==14,"blursphere")
+tnt1 a 0 a_jumpif(hpup==15,"medkit")
+tnt1 a 0 a_jumpif(spup==16,"soulsphere")
+tnt1 a 0 a_jumpif(hpup==17,"stimpack")
+tnt1 a 0 a_jumpif(kpup==18,"bluecard")
+tnt1 a 0 a_jumpif(kpup==19,"redcard")
+tnt1 a 0 a_jumpif(kpup==20,"yellowcard")
+tnt1 a 0 a_jumpif(kpup==21,"blueskull")
+tnt1 a 0 a_jumpif(kpup==22,"redskull")
+tnt1 a 0 a_jumpif(kpup==23,"yellowskull")
+tnt1 a 0 a_jumpif(kpup==24,"keygiver")
+tnt1 a 0 a_jumpif(ipup==25,"clip")
+tnt1 a 0 a_jumpif(ipup==26,"shot")
+tnt1 a 0 a_jumpif(ipup==27,"rocket")
+tnt1 a 0 a_jumpif(ipup==28,"cell")
+tnt1 a 0 a_jumpif(apup==29,"armor")
+tnt1 a 0 a_jumpif(wpup==30,"health")
+tnt1 a 0 a_jumpif(wpup==31,"weapons")
+tnt1 a 0 a_jumpif(ipup==32,"allammo")
+tnt1 a 0 a_jumpif(cpup==33,"canpass")
+tnt1 a 0 a_jumpif(cpup==34,"slideonwalls")
+tnt1 a 0 a_jumpif(cpup==35,"avoidmelee")
+tnt1 a 0 a_jumpif(cpup==36,"jumpown")
+tnt1 a 0 a_jumpif(cpup==37,"lookallaround")
+tnt1 a 0 a_jumpif(cpup==38,"quicktoretaliate")
+tnt1 a 0 a_jumpif(cpup==39,"noblockmonst")
+tnt1 a 0 a_jumpif(cpup==40,"doharmspecies")
+tnt1 a 0 a_jumpif(cpup==41,"forceradiusdmg")
+tnt1 a 0 a_jumpif(cpup==42,"stealth")
+tnt1 a 0 a_jumpif(plpup==43,"spectral")
+tnt1 a 0 a_jumpif(cpup==44,"friend")
+tnt1 a 0 a_jumpif(plpup==45,"allweapons")
+tnt1 a 0 a_jumpif(pup==46,"trap1")
+tnt1 a 0 a_jumpif(pup==47,"regen")
+tnt1 a 0 a_jumpif(pup==48,"regen1")
+tnt1 a 0 a_jumpif(spup==49,"flight")
+flight:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving the ability to fly")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("fly2",9999,rgf_players,1)
+stop
+allmap:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving allmap")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("allmap2",9999,rgf_players,1)
+stop
+infrared:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving infrared")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("infrared2",9999,rgf_players,1)
+stop
+InvulnerabilitySphere:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving InvulnerabilitySphere")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("InvulnerabilitySphere2",9999,rgf_players,1)
+stop
+radsuit:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving radsuit")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("radsuit2",9999,rgf_players,1)
+stop
+megasphere:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving megasphere")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("megasphere",9999,rgf_players,1)
+stop
+bluearmor:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving bluearmor")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("bluearmor",9999,rgf_players,1)
+stop
+greenarmor:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving greenarmor")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("greenarmor",9999,rgf_players,1)
+stop
+backpack:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving backpack")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("backpack",9999,rgf_players,1)
+stop
+cellpack:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving cellpack")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("cellpack",9999,rgf_players,1)
+stop
+clipbox:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving clipbox")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("clipbox",9999,rgf_players,1)
+stop
+berserk:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving berserk")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("berserk",9999,rgf_players,1)
+stop
+shellbox:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving shellbox")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("shellbox",9999,rgf_players,1)
+stop
+blursphere:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving blursphere")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("blursphere",9999,rgf_players,1)
+stop
+medkit:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving medkit")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("medikit",9999,rgf_players,1)
+stop
+soulsphere:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving soulsphere")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("soulsphere",9999,rgf_players,1)
+stop
+stimpack:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving stimpack")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("stimpack",9999,rgf_players,1)
+stop
+bluecard:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving bluecard key")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("bluegive")
+stop
+redcard:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving redcard key")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("redgive")
+stop
+yellowcard:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving yellowcard key")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("yelgive")
+stop
+blueskull:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving blueskull key")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("bluegive1")
+stop
+redskull:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving redskull key")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("redgive1")
+stop
+yellowskull:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving yellowskull key")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("yelgive1")
+stop
+keygiver:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving all keys")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("keygiver")
+stop
+clip:
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning clip regeneration")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("clipcharge1")
+stop
+shot:
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning shotgun ammo regeneration")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotcharge1")
+stop
+rocket:
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning rocket regeneration")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("rockcharge1")
+stop
+cell:
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning cell regeneration")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cellcharge1")
+stop
+armor:
+tnt1 a 50
+tnt1 a 0 a_printbold("armor regen activated")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("armorcharge1")
+stop
+health:
+tnt1 a 50
+tnt1 a 0 a_printbold("health regen activated")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("healthcharge1")
+stop
+weapons:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving weapons")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wepgiver")
+stop
+allammo:
+tnt1 a 50
+tnt1 a 0 a_printbold("all ammo regen")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("ammoregen1")
+stop
+canpass:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving canpass")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("canpass1")
+stop
+slideonwalls:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving slideonwalls")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("slideonwalls1")
+stop
+avoidmelee:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving avoidmelee")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("avoidmelee1")
+stop
+jumpdown:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving jumpdown")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("jumpdown1")
+stop
+lookallaround:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving lookallaround")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lookallaround1")
+stop
+quicktoretaliate:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving quicktoretaliate")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("quicktoretaliate1")
+stop
+noblockmonst:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving noblockmonst")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("noblockmonst1")
+stop
+doharmspecies:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving doharmspecies")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("doharmspecies1")
+stop
+forceradiusdmg:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving forceradiusdmg")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("forceradiusdmg")
+stop
+stealth:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving stealth to monsters")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("stealth1")
+stop
+spectral:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving spectral to player")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spectral1")
+stop
+friend:
+tnt1 a 50
+tnt1 a 0 a_printbold("turning a hostile emeny friendly")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("friendgiver")
+stop
+allweapons:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving all weapons")
+tnt1 a 50
+tnt1 a 0 a_radiusgive("weappack",9999,rgf_players,1)
+stop
+trap1:
+tnt1 a 50
+tnt1 a 0 a_printbold("activating trap1")
+tnt1 a 50
+tnt1 a 0 acs_namedexecute("change1",0)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("trapcheck")
+stop
+regen:
+tnt1 a 50
+tnt1 a 0 a_printbold("activating full regeneration")
+tnt1 a 50
+tnt1 a 0 a_printbold("please standstill to be fully restored")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("regen")
+stop
+regen1:
+tnt1 a 50
+tnt1 a 0 a_printbold("activating full regeneration")
+tnt1 a 50
+tnt1 a 0 a_printbold("please standstill to be fully restored")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fastregen")
+stop
+}
+}
+
+actor poweract
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("powercheck")
+stop
+}
+}
+
+actor poweract1 : custominventory
+{
++invbar
+inventory.amount 1
+tag "menu item activator"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("poweract")
+fail
+}
+}
+
+actor ammoregen1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("clipcharge1")
+tnt1 a 0 a_spawnitem("shotcharge1")
+tnt1 a 0 a_spawnitem("rockcharge1")
+tnt1 a 0 a_spawnitem("cellcharge1")
+stop
+}
+}

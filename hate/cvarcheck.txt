@@ -1,0 +1,2367 @@
+actor arachcheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(arach1==1,"hate1")
+tnt1 a 0 a_jumpif(arach1==2,"hate2")
+tnt1 a 0 a_jumpif(arach1==3,"hate3")
+tnt1 a 0 a_jumpif(arach1==4,"hate4")
+tnt1 a 0 a_jumpif(arach1==5,"hate5")
+tnt1 a 0 a_jumpif(arach1==6,"hate6")
+tnt1 a 0 a_jumpif(arach1==7,"hate7")
+tnt1 a 0 a_jumpif(arach1==8,"hate8")
+tnt1 a 0 a_jumpif(arach1==9,"hate9")
+tnt1 a 0 a_jumpif(arach1==10,"hate10")
+tnt1 a 0 a_jumpif(arach1==11,"hate11")
+tnt1 a 0 a_jumpif(arach1==12,"hate12")
+tnt1 a 0 a_jumpif(arach1==13,"hate13")
+tnt1 a 0 a_jumpif(arach1==14,"hate14")
+tnt1 a 0 a_jumpif(arach1==15,"hate15")
+tnt1 a 0 a_jumpif(arach1==16,"hate16")
+tnt1 a 0 a_jumpif(arach1==17,"hate17")
+tnt1 a 0 a_jumpif(arach1==18,"hate18")
+tnt1 a 0 a_jumpif(arach1==19,"hate19")
+tnt1 a 0 a_jumpif(arach1==20,"hate20") 
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arach20")
+stop
+}
+}
+ 
+actor vilecheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(vileh1==1,"hate1")
+tnt1 a 0 a_jumpif(vileh1==2,"hate2")
+tnt1 a 0 a_jumpif(vileh1==3,"hate3")
+tnt1 a 0 a_jumpif(vileh1==4,"hate4")
+tnt1 a 0 a_jumpif(vileh1==5,"hate5")
+tnt1 a 0 a_jumpif(vileh1==6,"hate6")
+tnt1 a 0 a_jumpif(vileh1==7,"hate7")
+tnt1 a 0 a_jumpif(vileh1==8,"hate8")
+tnt1 a 0 a_jumpif(vileh1==9,"hate9")
+tnt1 a 0 a_jumpif(vileh1==10,"hate10")
+tnt1 a 0 a_jumpif(vileh1==11,"hate11")
+tnt1 a 0 a_jumpif(vileh1==12,"hate12")
+tnt1 a 0 a_jumpif(vileh1==13,"hate13")
+tnt1 a 0 a_jumpif(vileh1==14,"hate14")
+tnt1 a 0 a_jumpif(vileh1==15,"hate15")
+tnt1 a 0 a_jumpif(vileh1==16,"hate16")
+tnt1 a 0 a_jumpif(vileh1==17,"hate17")
+tnt1 a 0 a_jumpif(vileh1==18,"hate18")
+tnt1 a 0 a_jumpif(vileh1==19,"hate19")
+tnt1 a 0 a_jumpif(vileh1==20,"hate20")
+
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("vileh20")
+stop
+}
+}
+
+actor baroncheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(baronh1==1,"hate1")
+tnt1 a 0 a_jumpif(baronh1==2,"hate2")
+tnt1 a 0 a_jumpif(baronh1==3,"hate3")
+tnt1 a 0 a_jumpif(baronh1==4,"hate4")
+tnt1 a 0 a_jumpif(baronh1==5,"hate5")
+tnt1 a 0 a_jumpif(baronh1==6,"hate6")
+tnt1 a 0 a_jumpif(baronh1==7,"hate7")
+tnt1 a 0 a_jumpif(baronh1==8,"hate8")
+tnt1 a 0 a_jumpif(baronh1==9,"hate9")
+tnt1 a 0 a_jumpif(baronh1==10,"hate10")
+tnt1 a 0 a_jumpif(baronh1==11,"hate11")
+tnt1 a 0 a_jumpif(baronh1==12,"hate12")
+tnt1 a 0 a_jumpif(baronh1==13,"hate13")
+tnt1 a 0 a_jumpif(baronh1==14,"hate14")
+tnt1 a 0 a_jumpif(baronh1==15,"hate15")
+tnt1 a 0 a_jumpif(baronh1==16,"hate16")
+tnt1 a 0 a_jumpif(baronh1==17,"hate17")
+tnt1 a 0 a_jumpif(baronh1==18,"hate18")
+tnt1 a 0 a_jumpif(baronh1==19,"hate19")
+tnt1 a 0 a_jumpif(baronh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("baronh20")
+stop
+}
+}
+
+actor cacocheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(cacoh1==1,"hate1")
+tnt1 a 0 a_jumpif(cacoh1==2,"hate2")
+tnt1 a 0 a_jumpif(cacoh1==3,"hate3")
+tnt1 a 0 a_jumpif(cacoh1==4,"hate4")
+tnt1 a 0 a_jumpif(cacoh1==5,"hate5")
+tnt1 a 0 a_jumpif(cacoh1==6,"hate6")
+tnt1 a 0 a_jumpif(cacoh1==7,"hate7")
+tnt1 a 0 a_jumpif(cacoh1==8,"hate8")
+tnt1 a 0 a_jumpif(cacoh1==9,"hate9")
+tnt1 a 0 a_jumpif(cacoh1==10,"hate10")
+tnt1 a 0 a_jumpif(cacoh1==11,"hate11")
+tnt1 a 0 a_jumpif(cacoh1==12,"hate12")
+tnt1 a 0 a_jumpif(cacoh1==13,"hate13")
+tnt1 a 0 a_jumpif(cacoh1==14,"hate14")
+tnt1 a 0 a_jumpif(cacoh1==15,"hate15")
+tnt1 a 0 a_jumpif(cacoh1==16,"hate16")
+tnt1 a 0 a_jumpif(cacoh1==17,"hate17")
+tnt1 a 0 a_jumpif(cacoh1==18,"hate18")
+tnt1 a 0 a_jumpif(cacoh1==19,"hate19")
+tnt1 a 0 a_jumpif(cacoh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh20")
+stop
+}
+}
+
+actor chaincheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(chainh1==1,"hate1")
+tnt1 a 0 a_jumpif(chainh1==2,"hate2")
+tnt1 a 0 a_jumpif(chainh1==3,"hate3")
+tnt1 a 0 a_jumpif(chainh1==4,"hate4")
+tnt1 a 0 a_jumpif(chainh1==5,"hate5")
+tnt1 a 0 a_jumpif(chainh1==6,"hate6")
+tnt1 a 0 a_jumpif(chainh1==7,"hate7")
+tnt1 a 0 a_jumpif(chainh1==8,"hate8")
+tnt1 a 0 a_jumpif(chainh1==9,"hate9")
+tnt1 a 0 a_jumpif(chainh1==10,"hate10")
+tnt1 a 0 a_jumpif(chainh1==11,"hate11")
+tnt1 a 0 a_jumpif(chainh1==12,"hate12")
+tnt1 a 0 a_jumpif(chainh1==13,"hate13")
+tnt1 a 0 a_jumpif(chainh1==14,"hate14")
+tnt1 a 0 a_jumpif(chainh1==15,"hate15")
+tnt1 a 0 a_jumpif(chainh1==16,"hate16")
+tnt1 a 0 a_jumpif(chainh1==17,"hate17")
+tnt1 a 0 a_jumpif(chainh1==18,"hate18")
+tnt1 a 0 a_jumpif(chainh1==19,"hate19")
+tnt1 a 0 a_jumpif(chainh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chainh20")
+stop
+}
+}
+
+actor cybercheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(cyberh1==1,"hate1")
+tnt1 a 0 a_jumpif(cyberh1==2,"hate2")
+tnt1 a 0 a_jumpif(cyberh1==3,"hate3")
+tnt1 a 0 a_jumpif(cyberh1==4,"hate4")
+tnt1 a 0 a_jumpif(cyberh1==5,"hate5")
+tnt1 a 0 a_jumpif(cyberh1==6,"hate6")
+tnt1 a 0 a_jumpif(cyberh1==7,"hate7")
+tnt1 a 0 a_jumpif(cyberh1==8,"hate8")
+tnt1 a 0 a_jumpif(cyberh1==9,"hate9")
+tnt1 a 0 a_jumpif(cyberh1==10,"hate10")
+tnt1 a 0 a_jumpif(cyberh1==11,"hate11")
+tnt1 a 0 a_jumpif(cyberh1==12,"hate12")
+tnt1 a 0 a_jumpif(cyberh1==13,"hate13")
+tnt1 a 0 a_jumpif(cyberh1==14,"hate14")
+tnt1 a 0 a_jumpif(cyberh1==15,"hate15")
+tnt1 a 0 a_jumpif(cyberh1==16,"hate16")
+tnt1 a 0 a_jumpif(cyberh1==17,"hate17")
+tnt1 a 0 a_jumpif(cyberh1==18,"hate18")
+tnt1 a 0 a_jumpif(cyberh1==19,"hate19")
+tnt1 a 0 a_jumpif(cyberh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cyberh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacoh20")
+stop
+}
+}
+
+actor demoncheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(demh1==1,"hate1")
+tnt1 a 0 a_jumpif(demh1==2,"hate2")
+tnt1 a 0 a_jumpif(demh1==3,"hate3")
+tnt1 a 0 a_jumpif(demh1==4,"hate4")
+tnt1 a 0 a_jumpif(demh1==5,"hate5")
+tnt1 a 0 a_jumpif(demh1==6,"hate6")
+tnt1 a 0 a_jumpif(demh1==7,"hate7")
+tnt1 a 0 a_jumpif(demh1==8,"hate8")
+tnt1 a 0 a_jumpif(demh1==9,"hate9")
+tnt1 a 0 a_jumpif(demh1==10,"hate10")
+tnt1 a 0 a_jumpif(demh1==11,"hate11")
+tnt1 a 0 a_jumpif(demh1==12,"hate12")
+tnt1 a 0 a_jumpif(demh1==13,"hate13")
+tnt1 a 0 a_jumpif(demh1==14,"hate14")
+tnt1 a 0 a_jumpif(demh1==15,"hate15")
+tnt1 a 0 a_jumpif(demh1==16,"hate16")
+tnt1 a 0 a_jumpif(demh1==17,"hate17")
+tnt1 a 0 a_jumpif(demh1==18,"hate18")
+tnt1 a 0 a_jumpif(demh1==19,"hate19")
+tnt1 a 0 a_jumpif(demh1==20,"hate20")
+stop
+
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demh20")
+stop
+
+}
+}
+
+actor fatcheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(fath1==1,"hate1")
+tnt1 a 0 a_jumpif(fath1==2,"hate2")
+tnt1 a 0 a_jumpif(fath1==3,"hate3")
+tnt1 a 0 a_jumpif(fath1==4,"hate4")
+tnt1 a 0 a_jumpif(fath1==5,"hate5")
+tnt1 a 0 a_jumpif(fath1==6,"hate6")
+tnt1 a 0 a_jumpif(fath1==7,"hate7")
+tnt1 a 0 a_jumpif(fath1==8,"hate8")
+tnt1 a 0 a_jumpif(fath1==9,"hate9")
+tnt1 a 0 a_jumpif(fath1==10,"hate10")
+tnt1 a 0 a_jumpif(fath1==11,"hate11")
+tnt1 a 0 a_jumpif(fath1==12,"hate12")
+tnt1 a 0 a_jumpif(fath1==13,"hate13")
+tnt1 a 0 a_jumpif(fath1==14,"hate14")
+tnt1 a 0 a_jumpif(fath1==15,"hate15")
+tnt1 a 0 a_jumpif(fath1==16,"hate16")
+tnt1 a 0 a_jumpif(fath1==17,"hate17")
+tnt1 a 0 a_jumpif(fath1==18,"hate18")
+tnt1 a 0 a_jumpif(fath1==19,"hate19")
+tnt1 a 0 a_jumpif(fath1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath19")
+stop
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fath20")
+stop
+}
+}
+
+actor hellcheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(hellh1==1,"hate1")
+tnt1 a 0 a_jumpif(hellh1==2,"hate2")
+tnt1 a 0 a_jumpif(hellh1==3,"hate3")
+tnt1 a 0 a_jumpif(hellh1==4,"hate4")
+tnt1 a 0 a_jumpif(hellh1==5,"hate5")
+tnt1 a 0 a_jumpif(hellh1==6,"hate6")
+tnt1 a 0 a_jumpif(hellh1==7,"hate7")
+tnt1 a 0 a_jumpif(hellh1==8,"hate8")
+tnt1 a 0 a_jumpif(hellh1==9,"hate9")
+tnt1 a 0 a_jumpif(hellh1==10,"hate10")
+tnt1 a 0 a_jumpif(hellh1==11,"hate11")
+tnt1 a 0 a_jumpif(hellh1==12,"hate12")
+tnt1 a 0 a_jumpif(hellh1==13,"hate13")
+tnt1 a 0 a_jumpif(hellh1==14,"hate14")
+tnt1 a 0 a_jumpif(hellh1==15,"hate15")
+tnt1 a 0 a_jumpif(hellh1==16,"hate16")
+tnt1 a 0 a_jumpif(hellh1==17,"hate17")
+tnt1 a 0 a_jumpif(hellh1==18,"hate18")
+tnt1 a 0 a_jumpif(hellh1==19,"hate19")
+tnt1 a 0 a_jumpif(hellh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh19")
+stop
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellh20")
+stop
+}
+}
+
+actor impcheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(imph1==1,"hate1")
+tnt1 a 0 a_jumpif(imph1==2,"hate2")
+tnt1 a 0 a_jumpif(imph1==3,"hate3")
+tnt1 a 0 a_jumpif(imph1==4,"hate4")
+tnt1 a 0 a_jumpif(imph1==5,"hate5")
+tnt1 a 0 a_jumpif(imph1==6,"hate6")
+tnt1 a 0 a_jumpif(imph1==7,"hate7")
+tnt1 a 0 a_jumpif(imph1==8,"hate8")
+tnt1 a 0 a_jumpif(imph1==9,"hate9")
+tnt1 a 0 a_jumpif(imph1==10,"hate10")
+tnt1 a 0 a_jumpif(imph1==11,"hate11")
+tnt1 a 0 a_jumpif(imph1==12,"hate12")
+tnt1 a 0 a_jumpif(imph1==13,"hate13")
+tnt1 a 0 a_jumpif(imph1==14,"hate14")
+tnt1 a 0 a_jumpif(imph1==15,"hate15")
+tnt1 a 0 a_jumpif(imph1==16,"hate16")
+tnt1 a 0 a_jumpif(imph1==17,"hate17")
+tnt1 a 0 a_jumpif(imph1==18,"hate18")
+tnt1 a 0 a_jumpif(imph1==19,"hate19")
+tnt1 a 0 a_jumpif(imph1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("imph20")
+stop
+}
+}
+
+actor lostcheck
+{
+States
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(losth1==1,"hate1")
+tnt1 a 0 a_jumpif(losth1==2,"hate2")
+tnt1 a 0 a_jumpif(losth1==3,"hate3")
+tnt1 a 0 a_jumpif(losth1==4,"hate4")
+tnt1 a 0 a_jumpif(losth1==5,"hate5")
+tnt1 a 0 a_jumpif(losth1==6,"hate6")
+tnt1 a 0 a_jumpif(losth1==7,"hate7")
+tnt1 a 0 a_jumpif(losth1==8,"hate8")
+tnt1 a 0 a_jumpif(losth1==9,"hate9")
+tnt1 a 0 a_jumpif(losth1==10,"hate10")
+tnt1 a 0 a_jumpif(losth1==11,"hate11")
+tnt1 a 0 a_jumpif(losth1==12,"hate12")
+tnt1 a 0 a_jumpif(losth1==13,"hate13")
+tnt1 a 0 a_jumpif(losth1==14,"hate14")
+tnt1 a 0 a_jumpif(losth1==15,"hate15")
+tnt1 a 0 a_jumpif(losth1==16,"hate16")
+tnt1 a 0 a_jumpif(losth1==17,"hate17")
+tnt1 a 0 a_jumpif(losth1==18,"hate18")
+tnt1 a 0 a_jumpif(losth1==19,"hate19")
+tnt1 a 0 a_jumpif(losth1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("losth20")
+stop
+}
+}
+
+actor paincheck
+{
+States
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(painh1==1,"hate1")
+tnt1 a 0 a_jumpif(painh1==2,"hate2")
+tnt1 a 0 a_jumpif(painh1==3,"hate3")
+tnt1 a 0 a_jumpif(painh1==4,"hate4")
+tnt1 a 0 a_jumpif(painh1==5,"hate5")
+tnt1 a 0 a_jumpif(painh1==6,"hate6")
+tnt1 a 0 a_jumpif(painh1==7,"hate7")
+tnt1 a 0 a_jumpif(painh1==8,"hate8")
+tnt1 a 0 a_jumpif(painh1==9,"hate9")
+tnt1 a 0 a_jumpif(painh1==10,"hate10")
+tnt1 a 0 a_jumpif(painh1==11,"hate11")
+tnt1 a 0 a_jumpif(painh1==12,"hate12")
+tnt1 a 0 a_jumpif(painh1==13,"hate13")
+tnt1 a 0 a_jumpif(painh1==14,"hate14")
+tnt1 a 0 a_jumpif(painh1==15,"hate15")
+tnt1 a 0 a_jumpif(painh1==16,"hate16")
+tnt1 a 0 a_jumpif(painh1==17,"hate17")
+tnt1 a 0 a_jumpif(painh1==18,"hate18")
+tnt1 a 0 a_jumpif(painh1==19,"hate19")
+tnt1 a 0 a_jumpif(painh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("painh20")
+stop
+}
+}
+
+actor revcheck
+{
+States
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(revh1==1,"hate1")
+tnt1 a 0 a_jumpif(revh1==2,"hate2")
+tnt1 a 0 a_jumpif(revh1==3,"hate3")
+tnt1 a 0 a_jumpif(revh1==4,"hate4")
+tnt1 a 0 a_jumpif(revh1==5,"hate5")
+tnt1 a 0 a_jumpif(revh1==6,"hate6")
+tnt1 a 0 a_jumpif(revh1==7,"hate7")
+tnt1 a 0 a_jumpif(revh1==8,"hate8")
+tnt1 a 0 a_jumpif(revh1==9,"hate9")
+tnt1 a 0 a_jumpif(revh1==10,"hate10")
+tnt1 a 0 a_jumpif(revh1==11,"hate11")
+tnt1 a 0 a_jumpif(revh1==12,"hate12")
+tnt1 a 0 a_jumpif(revh1==13,"hate13")
+tnt1 a 0 a_jumpif(revh1==14,"hate14")
+tnt1 a 0 a_jumpif(revh1==15,"hate15")
+tnt1 a 0 a_jumpif(revh1==16,"hate16")
+tnt1 a 0 a_jumpif(revh1==17,"hate17")
+tnt1 a 0 a_jumpif(revh1==18,"hate18")
+tnt1 a 0 a_jumpif(revh1==19,"hate19")
+tnt1 a 0 a_jumpif(revh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revh20")
+stop
+}
+}
+
+actor shotcheck
+{
+States
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(shoth1==1,"hate1")
+tnt1 a 0 a_jumpif(shoth1==2,"hate2")
+tnt1 a 0 a_jumpif(shoth1==3,"hate3")
+tnt1 a 0 a_jumpif(shoth1==4,"hate4")
+tnt1 a 0 a_jumpif(shoth1==5,"hate5")
+tnt1 a 0 a_jumpif(shoth1==6,"hate6")
+tnt1 a 0 a_jumpif(shoth1==7,"hate7")
+tnt1 a 0 a_jumpif(shoth1==8,"hate8")
+tnt1 a 0 a_jumpif(shoth1==9,"hate9")
+tnt1 a 0 a_jumpif(shoth1==10,"hate10")
+tnt1 a 0 a_jumpif(shoth1==11,"hate11")
+tnt1 a 0 a_jumpif(shoth1==12,"hate12")
+tnt1 a 0 a_jumpif(shoth1==13,"hate13")
+tnt1 a 0 a_jumpif(shoth1==14,"hate14")
+tnt1 a 0 a_jumpif(shoth1==15,"hate15")
+tnt1 a 0 a_jumpif(shoth1==16,"hate16")
+tnt1 a 0 a_jumpif(shoth1==17,"hate17")
+tnt1 a 0 a_jumpif(shoth1==18,"hate18")
+tnt1 a 0 a_jumpif(shoth1==19,"hate19")
+tnt1 a 0 a_jumpif(shoth1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shoth20")
+stop
+}
+}
+
+actor speccheck
+{
+States
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(spech1==1,"hate1")
+tnt1 a 0 a_jumpif(spech1==2,"hate2")
+tnt1 a 0 a_jumpif(spech1==3,"hate3")
+tnt1 a 0 a_jumpif(spech1==4,"hate4")
+tnt1 a 0 a_jumpif(spech1==5,"hate5")
+tnt1 a 0 a_jumpif(spech1==6,"hate6")
+tnt1 a 0 a_jumpif(spech1==7,"hate7")
+tnt1 a 0 a_jumpif(spech1==8,"hate8")
+tnt1 a 0 a_jumpif(spech1==9,"hate9")
+tnt1 a 0 a_jumpif(spech1==10,"hate10")
+tnt1 a 0 a_jumpif(spech1==11,"hate11")
+tnt1 a 0 a_jumpif(spech1==12,"hate12")
+tnt1 a 0 a_jumpif(spech1==13,"hate13")
+tnt1 a 0 a_jumpif(spech1==14,"hate14")
+tnt1 a 0 a_jumpif(spech1==15,"hate15")
+tnt1 a 0 a_jumpif(spech1==16,"hate16")
+tnt1 a 0 a_jumpif(spech1==17,"hate17")
+tnt1 a 0 a_jumpif(spech1==18,"hate18")
+tnt1 a 0 a_jumpif(spech1==19,"hate19")
+tnt1 a 0 a_jumpif(spech1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spech20")
+stop
+}
+}
+
+actor spidcheck
+{
+States
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(spidh1==1,"hate1")
+tnt1 a 0 a_jumpif(spidh1==2,"hate2")
+tnt1 a 0 a_jumpif(spidh1==3,"hate3")
+tnt1 a 0 a_jumpif(spidh1==4,"hate4")
+tnt1 a 0 a_jumpif(spidh1==5,"hate5")
+tnt1 a 0 a_jumpif(spidh1==6,"hate6")
+tnt1 a 0 a_jumpif(spidh1==7,"hate7")
+tnt1 a 0 a_jumpif(spidh1==8,"hate8")
+tnt1 a 0 a_jumpif(spidh1==9,"hate9")
+tnt1 a 0 a_jumpif(spidh1==10,"hate10")
+tnt1 a 0 a_jumpif(spidh1==11,"hate11")
+tnt1 a 0 a_jumpif(spidh1==12,"hate12")
+tnt1 a 0 a_jumpif(spidh1==13,"hate13")
+tnt1 a 0 a_jumpif(spidh1==14,"hate14")
+tnt1 a 0 a_jumpif(spidh1==15,"hate15")
+tnt1 a 0 a_jumpif(spidh1==16,"hate16")
+tnt1 a 0 a_jumpif(spidh1==17,"hate17")
+tnt1 a 0 a_jumpif(spidh1==18,"hate18")
+tnt1 a 0 a_jumpif(spidh1==19,"hate19")
+tnt1 a 0 a_jumpif(spidh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidh20")
+stop
+}
+}
+
+actor wolfcheck
+{
+States
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(wolfh1==1,"hate1")
+tnt1 a 0 a_jumpif(wolfh1==2,"hate2")
+tnt1 a 0 a_jumpif(wolfh1==3,"hate3")
+tnt1 a 0 a_jumpif(wolfh1==4,"hate4")
+tnt1 a 0 a_jumpif(wolfh1==5,"hate5")
+tnt1 a 0 a_jumpif(wolfh1==6,"hate6")
+tnt1 a 0 a_jumpif(wolfh1==7,"hate7")
+tnt1 a 0 a_jumpif(wolfh1==8,"hate8")
+tnt1 a 0 a_jumpif(wolfh1==9,"hate9")
+tnt1 a 0 a_jumpif(wolfh1==10,"hate10")
+tnt1 a 0 a_jumpif(wolfh1==11,"hate11")
+tnt1 a 0 a_jumpif(wolfh1==12,"hate12")
+tnt1 a 0 a_jumpif(wolfh1==13,"hate13")
+tnt1 a 0 a_jumpif(wolfh1==14,"hate14")
+tnt1 a 0 a_jumpif(wolfh1==15,"hate15")
+tnt1 a 0 a_jumpif(wolfh1==16,"hate16")
+tnt1 a 0 a_jumpif(wolfh1==17,"hate17")
+tnt1 a 0 a_jumpif(wolfh1==18,"hate18")
+tnt1 a 0 a_jumpif(wolfh1==19,"hate19")
+tnt1 a 0 a_jumpif(wolfh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfh20")
+stop
+}
+}
+
+actor zombcheck
+{
+States
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(zombh1==1,"hate1")
+tnt1 a 0 a_jumpif(zombh1==2,"hate2")
+tnt1 a 0 a_jumpif(zombh1==3,"hate3")
+tnt1 a 0 a_jumpif(zombh1==4,"hate4")
+tnt1 a 0 a_jumpif(zombh1==5,"hate5")
+tnt1 a 0 a_jumpif(zombh1==6,"hate6")
+tnt1 a 0 a_jumpif(zombh1==7,"hate7")
+tnt1 a 0 a_jumpif(zombh1==8,"hate8")
+tnt1 a 0 a_jumpif(zombh1==9,"hate9")
+tnt1 a 0 a_jumpif(zombh1==10,"hate10")
+tnt1 a 0 a_jumpif(zombh1==11,"hate11")
+tnt1 a 0 a_jumpif(zombh1==12,"hate12")
+tnt1 a 0 a_jumpif(zombh1==13,"hate13")
+tnt1 a 0 a_jumpif(zombh1==14,"hate14")
+tnt1 a 0 a_jumpif(zombh1==15,"hate15")
+tnt1 a 0 a_jumpif(zombh1==16,"hate16")
+tnt1 a 0 a_jumpif(zombh1==17,"hate17")
+tnt1 a 0 a_jumpif(zombh1==18,"hate18")
+tnt1 a 0 a_jumpif(zombh1==19,"hate19")
+tnt1 a 0 a_jumpif(zombh1==20,"hate20")
+stop
+hate1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh1")
+stop
+
+hate2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh2")
+stop
+
+hate3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh3")
+stop
+
+hate4:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh4")
+stop
+
+hate5:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh5")
+stop
+
+hate6:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh6")
+stop
+
+hate7:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh7")
+stop
+
+hate8:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh8")
+stop
+
+hate9:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh9")
+stop
+
+hate10:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh10")
+stop
+
+hate11:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh11")
+stop
+
+hate12:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh12")
+stop
+
+hate13:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh13")
+stop
+
+hate14:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh14")
+stop
+
+hate15:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh15")
+stop
+
+hate16:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh16")
+stop
+
+hate17:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh17")
+stop
+
+hate18:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh18")
+stop
+
+hate19:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh19")
+stop
+
+hate20:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombh20")
+stop
+}
+}
+
+actor allhateact
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("arachcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem ("vilecheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem ("baroncheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cacocheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("chaincheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("cybercheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("demoncheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("fatcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("hellcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("impcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("lostcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("paincheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("revcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("shotcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("speccheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("spidcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("wolfcheck")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("zombcheck")
+stop
+}
+}

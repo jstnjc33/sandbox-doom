@@ -1,0 +1,713 @@
+actor bbs1 : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2 
+tnt1 a 0 a_warp(aaptr_default,-851,272,8,0,warpf_absoluteposition)
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 0 a_warp(aaptr_default,-872,1135,8,0,warpf_absoluteposition)
+tnt1 a 0 a_spawnitemex("mp21")
+tnt1 a 0 a_warp(aaptr_default,-748,717,8,0,warpf_absoluteposition)
+tnt1 a 0 thing_spawn(43,261,0,1)
+tnt1 a 0 thing_remove(43)
+tnt1 a 0 a_giveinventory("spectral",1)
+stop
+}
+}
+
+actor bpgiver
+{
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("spack",9999,rgf_players,1)
+tnt1 a 0 a_spawnitem("clipcharge")
+stop
+}
+}
+
+actor wepgiver 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("weappack",1)
+stop
+}
+}
+
+actor clipcharge
+{
+reactiontime 71
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("clip",9999,rgf_players,5)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("shotcharge")
+stop
+}
+}
+
+actor shotcharge
+{
+reactiontime 25
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("shell",9999,rgf_players,4)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("rockcharge")
+stop
+}
+}
+
+actor rockcharge
+{
+reactiontime 100
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("rocketammo",9999,rgf_players,1)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("cellcharge")
+stop
+}
+}
+
+actor cellcharge
+{
+reactiontime 117
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("cell",9999,rgf_players,5)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("armorcharge")
+stop
+}
+}
+
+actor armorcharge
+{
+reactiontime 201
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("armorbonus",9999,rgf_players,4)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("healthcharge")
+stop
+}
+}
+
+actor healthcharge
+{
+reactiontime 21
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("healthbonus",9999,rgf_players,5)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("berserk",9999,rgf_players,1)
+tnt1 a 2
+tnt1 a 0 a_radiusgive("megasphere",9999,rgf_players,1)
+tnt1 a 0 a_spawnitem("weapcharge")
+stop
+}
+}
+
+actor weapcharge
+{
+reactiontime 2
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("weappack",9999,rgf_players,1)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("keygiver")
+stop
+}
+}
+
+actor redgive
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("redcard",9999,rgf_players,1)
+stop
+}
+}
+
+actor bluegive
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("bluecard",9999,rgf_players,1)
+stop
+}
+}
+
+actor yelgive
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("yellowcard",9999,rgf_players,1)
+stop
+}
+}
+
+actor redgive1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("redskull",9999,rgf_players,1)
+stop
+}
+}
+
+actor bluegive1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("blueskull",9999,rgf_players,1)
+stop
+}
+}
+
+actor yelgive1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("yellowskull",9999,rgf_players,1)
+stop
+}
+}
+
+actor keygiver
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("redgive")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("bluegive")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("yelgive")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("redgive1")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("bluegive1")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("yelgive1")
+stop
+}
+}
+actor Regen
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_printbold("starting regeneration")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("bpgiver")
+stop
+}
+}
+
+actor bpgiver1
+{
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("spack",9999,rgf_players,1)
+stop
+}
+}
+
+actor clipcharge1
+{
+reactiontime 71
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("clip",9999,rgf_players,5)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0
+stop
+}
+}
+
+actor shotcharge1
+{
+reactiontime 25
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("shell",9999,rgf_players,4)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0
+stop
+}
+}
+
+actor rockcharge1
+{
+reactiontime 100
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("rocketammo",9999,rgf_players,1)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 
+stop
+}
+}
+
+actor cellcharge1
+{
+reactiontime 117
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("cell",9999,rgf_players,5)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 
+stop
+}
+}
+
+actor armorcharge1
+{
+reactiontime 201
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("armorbonus",9999,rgf_players,4)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 
+stop
+}
+}
+
+actor healthcharge1
+{
+reactiontime 21
+states
+{
+spawn:
+tnt1 a 36
+tnt1 a 0 a_radiusgive("healthbonus",9999,rgf_players,5)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("berserk",9999,rgf_players,1)
+tnt1 a 0 a_radiusgive("megasphere",9999,rgf_players,1)
+stop
+}
+}
+
+actor weapcharge1
+{
+reactiontime 2
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("weappack",9999,rgf_players,1)
+tnt1 a 0 a_countdown
+loop
+death:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("keygiver")
+stop
+}
+}
+
+actor fastregen
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_printbold("beginning fast regeneration")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("bpgiver1")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("clipcharge1")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("shotcharge1")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("rockcharge1")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("cellcharge1")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("armorcharge1")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("healthcharge1")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("weapcharge1")
+tnt1 a 36
+tnt1 a 0 a_spawnitem("keygiver")
+stop
+}
+}
+
+actor allmap1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("allmap",9999,rgf_players,1)
+stop
+}
+}
+
+actor infrared1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("infrared",9999,rgf_players,1)
+stop
+}
+}
+
+actor InvulnerabilitySphere1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("InvulnerabilitySphere",9999,rgf_players,1)
+stop
+}
+}
+
+actor radsuit1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("radsuit",9999,rgf_players,1)
+stop
+}
+}
+
+actor fly
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("artifly",1)
+stop
+}
+}
+
+actor cs : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 thing_changetid(0,1)
+stop
+}
+}
+
+actor cs1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("cs",9999,rgf_monsters,1)
+stop
+}
+}
+
+actor chaosball : doomimpball
+{
+damage 0
+states
+{
+Death:
+    BAL1 CDE 6 Bright
+    tnt1 a 2
+    tnt1 a 0 a_spawnitem("cs1")
+    tnt1 a 75
+    tnt1 a 0 thing_hate(1,1,4)
+    Stop
+    }
+    }
+    
+    actor noiseball : doomimpball
+    {
+damage 0
+states
+{
+Death:
+    BAL1 CDE 6 Bright
+    tnt1 a 75
+    tnt1 a 0 a_spawnitem("noisegiver")
+    Stop
+    }
+    }
+    
+    actor allmap2 : custominventory
+    {
+    inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("allmap1")
+stop
+}
+}
+
+ actor infrared2 : custominventory
+    {
+    inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("infrared1")
+stop
+}
+}
+
+ actor InvulnerabilitySphere2 : custominventory
+    {
+    inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("InvulnerabilitySphere1")
+stop
+}
+}
+
+ actor radsuit2 : custominventory
+    {
+    inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_spawnitem ("radsuit1")
+stop
+}
+}
+
+ actor fly2 : custominventory
+    {
+    inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 setplayerproperty(0,1,3)
+stop
+}
+}
+
+ actor chaosball1
+    {
+    +friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_custommissile("chaosball")
+stop
+}
+}
+
+actor noiseball1 
+    {
+    +friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look 
+tnt1 a 0 a_custommissile("noiseball")
+stop
+}
+}
+
+ actor poisonball2 
+    {
++friendly
++nogravity
++float
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_custommissile("poisonball")
+stop
+}
+}
+
+actor chaosball2 : custominventory
+    {
+    +invbar
+    inventory.amount 1
+    tag "summon chaosball"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitemex("chaosball1",50,0,0,0,0,100,0)
+fail
+}
+}
+
+actor noiseball2 : custominventory
+    {
+    +invbar
+    inventory.amount 1
+    tag "summon noiseball"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitemex("noiseball1",50,0,0,0,0,100,0)
+fail
+}
+}
+
+ actor poisonball3 : custominventory
+    {
++invbar
+inventory.amount 1
+tag "summon poisonball"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitemex("poisonball2",50,0,0,0,0,100,0)
+fail
+}
+}
+
+ actor ballkit: custominventory
+    {
+    +invbar
+    inventory.amount 1
+    tag "summon killer balls kit"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("chaosball2",1)
+tnt1 a 0 a_giveinventory("noiseball2",1)
+tnt1 a 0 a_giveinventory("poisonball3",1)
+stop
+}
+}
+
+actor teleball : doomimpball
+{
+damage 0
+states
+{
+death:
+bal1 cde 6 bright
+tnt1 a 50
+tnt1 a 0 thing_remove(43)
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 teleportother(42,43,1)
+stop
+}
+}

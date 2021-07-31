@@ -1,0 +1,2 @@
+[enu default]
+test = "infighting set to 1";

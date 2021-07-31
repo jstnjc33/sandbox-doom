@@ -1,0 +1,360 @@
+actor arachgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(1,43,0)
+stop
+}
+}
+
+actor vilegather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(2,43,0)
+stop
+}
+}
+
+actor barongather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(3,43,0)
+stop
+}
+}
+
+actor cacogather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(4,43,0)
+stop
+}
+}
+
+actor chaingather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(5,43,0)
+stop
+}
+}
+
+actor cybergather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(7,43,0)
+stop
+}
+}
+
+actor demongather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(8,43,0)
+stop
+}
+}
+
+actor impgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(9,43,0)
+stop
+}
+}
+
+actor fatgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(11,43,0)
+stop
+}
+}
+
+actor hellgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(12,43,0)
+stop
+}
+}
+
+actor lostgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(13,43,0)
+stop
+}
+}
+
+actor paingather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(14,43,0)
+stop
+}
+}
+
+actor revgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(15,43,0)
+stop
+}
+}
+
+actor shotgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(16,43,0)
+stop
+}
+}
+
+actor specgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(17,43,0)
+stop
+}
+}
+
+actor spidgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(18,43,0)
+stop
+}
+}
+
+actor wolfgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(19,43,0)
+stop
+}
+}
+
+actor zombgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(20,43,0)
+stop
+}
+}
+
+actor allgather
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_remove(43)
+tnt1 a 100
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 100
+tnt1 a 0 thing_spawn(43,112,0,43)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(1,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(2,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(3,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(4,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(5,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(6,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(7,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(8,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(9,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(10,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(11,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(12,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(13,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(14,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(15,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(16,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(17,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(18,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(19,43,0)
+tnt1 a 100
+tnt1 a 0 thing_setgoal(20,43,0)
+stop
+}
+}

@@ -1,0 +1,81 @@
+actor populatecheck
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_jumpif(modes==1,"normal")
+tnt1 a 0 a_jumpif(modes==2,"battle")
+tnt1 a 0 a_jumpif(modes==3,"death")
+tnt1 a 0 a_jumpif(modes==4,"pmode1")
+tnt1 a 0 a_jumpif(modes==5,"pmode2")
+tnt1 a 0 a_jumpif(modes==6,"angry")
+tnt1 a 0 a_jumpif(modes==7,"tele")
+tnt1 a 0 a_jumpif(modes==8,"random")
+tnt1 a 0 a_jumpif(modes==9,"blind")
+tnt1 a 0 a_jumpif(modes==10,"stealth")
+tnt1 a 0 a_jumpif(modes==11,"noise")
+tnt1 a 0 a_jumpif(modes==12,"pain")
+tnt1 a 0 a_jumpif(modes==13,"random")
+tnt1 a 0 a_jumpif(modes==14,"pmode3")
+stop
+normal:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate")
+stop
+battle:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate1")
+stop
+death:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate2")
+stop
+pmode1:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate4")
+stop
+pmode2:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate5")
+stop
+pmode3:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate13")
+stop
+angry:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate6")
+stop
+tele:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate7")
+stop
+random:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate8")
+stop
+blind:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate9")
+stop
+stealth:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate10")
+stop
+noise:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate11")
+stop
+pain:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("levelpopulate12")
+stop
+random:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("randomode1")
+stop
+}
+}
+
+

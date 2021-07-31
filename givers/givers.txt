@@ -1,0 +1,117 @@
+actor ouchgiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("ouch",1)
+stop
+}
+}
+
+actor poisongiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("poisongiver1",1)
+stop
+}
+}
+
+actor poisongiver2
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 2 a_custommissile("poisonball")
+stop
+}
+}
+
+actor explodegiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("explode2",1)
+stop
+}
+}
+
+actor stealthgiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("stealth",1)
+stop
+}
+}
+
+actor tidgiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("tidchange2",1)
+stop
+}
+}
+
+actor damagegiver2
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("damagegift",1)
+stop
+}
+}
+
+actor friendgiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("friend",1)
+stop
+}
+}
+
+actor nogiver
+{
++friendly
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("noblockmonst",1)
+stop
+}
+}
+

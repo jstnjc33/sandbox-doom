@@ -1,0 +1,10 @@
+actor poisonspreader
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_radiusgive("poisongiver1",300,rgf_monsters,1)
+stop
+}
+}

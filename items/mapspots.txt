@@ -1,0 +1,10 @@
+actor mp22 : mapspot
+{
+states
+{
+spawn:
+tnt1 a 10
+tnt1 a 0 thing_changetid(0,44)
+loop
+}
+}

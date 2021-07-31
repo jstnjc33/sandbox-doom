@@ -1,0 +1,1477 @@
+actor spack : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("backpack",1)
+stop
+}
+}
+
+actor weappack : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("bfg9000",1)
+tnt1 a 0 a_giveinventory("chaingun",1)
+tnt1 a 0 a_giveinventory("chainsaw",1)
+tnt1 a 0 a_giveinventory("plasmarifle",1)
+tnt1 a 0 a_giveinventory("rocketlauncher",1)
+tnt1 a 0 a_giveinventory("shotgun",1)
+tnt1 a 0 a_giveinventory("supershotgun",1)
+stop
+}
+}
+
+actor ouch : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(8)
+stop
+}
+}
+
+actor ouch1 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(6)
+stop
+}
+}
+
+actor item2 : custominventory
+{
++invbar
+inventory.amount 1
+tag "poison spawner"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("poisongiver")
+fail
+}
+}
+
+actor item3 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ouch giver"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("ouchgiver")
+fail
+}
+}
+
+actor item4 : custominventory
+{
++invbar
+inventory.amount 1 
+tag "ouch looper"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("ouchlooper")
+fail
+}
+}
+
+actor item5 : custominventory
+{
++invbar
+inventory.amount 1
+tag "weapon pack"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("weappack",1)
+stop
+}
+}
+
+
+actor items : custominventory
+{
++invbar
+inventory.amount 1 
+tag "weapon kit+"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("item2",1)
+tnt1 a 0 a_giveinventory("item3",1)
+tnt1 a 0 a_giveinventory("item4",1)
+tnt1 a 0 a_giveinventory("item5",1)
+
+stop
+}
+}
+
+actor nogravity : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("nogravity",true)
+stop
+}
+}
+
+actor float : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("float",true)
+stop
+}
+}
+actor canpass : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("canpass",true)
+stop
+}
+}
+
+actor canpass1 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("canpass",9999,rgf_monsters,1)
+stop
+}
+}
+
+
+actor slideonwalls : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("slideonwalls",true)
+stop
+}
+}
+
+actor slideonwalls1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("slideonwalls",9999,rgf_monsters,1)
+stop
+}
+}
+
+actor avoidmelee : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("avoidmelee",true)
+stop
+}
+}
+
+actor avoidmelee1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("avoidmelee",9999,rgf_monsters,1)
+stop
+}
+}
+actor jumpdown : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("jumpdown",true)
+stop
+}
+}
+
+actor jumpdown1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("jumpdown",9999,rgf_monsters,1)
+stop
+}
+}
+
+actor lookallaround : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("lookallaround",true)
+stop
+}
+}
+
+actor lookallaround1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("lookallaround",9999,rgf_monsters,1)
+stop
+}
+}
+actor quicktoretaliate : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("quicktoretaliate",true)
+stop
+}
+}
+
+actor quicktoretaliate1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("quicktoretaliate",9999,rgf_monsters,1)
+stop
+}
+}
+
+actor noblockmonst : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("noblockmonst",true)
+stop
+}
+}
+
+actor noblockmonst1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("noblockmonst",9999,rgf_monsters,1)
+stop
+}
+}
+
+
+actor doharmspecies : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("doharmspecies",true)
+stop
+}
+}
+
+actor doharmspecies1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("doharmspecies",9999,rgf_monsters,1)
+stop
+}
+}
+
+actor forceradiusdmg : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0 
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("forceradiusdmg",true)
+stop
+}
+}
+
+actor forceradiusdmg1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("forceradiusdmg",9999,rgf_monsters,1)
+stop
+}
+}
+
+actor stealth : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0 
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("stealth",true)
+stop
+}
+}
+
+actor stealth1 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("stealth",9999,rgf_monsters,1)
+stop
+}
+}
+
+
+actor spectral : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("spectral",true)
+stop
+}
+}
+
+actor spectral1 
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("spectral",9999,rgf_players,1)
+stop
+}
+}
+
+actor friendly1 : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("friendly",true)
+stop
+}
+}
+
+
+actor noisealert : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 noisealert(0,0)
+stop
+}
+}
+
+actor g1 : custominventory
+{
+inventory.amount 1
++invbar
+tag"zombieman gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("zombgather")
+fail
+}
+}
+
+actor g2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"wolfensteinss gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("wolfgather")
+fail
+}
+}
+actor g3 : custominventory
+{
+inventory.amount 1
++invbar
+tag"spidermastermind gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spidgather")
+fail
+}
+}
+
+actor g4 : custominventory
+{
+inventory.amount 1
++invbar
+tag"spectre gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("specgather")
+fail
+}
+}
+
+actor g5 : custominventory
+{
+inventory.amount 1
++invbar
+tag"shotgunguy gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("shotgather")
+fail
+}
+}
+
+actor g6 : custominventory
+{
+inventory.amount 1
++invbar
+tag"revenant gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("revgather")
+fail
+}
+}
+
+actor g7 : custominventory
+{
+inventory.amount 1
++invbar
+tag"painelemental gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("paingather")
+fail
+}
+}
+
+actor g8 : custominventory
+{
+inventory.amount 1
++invbar
+tag"lostsoul gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("lostgather")
+fail
+}
+}
+
+actor g9 : custominventory
+{
+inventory.amount 1
++invbar
+tag"hellknight gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("hellgather")
+fail
+}
+}
+
+actor g10 : custominventory
+{
+inventory.amount 1
++invbar
+tag"mancubus gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("fatgather")
+fail
+}
+}
+
+actor g11 : custominventory
+{
+inventory.amount 1
++invbar
+tag"doomimp gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("impgather")
+fail
+}
+}
+
+actor g12 : custominventory
+{
+inventory.amount 1
++invbar
+tag"demon gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("demongather")
+fail
+}
+}
+
+actor g13 : custominventory
+{
+inventory.amount 1
++invbar
+tag"cyberdemon gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("cybergather")
+fail
+}
+}
+
+actor g14: custominventory
+{
+inventory.amount 1
++invbar
+tag"cacodemon gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("cacogather")
+fail
+}
+}
+
+actor g15 : custominventory
+{
+inventory.amount 1
++invbar
+tag"chaingunguy gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("chaingather")
+fail
+}
+}
+
+actor g16 : custominventory
+{
+inventory.amount 1
++invbar
+tag"baronofhell gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("barongather")
+fail
+}
+}
+
+actor g17 : custominventory
+{
+inventory.amount 1
++invbar
+tag"archvile gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("vilegather")
+fail
+}
+}
+
+actor g18 : custominventory
+{
+inventory.amount 1
++invbar
+tag"arachnotron gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("arachgather")
+fail
+}
+}
+
+actor g19 : custominventory
+{
+inventory.amount 1
++invbar
+tag"random monster gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("randomgather")
+fail
+}
+}
+
+actor g20 : custominventory
+{
+inventory.amount 1
++invbar
+tag"all monster gather spot"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("allgather")
+fail
+}
+}
+
+actor gatherpackage : custominventory
+{
+inventory.amount 1
++invbar
+tag"monster gathering package"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("g1",1)
+tnt1 a 0 a_giveinventory("g2",1)
+tnt1 a 0 a_giveinventory("g3",1)
+tnt1 a 0 a_giveinventory("g4",1)
+tnt1 a 0 a_giveinventory("g5",1)
+tnt1 a 0 a_giveinventory("g6",1)
+tnt1 a 0 a_giveinventory("g7",1)
+tnt1 a 0 a_giveinventory("g8",1)
+tnt1 a 0 a_giveinventory("g9",1)
+tnt1 a 0 a_giveinventory("g10",1)
+tnt1 a 0 a_giveinventory("g11",1)
+tnt1 a 0 a_giveinventory("g12",1)
+tnt1 a 0 a_giveinventory("g13",1)
+tnt1 a 0 a_giveinventory("g14",1)
+tnt1 a 0 a_giveinventory("g15",1)
+tnt1 a 0 a_giveinventory("g16",1)
+tnt1 a 0 a_giveinventory("g17",1)
+tnt1 a 0 a_giveinventory("g18",1)
+tnt1 a 0 a_giveinventory("g19",1)
+tnt1 a 0 a_giveinventory("g20",1)
+stop
+}
+}
+
+actor levelwarp1 : custominventory
+{
+inventory.amount 1
++invbar
+tag"random level warp(hard mode)"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("levelwarp")
+fail
+}
+}
+
+actor poisongiver1 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("poisongiver2")
+stop
+}
+}
+
+actor allymove1 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 1"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot1")
+fail
+}
+}
+
+actor allymove2 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 2"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot2")
+fail
+}
+}
+
+actor allymove3 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 3"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot3")
+fail
+}
+}
+
+actor allymove4 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 4"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot4")
+fail
+}
+}
+
+actor allymove5 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 5"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot5")
+fail
+}
+}
+
+actor allymove6 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 6"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot6")
+fail
+}
+}
+
+actor allymove7 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 7"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot7")
+fail
+}
+}
+
+actor allymove8 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 8"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot8")
+fail
+}
+}
+
+actor allymove9 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 9"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot9")
+fail
+}
+}
+
+actor allymove10 : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walkspot 10"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spot10")
+fail
+}
+}
+
+actor allymovepack : custominventory
+{
++invbar
+inventory.amount 1
+tag "ally walk package"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("allymove1")
+tnt1 a 0 a_giveinventory("allymove2")
+tnt1 a 0 a_giveinventory("allymove3")
+tnt1 a 0 a_giveinventory("allymove4")
+tnt1 a 0 a_giveinventory("allymove5")
+tnt1 a 0 a_giveinventory("allymove6")
+tnt1 a 0 a_giveinventory("allymove7")
+tnt1 a 0 a_giveinventory("allymove8")
+tnt1 a 0 a_giveinventory("allymove9")
+tnt1 a 0 a_giveinventory("allymove10")
+stop
+}
+}
+
+actor explode3: custominventory
+{
++invbar
+inventory.amount 1
+tag"explode giver summon"
+states
+{
+use:
+tnt1 a 2 
+tnt1 a 0 a_spawnitem("explodegiver")
+fail
+}
+}
+
+actor explode2 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2 
+tnt1 a 0 a_spawnitem("explode1")
+stop
+}
+}
+
+actor tidchange1 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 thing_changetid(0,42)
+stop
+}
+}
+
+actor arachhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"arachnotron hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("arachno")
+fail
+}
+}
+
+actor archhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"archvile hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("archno")
+fail
+}
+}
+
+actor baronhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"baron hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("bareno")
+fail
+}
+}
+
+actor cacohate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"cacodemon hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("cacono")
+fail
+}
+}
+
+actor chainhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"chaingunguy hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("chainno")
+fail
+}
+}
+
+actor cyberhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"cyberdemon hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("cyberno")
+fail
+}
+}
+
+actor demonhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"demon hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("demonno")
+fail
+}
+}
+
+actor imphate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"doomimp hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("impno")
+fail
+}
+}
+
+actor fathate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"mancubus hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("fatno")
+fail
+}
+}
+
+actor hellhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"hellknight hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("hellno")
+fail
+}
+}
+
+actor losthate2 : custominventory
+{
+inventory.amount 1 
++invbar
+tag"lostsoul hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("lostno")
+fail
+}
+}
+
+actor painhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"painelemental hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("painno")
+fail
+}
+}
+
+actor revhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"revenant hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("revno")
+fail
+}
+}
+
+actor shothate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"shotgunguy hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("shotno")
+fail
+}
+}
+
+actor spechate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"spectre hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("specno")
+fail
+}
+}
+
+actor spidhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"spidermastermind hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("spidno")
+fail
+}
+}
+
+actor wolfhate2 : custominventory
+{
+inventory.amount 1 
++invbar
+tag"wolfensteinss hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("wolfno")
+fail
+}
+}
+
+actor zombhate2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"zombieman hates ?"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("zombno")
+fail
+}
+}
+
+actor randomh2 : custominventory
+{
+inventory.amount 1
++invbar
+tag"random hate"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("randomhate")
+fail
+}
+}
+
+actor hatepackage : custominventory
+{
+inventory.amount 1 
++invbar
+tag"hate package"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("randomh2",1)
+tnt1 a 0 a_giveinventory("zombhate2",1)
+tnt1 a 0 a_giveinventory("wolfhate2",1)
+tnt1 a 0 a_giveinventory("spidhate2",1)
+tnt1 a 0 a_giveinventory("spechate2",1)
+tnt1 a 0 a_giveinventory("shothate2",1)
+tnt1 a 0 a_giveinventory("revhate2",1)
+tnt1 a 0 a_giveinventory("painhate2",1)
+tnt1 a 0 a_giveinventory("losthate2",1)
+tnt1 a 0 a_giveinventory("hellhate2",1)
+tnt1 a 0 a_giveinventory("fathate2",1)
+tnt1 a 0 a_giveinventory("imphate2",1)
+tnt1 a 0 a_giveinventory("demonhate2",1)
+tnt1 a 0 a_giveinventory("cyberhate2",1)
+tnt1 a 0 a_giveinventory("chainhate2",1)
+tnt1 a 0 a_giveinventory("cacohate2",1)
+tnt1 a 0 a_giveinventory("baronhate2",1)
+tnt1 a 0 a_giveinventory("archhate2",1)
+tnt1 a 0 a_giveinventory("arachhate2",1)
+stop
+}
+}
+
+actor noisealert1 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 10
+tnt1 a 0 a_alertmonsters(0,amf_targetemitter)
+loop
+}
+}
+
+actor damage2 : custominventory
+{
++inventory.autoactivate
+inventory.maxamount 0
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 damagething(7)
+stop
+}
+}
+
+actor damagegiver3 : custominventory
+{
+inventory.amount 1
++invbar
+tag "summon damagegiver"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("damagegiver")
+fail
+}
+}
+
+actor poisontrap : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("poisonkiller")
+stop
+}
+}
+
+actor megainv : custominventory
+{
+inventory.amount 1
++invbar
+tag"messaround kit"
+states
+{
+use:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("hatepackage",1)
+tnt1 a 0 a_giveinventory("levelwarp1",1)
+tnt1 a 0 a_giveinventory("gatherpackage",1)
+tnt1 a 0 a_giveinventory("damagegiver3",1)
+tnt1 a 0 a_giveinventory("explode3",1)
+tnt1 a 0 a_giveinventory("allymovepack",1)
+tnt1 a 0 a_giveinventory("ballkit",1)
+tnt1 a 0 a_giveinventory("poweract1",1)
+stop
+}
+}
+
+actor tidchange2 : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 thing_changetid(0,1)
+tnt1 a 0 a_spawnitem("deathtome")
+stop
+}
+}
+
+actor tidchange3 : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 thing_changetid(0,1)
+stop
+}
+}
+
+actor tidchange4
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("tidchange3",9999,rgf_monsters,1)
+stop
+}
+}
+
+actor deathtome
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 thing_setgoal(1,1,1)
+stop
+}
+}
+
+actor friend : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_changeflag("friendly",true)
+stop
+}
+}
+
+actor friend1 : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_radiusgive("friend",50,rgf_monsters,1)
+stop
+}
+}
+
+actor cell1 : cell
+{
+inventory.maxamount 666
+}
+
+actor clip1 : clip
+{
+inventory.maxamount 666
+}
+actor rocketammo1 : rocketammo
+{
+inventory.maxamount 666
+}
+
+actor shell1 : shell
+{
+inventory.maxamount 666
+ammo.backpackmaxamount 666
+}
+
+actor devilbackpack : custominventory
+{
+inventory.pickupmessage"found satans backpack"
+states
+{
+spawn:
+bpak a 10
+loop
+pickup:
+tnt1 a 2
+tnt1 a 0 a_giveinventory("clip1",1)
+tnt1 a 0 a_giveinventory("shell1",1)
+tnt1 a 0 a_giveinventory("rocketammo1",1)
+tnt1 a 0 a_giveinventory ("cell1",1)
+tnt1 a 0 a_giveinventory("backpack",1)
+stop
+}
+}

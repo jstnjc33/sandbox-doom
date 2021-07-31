@@ -1,0 +1,131 @@
+actor spot1
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,1)
+stop
+}
+}
+
+actor spot2
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,2)
+stop
+}
+}
+
+
+actor spot3
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,3)
+stop
+}
+}
+
+actor spot4
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,4)
+stop
+}
+}
+
+actor spot5
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,5)
+stop
+}
+}
+
+actor spot6
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,6)
+stop
+}
+}
+
+actor spot7
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,7)
+stop
+}
+}
+
+actor spot8
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,8)
+stop
+}
+}
+
+actor spot9
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,9)
+stop
+}
+}
+
+actor spot10
+{
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,112,0,10)
+stop
+}
+}
+
