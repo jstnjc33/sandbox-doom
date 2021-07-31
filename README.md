@@ -10,3 +10,7 @@ pretty much chaos that you unleash yourself lol
 
 to start adding anything visit menudef.txt to
 see how i have everything set up
+
+
+all u need to do is compress everything into a single
+file and load it with gzdoom enjoy :)
