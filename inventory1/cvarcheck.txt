@@ -345,7 +345,7 @@ tnt1 a 0 a_spawnitem("trapcheck")
 stop
 trap3:
 tnt1 a 50
-tnt1 a 0 a_printbold("activating trap 3)
+tnt1 a 0 a_printbold("activating trap 3")
 tnt1 a 50
 tnt1 a 0 acs_namedexecute("change3",0)
 tnt1 a 50
@@ -361,7 +361,7 @@ tnt1 a 0 a_spawnitem("trapcheck")
 stop
 trap5:
 tnt1 a 50
-tnt1 a 0 a_printbold("activating trap 1")
+tnt1 a 0 a_printbold("activating trap 5")
 tnt1 a 50
 tnt1 a 0 acs_namedexecute("change5",0)
 tnt1 a 50
