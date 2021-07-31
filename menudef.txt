@@ -24,7 +24,7 @@ submenu "items","itm1"
 submenu "music","ms1"
 submenu "modmenu","modmenu"
 }
-}
+
 optionmenu ms1
 {
 title"music selection"
@@ -51,7 +51,6 @@ option "allkeys","kpup","pup7"
 option "random","pup","pup10"
 command "close menu","closemenu"
 }
-
 
 optionvalue pups1
 {
