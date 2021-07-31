@@ -24,24 +24,13 @@ submenu "items","itm1"
 submenu "music","ms1"
 submenu "modmenu","modmenu"
 }
-
-optionmenu modmenu
-{
-title"modmenu"
-class "consolecommandmenu"
-command "chillax","restart -iwad doom2.wad -file games/chaos.wad"
-}
-
-optionmenu "consolecommandmenu"
-{
-class "ConsoleCommandMenu"
-    Command "" , ""
 }
 optionmenu ms1
 {
 title"music selection"
 statictext"ok choose a song"
 command "resident evil(enigma)","changemus enigma"
+command "Andrew hulshult(signs of evil)","changemus signs"
 }
 optionmenu itm1
 {
