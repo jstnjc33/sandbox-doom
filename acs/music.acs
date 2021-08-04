@@ -1,0 +1,19 @@
+#library "music"
+#include "zcommon.acs"
+
+script "music" (void)
+{
+delay(35);
+int a =getcvar("ad1");
+int b = getcvar("vlad");
+if(a==0)
+{
+delay(35);
+terminate;
+}
+if(a==1)
+{
+delay(35);
+setmusicvolume(b);
+}
+}

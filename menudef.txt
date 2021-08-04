@@ -31,6 +31,17 @@ title"music selection"
 statictext"ok choose a song"
 command "resident evil(enigma)","changemus enigma"
 command "Andrew hulshult(signs of evil)","changemus signs"
+statictext "volume adjust"
+option "allow me to adjust","ad1","adjust1"
+slider "volume adjust:","vlad",0.0,100.0,1.0
+command "activate adjustment"," pukename music"
+command "close menu,"closemenu"
+}
+
+optionvalue adjust1
+{
+0,"false"
+1,"true"
 }
 optionmenu itm1
 {
@@ -235,6 +246,9 @@ title"hatemenu"
 option "attacker:","attacker","ak1"
 option "target:","target","tg1"
 command "hate","pukename hate"
+statictext "chaos"
+command "tidchange","summon tidchange"
+command "let there be slowdown","summon chaosstarter"
 command "close menu","closemenu"
 }
 

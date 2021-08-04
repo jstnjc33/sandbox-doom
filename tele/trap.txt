@@ -639,3 +639,14 @@ tnt1 a 0 thing_hate (2,1,2)
 stop
 }
 }
+
+actor chaosstarter
+{
+states
+{
+spawn:
+tnt1 a 100
+tnt1 a 0 thing_hate(1,1,2)
+stop
+}
+}
