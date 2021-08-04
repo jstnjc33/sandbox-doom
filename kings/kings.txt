@@ -1,6 +1,5 @@
 actor kingbaron : baronofhell2
 {
-+friendly
 +invulnerable
 +noblockmonst
 +lookallaround

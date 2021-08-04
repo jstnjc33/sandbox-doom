@@ -20,9 +20,6 @@ ACTOR ZombieMan2
    
     POSS AB 10 A_Look
     Loop
-   stealth:
-   tnt1 a 0
-   tnt1 a 0 a_changeflag("stealth",1)
    goto spawn
   See:
     POSS AABBCCDD 4 A_Chase
@@ -1030,3 +1027,12 @@ ACTOR Archvile2
   }
 }
 
+actor test1 : doomimp2
+{
+DesignatedTeam 0
+}
+
+actor test2 : zombieman2
+{
+DesignatedTeam 1
+}

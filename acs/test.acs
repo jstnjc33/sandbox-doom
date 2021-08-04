@@ -121,11 +121,6 @@ delay(35);
 int a = getlevelinfo(levelinfo_total_monsters);
 int b = 350;
 int c = a==b;
-int d = 200;
-int e = getactorx(42);
-int f = getactory(42);
-int g = getactorz(42);
-int h =a==d;
 if
 (c)
 {
@@ -158,4 +153,11 @@ thing_hate (42,1,2);
 delay(35);
 thing_remove(43);
 }
+}
+
+script "hatetest" (void)
+{
+delay(35);
+for(int i = 0; i <20; i++)
+    Thing_Hate(33, i,2);
 }

@@ -292,9 +292,37 @@ optionvalue tg1
 
 optionmenu ph1
 {
+title "monster relocation"
 statictext"ok choose a return spot"
 statictext"affects monsters AND player"
 slider "patrolpoint:","point",0.0,10.0,1.0
 command "activate patrolpoint","summon pointcheck"
+statictext" move monster"
+option "spot#:","pp","patrol1"
+option "monster:","tids","tg1"
+slider "delay:","gl1",0.0,200.0,1.0
+option "chase target","dc1","trth"
+command "send to spot","pukename sender"
 command "close menu","closemenu"
+}
+
+optionvalue patrol1
+{
+0,"none"
+1,"spot 1"
+2,"spot 2"
+3,"spot 3"
+4,"spot 4"
+5,"spot 5"
+6,"spot 6"
+7,"spot 7"
+8,"spot 8"
+9,"spot 9"
+10,"spot 10"
+}
+
+optionvalue trth
+{
+0,"false"
+1,"true"
 }

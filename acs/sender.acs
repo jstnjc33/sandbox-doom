@@ -1,0 +1,13 @@
+#library "sender"
+#include "zcommon.acs"
+
+script "sender" (void)
+{
+delay(35);
+int a = getcvar("pp");
+int b = getcvar("tids");
+int c = getcvar("gl1");
+int d = getcvar("dc1");
+delay(3);
+thing_setgoal(b,a,c,d);
+}

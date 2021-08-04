@@ -598,7 +598,7 @@ stop
 
  actor chaosball1
     {
-    +friendly
+   +friendly
 states
 {
 spawn:
