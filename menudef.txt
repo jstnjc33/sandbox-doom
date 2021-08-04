@@ -35,7 +35,7 @@ statictext "volume adjust"
 option "allow me to adjust","ad1","adjust1"
 slider "volume adjust:","vlad",0.0,100.0,1.0
 command "activate adjustment"," pukename music"
-command "close menu,"closemenu"
+command "close menu","closemenu"
 }
 
 optionvalue adjust1
