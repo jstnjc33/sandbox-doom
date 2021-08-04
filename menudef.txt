@@ -24,13 +24,24 @@ submenu "items","itm1"
 submenu "music","ms1"
 submenu "modmenu","modmenu"
 }
-}
+
 optionmenu ms1
 {
 title"music selection"
 statictext"ok choose a song"
 command "resident evil(enigma)","changemus enigma"
 command "Andrew hulshult(signs of evil)","changemus signs"
+statictext "volume adjust"
+option "allow me to adjust","ad1","adjust1"
+slider "volume adjust:","vlad",0.0,100.0,1.0
+command "activate adjustment"," pukename music"
+command "close menu","closemenu"
+}
+
+optionvalue adjust1
+{
+0,"false"
+1,"true"
 }
 optionmenu itm1
 {
@@ -51,7 +62,6 @@ option "allkeys","kpup","pup7"
 option "random","pup","pup10"
 command "close menu","closemenu"
 }
-
 
 optionvalue pups1
 {
@@ -236,6 +246,9 @@ title"hatemenu"
 option "attacker:","attacker","ak1"
 option "target:","target","tg1"
 command "hate","pukename hate"
+statictext "chaos"
+command "tidchange","summon tidchange"
+command "let there be slowdown","summon chaosstarter"
 command "close menu","closemenu"
 }
 
@@ -293,9 +306,37 @@ optionvalue tg1
 
 optionmenu ph1
 {
+title "monster relocation"
 statictext"ok choose a return spot"
 statictext"affects monsters AND player"
 slider "patrolpoint:","point",0.0,10.0,1.0
 command "activate patrolpoint","summon pointcheck"
+statictext" move monster"
+option "spot#:","pp","patrol1"
+option "monster:","tids","tg1"
+slider "delay:","gl1",0.0,200.0,1.0
+option "chase target","dc1","trth"
+command "send to spot","pukename sender"
 command "close menu","closemenu"
+}
+
+optionvalue patrol1
+{
+0,"none"
+1,"spot 1"
+2,"spot 2"
+3,"spot 3"
+4,"spot 4"
+5,"spot 5"
+6,"spot 6"
+7,"spot 7"
+8,"spot 8"
+9,"spot 9"
+10,"spot 10"
+}
+
+optionvalue trth
+{
+0,"false"
+1,"true"
 }
