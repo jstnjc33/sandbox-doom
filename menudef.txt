@@ -33,7 +33,8 @@ command "resident evil(enigma)","changemus enigma"
 command "Andrew hulshult(signs of evil)","changemus signs"
 statictext "volume adjust"
 option "allow me to adjust","ad1","adjust1"
-slider "volume:","vl1",0.0,1.0,0.05
+slider "volume adjust:","vlad",0.0,1.0,0.05
+
 command "activate adjustment"," pukename music"
 command "close menu","closemenu"
 }
