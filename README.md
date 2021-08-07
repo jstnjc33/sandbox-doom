@@ -10,6 +10,8 @@ pretty much chaos that you unleash yourself lol
 
 to start adding anything visit menudef.txt to
 see how i have everything set up
+please pull from the update branch if i like
+the ideas ill merge them with main
 
 if u do decide to use the traps dont populate the level first
 traps do that automatically heh
