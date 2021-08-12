@@ -650,3 +650,28 @@ tnt1 a 0 thing_hate(1,1,2)
 stop
 }
 }
+
+actor trap7
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_printbold("flood mode activated")
+tnt1 a 50
+tnt1 a 0 a_printbold("summoning mapspot")
+tnt1 a 50
+tnt1 a 0 a_spawnitem("mp21")
+tnt1 a 50
+tnt1 a 0 a_printbold("summoning flood")
+tnt1 a 50
+tnt1 a 0 thing_spawn(43,284,0,0)
+tnt1 a 50
+tnt1 a 0 a_printbold("removing mapspot")
+tnt1 a 50
+tnt1 a 0 thing_remove(43)
+tnt1 a 50
+tnt1 a 0 a_printbold("enjoy")
+stop
+}
+}
