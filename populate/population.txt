@@ -775,6 +775,7 @@ tnt1 a 0 thing_spawn(44,219,0,1)
 tnt1 a 36
 tnt1 a 0 thing_setgoal(1,2,1)
 tnt1 a 2
+tnt1 a 0 a_spawnitem("flaggiver1")
 tnt1 a 0 acs_namedexecute("pc",0)
 tnt1 a 0 a_countdown
 loop

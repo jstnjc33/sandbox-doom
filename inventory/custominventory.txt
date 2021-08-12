@@ -448,6 +448,22 @@ stop
 }
 }
 
+actor flaggiver1
+{
+states
+{
+spawn:
+tnt1 a 2
+tnt1 a 0 a_spawnitem("forceradiusdmg1")
+tnt1 a 0 a_spawnitem("doharmspecies1")
+tnt1 a 0 a_spawnitem("noblockmonst1")
+tnt1 a 0 a_spawnitem("quicktoretaliate1")
+tnt1 a 0 a_spawnitem("lookallaround1")
+tnt1 a 0 a_spawnitem("canpass1")
+stop
+}
+}
+
 actor g1 : custominventory
 {
 inventory.amount 1

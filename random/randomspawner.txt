@@ -105,48 +105,48 @@ dropitem playhate19 256 7
 
 actor arachno : randomspawner
 {
-dropitem arachh1 256 7
-dropitem arachh2 256 7
-dropitem arachh3 256 7
-dropitem arachh4 256 7
-dropitem arachh5 256 7
-dropitem arachh6 256 7
-dropitem arachh7 256 7
-dropitem arachh8 256 7
-dropitem arachh9 256 7
-dropitem arachh10 256 7
-dropitem arachh11 256 7
-dropitem arachh12 256 7
-dropitem arachh13 256 7
-dropitem arachh14 256 7
-dropitem arachh15 256 7
-dropitem arachh16 256 7
-dropitem arachh17 256 7
-dropitem arachh18 256 7
-dropitem arachh19 256 7
+dropitem arach1 256 7
+dropitem arach2 256 7
+dropitem arach3 256 7
+dropitem arach4 256 7
+dropitem arach5 256 7
+dropitem arach6 256 7
+dropitem arach7 256 7
+dropitem arach8 256 7
+dropitem arach9 256 7
+dropitem arach10 256 7
+dropitem arach11 256 7
+dropitem arach12 256 7
+dropitem arach13 256 7
+dropitem arach14 256 7
+dropitem arach15 256 7
+dropitem arach16 256 7
+dropitem arach17 256 7
+dropitem arach18 256 7
+dropitem arach19 256 7
 }
 
 actor archno : randomspawner
 {
-dropitem archhateh1 256 7
-dropitem archhateh2 256 7
-dropitem archhateh3 256 7
-dropitem archhateh4 256 7
-dropitem archhateh5 256 7
-dropitem archhateh6 256 7
-dropitem archhateh7 256 7
-dropitem archhateh8 256 7
-dropitem archhateh9 256 7
-dropitem archhateh10 256 7
-dropitem archhateh11 256 7
-dropitem archhateh12 256 7
-dropitem archhateh13 256 7
-dropitem archhateh14 256 7
-dropitem archhateh15 256 7
-dropitem archhateh16 256 7
-dropitem archhateh17 256 7
-dropitem archhateh18 256 7
-dropitem archhateh19 256 7
+dropitem vileh1 256 7
+dropitem vileh2 256 7
+dropitem vileh3 256 7
+dropitem vileh4 256 7
+dropitem vileh5 256 7
+dropitem vileh6 256 7
+dropitem vileh7 256 7
+dropitem vileh8 256 7
+dropitem vileh9 256 7
+dropitem vileh10 256 7
+dropitem vileh11 256 7
+dropitem vileh12 256 7
+dropitem vileh13 256 7
+dropitem vileh14 256 7
+dropitem vileh15 256 7
+dropitem vileh16 256 7
+dropitem vileh17 256 7
+dropitem vileh18 256 7
+dropitem vileh19 256 7
 }
 
 actor bareno : randomspawner

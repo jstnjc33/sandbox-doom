@@ -423,6 +423,34 @@ stop
 }
 }
 
+actor notarget1 : custominventory
+{
+inventory.maxamount 0
++inventory.autoactivate
+states
+{
+pickup:
+tnt1 a 2
+tnt1 a 0 a_cleartarget
+stop
+}
+}
+
+actor notarget2
+{
++friendly
+states 
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_printbold("giving notarget1 to monsters")
+tnt1 a 50
+tnt1 a 0 a_look
+tnt1 a 0 a_givetotarget("notarget1",1)
+stop
+}
+}
+
 actor allmap1
 {
 states
