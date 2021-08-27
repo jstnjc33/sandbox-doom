@@ -25,6 +25,7 @@
  #include path/point.txt
  #include path/path.txt
  #include path/cvarcheck.txt
+ #include path/player.txt
  #include playerhate/playerhate.txt
  #include poison/monsters.txt
  #include poison1/monsters.txt

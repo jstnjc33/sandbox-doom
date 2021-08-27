@@ -1,0 +1,12 @@
+actor plrgl1
+{
+states
+{
+spawn:
+tnt1 a 50
+tnt1 a 0 a_printbold("sending player to spot 1")
+tnt1 a 50
+tnt1 a 0 thing_setgoal(42,1,0)
+stop
+}
+}
